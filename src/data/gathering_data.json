@@ -1,366 +1,490 @@
 {
   "Woodcutting": {
-    "Oak Logs": {
+    "Oak": {
       "level": "1",
       "xp": "10",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "woodcutting/log.png"
     },
-    "Dead Oak Logs": {
+    "Dead Oak": {
       "level": "1",
       "xp": "10",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "woodcutting/log.png"
     },
-    "Palm Logs": {
+    "Palm": {
       "level": "5",
       "xp": "15",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "woodcutting/palm_log.png"
     },
-    "Heliphatit Logs": {
+    "Heliphatit": {
       "level": "10",
       "xp": "30",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "woodcutting/heliphatit_log.png"
     },
-    "Aquasillius Logs": {
+    "Aquasillius": {
       "level": "10",
       "xp": "30",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "woodcutting/aquasillius_log.png"
     },
-    "Zoncil Logs": {
+    "Zoncil": {
       "level": "20",
       "xp": "75",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "woodcutting/zoncil_log.png"
     },
-    "Zondul Logs": {
+    "Zondul": {
       "level": "20",
       "xp": "75",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "woodcutting/zondul_log.png"
     },
-    "Alkythn Logs": {
+    "Alkythn": {
       "level": "25",
       "xp": "105",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "woodcutting/alkythn_log.png"
     },
-    "Snow Oak Logs": {
+    "Snow Oak": {
       "level": "30",
       "xp": "125",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "woodcutting/ice_log.png"
     },
-    "Pine Logs": {
+    "Pine": {
       "level": "30",
       "xp": "125",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "woodcutting/pine_log.webp"
     },
-    "Ice Oak Logs": {
+    "Ice Oak": {
       "level": "35",
       "xp": "160",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "woodcutting/ice_log.png"
     },
-    "Ice Palm Logs": {
+    "Ice Palm": {
       "level": "40",
       "xp": "195",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "woodcutting/ice_palm_log.png"
     },
-    "Bloodwood Logs": {
+    "Bloodwood": {
       "level": "40",
       "xp": "350",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "woodcutting/bloodwood_log.png"
     },
-    "Flastel Logs": {
+    "Flastel": {
       "level": "50",
       "xp": "400",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "woodcutting/flastel_log.png"
     },
-    "Puhrix Logs": {
+    "Puhrix": {
       "level": "50",
       "xp": "400",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "woodcutting/puhrix_log.png"
     }
   },
   "Mining": {
     "Copper Ore": {
       "level": "1",
       "xp": "20",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/copper_ore.png"
     },
     "Tin Ore": {
       "level": "1",
       "xp": "20",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/tin_ore.png"
     },
     "Coal": {
       "level": "1",
       "xp": "20",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/coal.png"
     },
     "Beryl": {
       "level": "1",
       "xp": "20",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/beryl.png"
     },
     "Iron Ore": {
       "level": "10",
       "xp": "40",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/iron_ore.png"
     },
     "Opal": {
       "level": "15",
       "xp": "60",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/opal.png"
     },
     "Topaz": {
       "level": "25",
       "xp": "70",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/topaz.png"
     },
     "Nisoc Ore": {
       "level": "30",
       "xp": "20",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/nisoc_ore.webp"
     },
     "Gold Ore": {
       "level": "30",
       "xp": "100",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/gold_ore.png"
     },
     "Axinite": {
       "level": "30",
       "xp": "120",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/axinite.png"
     },
     "Cinnabar Ore": {
       "level": "35",
       "xp": "30",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/cinnabar_ore.png"
     },
     "Space Rock": {
       "level": "40",
       "xp": "130",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/space_rock.webp"
     },
     "Pythar Ore": {
       "level": "45",
       "xp": "60",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/pythar_ore.png"
     },
     "Lapis Lazuli": {
       "level": "45",
       "xp": "140",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/lapis_lazuli.png"
     },
     "Citrine": {
       "level": "50",
       "xp": "150",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/citrine.webp"
     },
     "Peridot": {
       "level": "55",
       "xp": "160",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/peridot.png"
     },
-    "Ibo": {
+    "Ibo Ore": {
       "level": "55",
       "xp": "110",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/ibo_ore.png"
     },
     "Emerald": {
       "level": "57",
       "xp": "170",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/emerald.png"
     },
     "Ruby": {
       "level": "62",
       "xp": "180",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/ruby.png"
     },
     "Amethyst": {
       "level": "65",
       "xp": "190",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "mining/amethyst.png"
     }
   },
   "Fishing": {
-    "Anchovies": {
+    "Cory Doras": {
       "level": "1",
       "xp": "10",
-      "submaterials": {
-        "Earthworm": "1"
-      }
+      "submaterials": {},
+      "image": "fishes/raw_cory_doras.png"
     },
-    "Goldfish": {
+    "Shrimp": {
+      "level": "1",
+      "xp": "10",
+      "submaterials": {},
+      "image": "fishes/raw_shrimp.png"
+    },
+    "Scallops": {
       "level": "5",
       "xp": "20",
-      "submaterials": {
-        "Earthworm": "1"
-      }
+      "submaterials": {},
+      "image": "fishes/raw_scallops.png"
     },
-    "Mackerel": {
+    "Clownfish": {
       "level": "10",
-      "xp": "50",
-      "submaterials": {
-        "Iceworm": "1"
-      }
-    },
-    "Squid": {
-      "level": "20",
-      "xp": "115",
-      "submaterials": {
-        "Iceworm": "1"
-      }
+      "xp": "25",
+      "submaterials": {},
+      "image": "fishes/raw_clownfish.png"
     },
     "Sardine": {
-      "level": "30",
-      "xp": "375",
-      "submaterials": {
-        "Corpseworm": "1"
-      }
-    },
-    "Eel": {
-      "level": "40",
-      "xp": "500",
-      "submaterials": {
-        "Toxic Worm": "1"
-      }
-    },
-    "Anglerfish": {
-      "level": "45",
-      "xp": "625",
-      "submaterials": {
-        "Sandworm": "1"
-      }
-    },
-    "Trout": {
-      "level": "50",
-      "xp": "750",
-      "submaterials": {
-        "Beetle": "1"
-      }
-    },
-    "Jellyfish": {
-      "level": "55",
-      "xp": "900",
-      "submaterials": {
-        "Beetle": "1"
-      }
-    },
-    "Bass": {
-      "level": "60",
-      "xp": "1350",
-      "submaterials": {
-        "Grasshopper": "1"
-      }
-    },
-    "Herringbone": {
-      "level": "65",
-      "xp": "1700",
-      "submaterials": {
-        "Grasshopper": "1"
-      }
+      "level": "10",
+      "xp": "30",
+      "submaterials": {},
+      "image": "fishes/raw_sardine.png"
     },
     "Tuna": {
+      "level": "15",
+      "xp": "35",
+      "submaterials": {},
+      "image": "fishes/raw_tuna.png"
+    },
+    "Clam": {
+      "level": "20",
+      "xp": "50",
+      "submaterials": {},
+      "image": "fishes/raw_clam.png"
+    },
+    "Tetra": {
+      "level": "25",
+      "xp": "60",
+      "submaterials": {},
+      "image": "fishes/raw_tetra.png"
+    },
+    "Gourami": {
+      "level": "33",
+      "xp": "75",
+      "submaterials": {},
+      "image": "fishes/raw_gourami.png"
+    },
+    "Herring": {
+      "level": "40",
+      "xp": "90",
+      "submaterials": {},
+      "image": "fishes/raw_herring.png"
+    },
+    "Skeleton Fish": {
+      "level": "40",
+      "xp": "70",
+      "submaterials": {},
+      "image": "fishes/raw_skeleton_fish.png"
+    },
+    "Mackerel": {
+      "level": "50",
+      "xp": "100",
+      "submaterials": {},
+      "image": "fishes/raw_mackerel.png"
+    },
+    "Jellyfish": {
+      "level": "50",
+      "xp": "90",
+      "submaterials": {},
+      "image": "fishes/jellyfish.png"
+    },
+    "Purple Tetra": {
+      "level": "55",
+      "xp": "110",
+      "submaterials": {},
+      "image": "fishes/raw_purple_tetra.png"
+    },
+    "Ramshorn Snail": {
+      "level": "60",
+      "xp": "120",
+      "submaterials": {},
+      "image": "fishes/raw_ramshorn_snail.png"
+    },
+    "Blue Bass": {
+      "level": "63",
+      "xp": "120",
+      "submaterials": {},
+      "image": "fishes/raw_blue_bass.png"
+    },
+    "Halibut": {
+      "level": "69",
+      "xp": "140",
+      "submaterials": {},
+      "image": "fishes/raw_halibut.png"
+    },
+    "Choriaster": {
       "level": "70",
-      "xp": "2000",
-      "submaterials": {
-        "Wasp": "1"
-      }
+      "xp": "140",
+      "submaterials": {},
+      "image": "fishes/raw_choriaster.png"
     },
-    "Lobster": {
+    "Squid": {
       "level": "75",
-      "xp": "3500",
-      "submaterials": {
-        "Scallop": "1"
-      }
+      "xp": "160",
+      "submaterials": {},
+      "image": "fishes/raw_squid.png"
     },
-    "Sea Turtle": {
+    "Eel": {
       "level": "80",
-      "xp": "6500",
-      "submaterials": {
-        "Scallop": "1"
-      }
+      "xp": "190",
+      "submaterials": {},
+      "image": "fishes/raw_eel.png"
     },
-    "Manta Ray": {
-      "level": "85",
-      "xp": "9500",
-      "submaterials": {
-        "Crab": "1"
-      }
+    "Octopus": {
+      "level": "87",
+      "xp": "210",
+      "submaterials": {},
+      "image": "fishes/raw_octopus.png"
     },
     "Shark": {
-      "level": "90",
-      "xp": "14500",
-      "submaterials": {
-        "Bass": "1"
-      }
+      "level": "93",
+      "xp": "275",
+      "submaterials": {},
+      "image": "fishes/raw_shark.png"
     },
-    "Orca": {
-      "level": "95",
-      "xp": "29500",
-      "submaterials": {
-        "Bass": "1"
-      }
-    },
-    "Giant Squid": {
-      "level": "100",
-      "xp": "55000",
-      "submaterials": {
-        "Bass": "1"
-      }
+    "Manta Ray": {
+      "level": "99",
+      "xp": "400",
+      "submaterials": {},
+      "image": "fishes/raw_manta_ray.png"
     }
   },
-  "Fishing-Baits": {
-    "Earthworm": {
+  "Foraging": {
+    "Shiitake": {
       "level": "1",
       "xp": "15",
-      "submaterials": {}
+      "submaterials": {},
+      "image": "foraging/shiitake.png"
     },
-    "Iceworm": {
+    "Blueberry": {
+      "level": "1",
+      "xp": "15",
+      "submaterials": {},
+      "image": "foraging/blueberry.png"
+    },
+    "Dandelion": {
+      "level": "1",
+      "xp": "10",
+      "submaterials": {},
+      "image": "foraging/dandelion.png"
+    },
+    "Russula": {
       "level": "10",
-      "xp": "82.5",
-      "submaterials": {}
+      "xp": "30",
+      "submaterials": {},
+      "image": "foraging/russula.png"
     },
-    "Corpseworm": {
+    "Tomato": {
+      "level": "5",
+      "xp": "30",
+      "submaterials": {},
+      "image": "foraging/tomato.png"
+    },
+    "Peach": {
+      "level": "10",
+      "xp": "40",
+      "submaterials": {},
+      "image": "foraging/peach.png"
+    },
+    "Raspberry": {
+      "level": "15",
+      "xp": "55",
+      "submaterials": {},
+      "image": "foraging/raspberry.png"
+    },
+    "Kuriositas": {
+      "level": "20",
+      "xp": "80",
+      "submaterials": {},
+      "image": "foraging/kuriositas.png"
+    },
+    "Blue Lily": {
+      "level": "20",
+      "xp": "70",
+      "submaterials": {},
+      "image": "foraging/blue_lily.png"
+    },
+    "Oat": {
+      "level": "20",
+      "xp": "60",
+      "submaterials": {},
+      "image": "foraging/oat.png"
+    },
+    "Matsutake": {
       "level": "30",
-      "xp": "375",
-      "submaterials": {}
+      "xp": "100",
+      "submaterials": {},
+      "image": "foraging/matsutake.png"
     },
-    "Toxic Worm": {
+    "Corn": {
+      "level": "30",
+      "xp": "100",
+      "submaterials": {},
+      "image": "foraging/corn.png"
+    },
+    "Blackberry": {
+      "level": "35",
+      "xp": "120",
+      "submaterials": {},
+      "image": "foraging/blackberry.png"
+    },
+    "Banana": {
+      "level": "35",
+      "xp": "105",
+      "submaterials": {},
+      "image": "foraging/banana.png"
+    },
+    "Cortinarius": {
       "level": "40",
-      "xp": "500",
-      "submaterials": {}
+      "xp": "150",
+      "submaterials": {},
+      "image": "foraging/cortinarius.png"
     },
-    "Sandworm": {
+    "Cumin Plant": {
+      "level": "40",
+      "xp": "130",
+      "submaterials": {},
+      "image": "foraging/cumin_plant.png"
+    },
+    "Kiwi": {
+      "level": "40",
+      "xp": "115",
+      "submaterials": {},
+      "image": "foraging/kiwi.png"
+    },
+    "Paprika": {
       "level": "45",
-      "xp": "625",
-      "submaterials": {}
+      "xp": "130",
+      "submaterials": {},
+      "image": "foraging/paprika.png"
     },
-    "Beetle": {
+    "Mustard": {
       "level": "50",
-      "xp": "825",
-      "submaterials": {}
+      "xp": "150",
+      "submaterials": {},
+      "image": "foraging/mustard.png"
     },
-    "Grasshopper": {
+    "Mulberry": {
+      "level": "55",
+      "xp": "160",
+      "submaterials": {},
+      "image": "foraging/mulberry.png"
+    },
+    "Quinoa": {
       "level": "60",
-      "xp": "1525",
-      "submaterials": {}
+      "xp": "170",
+      "submaterials": {},
+      "image": "foraging/quinoa.png"
     },
-    "Wasp": {
-      "level": "70",
-      "xp": "2000",
-      "submaterials": {}
-    },
-    "Scallop": {
-      "level": "75",
-      "xp": "5000",
-      "submaterials": {}
-    },
-    "Crab": {
-      "level": "85",
-      "xp": "9500",
-      "submaterials": {}
-    },
-    "Bass bait": {
-      "level": "90",
-      "xp": "33000",
-      "submaterials": {}
+    "Galaxy Lily": {
+      "level": "60",
+      "xp": "150",
+      "submaterials": {},
+      "image": "foraging/galaxy_lily.webp"
     }
   }
 }

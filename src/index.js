@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import App from "./App";
 import CssBaseline from "@mui/material/CssBaseline";
 
@@ -11,17 +11,22 @@ const theme = createTheme({
   palette: {
     mode: currentTheme,
   },
+  typography: {
+    button: {
+      textTransform: 'none'
+    }
+  }
 });
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <App />
       </ThemeProvider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   rootElement
 );

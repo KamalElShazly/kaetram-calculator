@@ -25,7 +25,7 @@ const StyledToggleButtonGroup = styled(ToggleButtonGroup)(({ theme }) => ({
   },
 }));
 
-const ToggleButtons = ({ data, skill, currentLevel, updateElement }) => {
+const ToggleButtons = ({ data, currentLevel, updateElement }) => {
   const [selectedElement, setSelectedElement] = React.useState();
 
   const handleChange = (event, newElement) => {
@@ -81,7 +81,14 @@ const ToggleButtons = ({ data, skill, currentLevel, updateElement }) => {
                   marginRight: 0.4,
                 }}
               >
-                <img src={process.env.PUBLIC_URL + `/images/${skill}/${element}.gif`} width="22" height="22" value={element} alt="" />
+                <img
+                  src={process.env.PUBLIC_URL + `/images/${data[element]["image"]}`}
+                  width="22"
+                  height="22"
+                  value={element}
+                  alt=""
+                  onError={(i) => (i.target.style.display = "none")}
+                />
               </Box>
               {element}
             </ToggleButton>
