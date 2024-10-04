@@ -1,0 +1,1077 @@
+{
+  "Smelting": {
+    "Molten Glass": {
+      "level": "1",
+      "xp": "5",
+      "submaterials": {
+        "Sand or Glass Shard": "2"
+      }
+    },
+    "Copper Bar": {
+      "level": "1",
+      "xp": "20",
+      "submaterials": {
+        "Copper Ore": "1",
+        "Coal": "1"
+      }
+    },
+    "Tin Bar": {
+      "level": "1",
+      "xp": "20",
+      "submaterials": {
+        "Tin Ore": "1",
+        "Coal": "1"
+      }
+    },
+    "Bronze Bar": {
+      "level": "5",
+      "xp": "20",
+      "submaterials": {
+        "Copper Ore": "1",
+        "Tin Ore": "1"
+      }
+    },
+    "Iron Bar": {
+      "level": "20",
+      "xp": "30",
+      "submaterials": {
+        "Iron Ore": "1",
+        "Coal": "1"
+      }
+    },
+    "Gold Bar": {
+      "level": "20",
+      "xp": "50",
+      "submaterials": {
+        "Gold Ore": "1",
+        "Coal": "1"
+      }
+    },
+    "Nisoc Bar": {
+      "level": "35",
+      "xp": "85",
+      "submaterials": {
+        "Nisoc Ore": "1",
+        "Coal": "1"
+      }
+    },
+    "Cinnabar Bar": {
+      "level": "45",
+      "xp": "110",
+      "submaterials": {
+        "Cinnabar Ore": "1",
+        "Coal": "1"
+      }
+    },
+    "Pythar Bar": {
+      "level": "55",
+      "xp": "135",
+      "submaterials": {
+        "Pythar Ore": "1",
+        "Coal": "1"
+      }
+    },
+    "Ibo Bar": {
+      "level": "65",
+      "xp": "155",
+      "submaterials": {
+        "Ibo Ore": "1",
+        "Coal": "1"
+      }
+    }
+  },
+  "Smithing": {
+    "Nisoc Arrowhead (15x)": {
+      "level": "35",
+      "xp-smith": "65",
+      "xp-smelt": "20",
+      "submaterials": {
+        "Nisoc Bar": "1"
+      }
+    },
+    "Cinnabar Arrowhead (15x)": {
+      "level": "45",
+      "xp-smith": "80",
+      "xp-smelt": "110",
+      "submaterials": {
+        "Cinnabar Bar": "1"
+      }
+    },
+    "Pythar Arrowhead (15x)": {
+      "level": "55",
+      "xp-smith": "95",
+      "xp-smelt": "135",
+      "submaterials": {
+        "Pythar Bar": "1"
+      }
+    },
+    "Ibo Arrowhead (15x)": {
+      "level": "65",
+      "xp-smith": "110",
+      "xp-smelt": "155",
+      "submaterials": {
+        "Ibo Bar": "1"
+      }
+    }
+  },
+  "Fletching": {
+    "Stick(4x)": {
+      "level": "1",
+      "xp": "10",
+      "submaterials": {
+        "Oak Logs": "1"
+      }
+    },
+    "Palm Stick(5x)": {
+      "level": "5",
+      "xp": "15",
+      "submaterials": {
+        "Palm Logs": "1"
+      }
+    },
+    "Heliphatit Stick(5x)": {
+      "level": "10",
+      "xp": "20",
+      "submaterials": {
+        "Heliphatit Logs": "1"
+      }
+    },
+    "Zoncil Stick(6x)": {
+      "level": "20",
+      "xp": "30",
+      "submaterials": {
+        "Zoncil Logs": "1"
+      }
+    },
+    "Zondul Stick(6x)": {
+      "level": "20",
+      "xp": "30",
+      "submaterials": {
+        "Zondul Logs": "1"
+      }
+    },
+    "Pine Stick(8x)": {
+      "level": "30",
+      "xp": "40",
+      "submaterials": {
+        "Pine Logs": "1"
+      }
+    },
+    "Ice Stick(10x)": {
+      "level": "35",
+      "xp": "45",
+      "submaterials": {
+        "Ice Logs": "1"
+      }
+    },
+    "Ice Palm Stick(10x)": {
+      "level": "40",
+      "xp": "50",
+      "submaterials": {
+        "Ice Palm Logs": "1"
+      }
+    },
+    "Bloodwood Stick(10x)": {
+      "level": "60",
+      "xp": "70",
+      "submaterials": {
+        "Bloodwood Logs": "1"
+      }
+    },
+    "Arrow(5x)": {
+      "level": "1",
+      "xp": "2",
+      "submaterials": {
+        "Stick": "1",
+        "Feather": "5"
+      }
+    },
+    "Nisoc Arrow(5x)": {
+      "level": "35",
+      "xp": "31",
+      "submaterials": {
+        "Palm Stick": "5",
+        "Feather": "5",
+        "Nisoc Arrowhead": "5"
+      }
+    },
+    "Cinnabar Arrow(5x)": {
+      "level": "45",
+      "xp": "41",
+      "submaterials": {
+        "Warm Stick": "5",
+        "Feather": "5",
+        "Cinnabar Arrowhead": "5"
+      }
+    },
+    "Pythar Arrow(5x)": {
+      "level": "55",
+      "xp": "48",
+      "submaterials": {
+        "Cold Stick": "5",
+        "Feather": "5",
+        "Pythar Arrowhead": "5"
+      }
+    },
+    "Ibo Arrow(5x)": {
+      "level": "65",
+      "xp": "58",
+      "submaterials": {
+        "Ice Palm Stick": "5",
+        "Feather": "5",
+        "Ibo Arrowhead": "5"
+      }
+    },
+    "Ghost Arrow(5x)": {
+      "level": "45",
+      "xp": "58",
+      "submaterials": {
+        "Nisoc Arrowhead": "5",
+        "Feather": "5",
+        "Zon Stick": "5",
+        "Soul": "5"
+      }
+    },
+    "Fire Arrow(5x)": {
+      "level": "45",
+      "xp": "58",
+      "submaterials": {
+        "Nisoc Arrowhead": "5",
+        "Feather": "5",
+        "Zon Stick": "5",
+        "Fire Bead": "1"
+      }
+    },
+    "Poison Arrow(5x)": {
+      "level": "45",
+      "xp": "58",
+      "submaterials": {
+        "Nisoc Arrowhead": "5",
+        "Feather": "5",
+        "Zon Stick": "5",
+        "Nature Bead": "1"
+      }
+    },
+    "Lightning Arrow(5x)": {
+      "level": "45",
+      "xp": "58",
+      "submaterials": {
+        "Nisoc Arrowhead": "5",
+        "Feather": "5",
+        "Zon Stick": "5",
+        "Lightning Bead": "1"
+      }
+    },
+    "Ice Arrow(5x)": {
+      "level": "45",
+      "xp": "58",
+      "submaterials": {
+        "Nisoc Arrowhead": "5",
+        "Feather": "5",
+        "Zon Stick": "5",
+        "Ice Bead": "1"
+      }
+    },
+    "Torch": {
+      "level": "3",
+      "xp": "15",
+      "submaterials": {
+        "Stick": "1",
+        "Coal": "1"
+      }
+    },
+    "Wooden Bow": {
+      "level": "5",
+      "xp": "30",
+      "submaterials": {
+        "Any Stick": "3",
+        "String": "2"
+      }
+    },
+    "Bronze Bow": {
+      "level": "5",
+      "xp": "50",
+      "submaterials": {
+        "Any Stick": "3",
+        "String": "2",
+        "Bronze Bar": "1"
+      }
+    },
+    "Iron Bow": {
+      "level": "10",
+      "xp": "70",
+      "submaterials": {
+        "Any Stick": "3",
+        "String": "2",
+        "Iron Bar": "1"
+      }
+    },
+    "Beryl Bow": {
+      "level": "15",
+      "xp": "160",
+      "submaterials": {
+        "Any Stick": "3",
+        "String": "2",
+        "Iron Bar": "5",
+        "Beryl": "10"
+      }
+    },
+    "Opal Bow": {
+      "level": "20",
+      "xp": "180",
+      "submaterials": {
+        "Any Stick": "3",
+        "String": "2",
+        "Iron Bar": "5",
+        "Opal": "10"
+      }
+    },
+    "Topaz Bow": {
+      "level": "30",
+      "xp": "220",
+      "submaterials": {
+        "Any Stick": "3",
+        "String": "2",
+        "Nisoc Bar": "5",
+        "Topaz Rock": "10"
+      }
+    },
+    "Axinite Bow": {
+      "level": "30",
+      "xp": "240",
+      "submaterials": {
+        "Any Stick": "3",
+        "String": "2",
+        "Nisoc Bar": "5",
+        "Axinite": "10"
+      }
+    },
+    "Lapislazuli Bow": {
+      "level": "30",
+      "xp": "240",
+      "submaterials": {
+        "Any Stick": "3",
+        "String": "2",
+        "Nisoc Bar": "5",
+        "Lapislazuli": "10"
+      }
+    },
+    "Citrine Bow": {
+      "level": "35",
+      "xp": "270",
+      "submaterials": {
+        "Any Stick": "3",
+        "String": "2",
+        "Nisoc Bar": "5",
+        "Citrine": "10"
+      }
+    },
+    "Peridot Bow": {
+      "level": "40",
+      "xp": "290",
+      "submaterials": {
+        "Any Stick": "3",
+        "String": "2",
+        "Nisoc Bar": "5",
+        "Peridot": "10"
+      }
+    },
+    "Emerald Bow": {
+      "level": "50",
+      "xp": "300",
+      "submaterials": {
+        "Any Stick": "3",
+        "String": "2",
+        "Cinnabar Bar": "5",
+        "Emerald": "10"
+      }
+    },
+    "Ruby Bow": {
+      "level": "60",
+      "xp": "310",
+      "submaterials": {
+        "Any Stick": "3",
+        "String": "2",
+        "Cinnabar Bar": "5",
+        "Ruby": "10"
+      }
+    },
+    "Amethyst Bow": {
+      "level": "65",
+      "xp": "320",
+      "submaterials": {
+        "Any Stick": "3",
+        "String": "2",
+        "Pythar Bar": "5",
+        "Amethyst": "10"
+      }
+    }
+  },
+  "Cooking": {
+    "Cooked Shrimp": {
+      "level": "1",
+      "xp": "20",
+      "submaterials": {
+        "Raw Shrimp": "1"
+      }
+    },
+    "Cooked Cory Doras": {
+      "level": "1",
+      "xp": "20",
+      "submaterials": {
+        "Raw Cory Doras": "1"
+      }
+    },
+    "Tomato Stew": {
+      "level": "1",
+      "xp": "50",
+      "submaterials": {
+        "Mushroom": "1",
+        "Tomato": "1"
+      }
+    },
+    "Cooked Scallops": {
+      "level": "5",
+      "xp": "30",
+      "submaterials": {
+        "Raw Scallops": "1"
+      }
+    },
+    "Cooked Clownfish": {
+      "level": "10",
+      "xp": "60",
+      "submaterials": {
+        "Raw Clownfish": "1"
+      }
+    },
+    "Cooked Sardine": {
+      "level": "10",
+      "xp": "60",
+      "submaterials": {
+        "Raw Sardine": "1"
+      }
+    },
+    "Cooked Tuna": {
+      "level": "15",
+      "xp": "70",
+      "submaterials": {
+        "Raw Tuna": "1"
+      }
+    },
+    "Raw Sausage": {
+      "level": "15",
+      "xp": "80",
+      "submaterials": {
+        "Raw Beef": "1",
+        "Raw Chicken": "1"
+      }
+    },
+    "Cooked Chicken": {
+      "level": "15",
+      "xp": "80",
+      "submaterials": {
+        "Raw Chicken": "1"
+      }
+    },
+    "Cooked Beef": {
+      "level": "15",
+      "xp": "80",
+      "submaterials": {
+        "Raw Beef": "1"
+      }
+    },
+    "Cooked Sausage": {
+      "level": "15",
+      "xp": "80",
+      "submaterials": {
+        "Raw Sausage": "1"
+      }
+    },
+    "Cooked Clam": {
+      "level": "20",
+      "xp": "80",
+      "submaterials": {
+        "Raw Clam": "1"
+      }
+    },
+    "Corn stew": {
+      "level": "20",
+      "xp": "120",
+      "submaterials": {
+        "Mushroom": "1",
+        "Corn": "1"
+      }
+    },
+    "Cooked Tetra": {
+      "level": "25",
+      "xp": "90",
+      "submaterials": {
+        "Raw Tetra": "1"
+      }
+    },
+    "Clam Chowder": {
+      "level": "25",
+      "xp": "140",
+      "submaterials": {
+        "Raw Clam": "1",
+        "Potato": "1",
+        "Milk Bottle": "1"
+      }
+    },
+    "Tuna Sushi": {
+      "level": "30",
+      "xp": "140",
+      "submaterials": {
+        "Raw Tuna": "1",
+        "Kelp": "1"
+      }
+    },
+    "Cooked Gourami": {
+      "level": "33",
+      "xp": "110",
+      "submaterials": {
+        "Raw Gourami": "1"
+      }
+    },
+    "Cooked Herring": {
+      "level": "40",
+      "xp": "120",
+      "submaterials": {
+        "Raw Herring": "1"
+      }
+    },
+    "Cooked Skeleton Fish": {
+      "level": "40",
+      "xp": "130",
+      "submaterials": {
+        "Raw Skeleton Fish": "1"
+      }
+    },
+    "Jellyfish Smoothie": {
+      "level": "50",
+      "xp": "90",
+      "submaterials": {
+        "Jellyfish": "1"
+      }
+    },
+    "Cooked Mackeral": {
+      "level": "50",
+      "xp": "140",
+      "submaterials": {
+        "Raw Mackeral": "1"
+      }
+    },
+    "Cooked Purple Tetra": {
+      "level": "55",
+      "xp": "140",
+      "submaterials": {
+        "Raw Purple Tetra": "1"
+      }
+    },
+    "Cooked Ramshorn Snail": {
+      "level": "60",
+      "xp": "150",
+      "submaterials": {
+        "Raw Ramshorn Snail": "1"
+      }
+    },
+    "Cooked Blue Bass": {
+      "level": "63",
+      "xp": "150",
+      "submaterials": {
+        "Raw Blue Bass": "1"
+      }
+    },
+    "Banana Smoothie": {
+      "level": "65",
+      "xp": "170",
+      "submaterials": {
+        "Banana": "1"
+      }
+    },
+    "Cooked Halibut": {
+      "level": "69",
+      "xp": "160",
+      "submaterials": {
+        "Raw Halibut": "1"
+      }
+    },
+    "Cooked Choriaster": {
+      "level": "70",
+      "xp": "165",
+      "submaterials": {
+        "Raw Choriaster": "1"
+      }
+    },
+    "Cooked Squid": {
+      "level": "75",
+      "xp": "175",
+      "submaterials": {
+        "Raw Squid": "1"
+      }
+    },
+    "Cooked Eel": {
+      "level": "80",
+      "xp": "200",
+      "submaterials": {
+        "Raw Eel": "1"
+      }
+    },
+    "Cooked Octopus": {
+      "level": "87",
+      "xp": "240",
+      "submaterials": {
+        "Raw Octopus": "1"
+      }
+    },
+    "Cooked Shark": {
+      "level": "90",
+      "xp": "280",
+      "submaterials": {
+        "Raw Shark": "1"
+      }
+    },
+    "Cooked Manta Ray": {
+      "level": "99",
+      "xp": "400",
+      "submaterials": {
+        "Raw Manta Ray": "1"
+      }
+    }
+  },
+  "Crafting": {
+    "Accuracy": {
+      "level": "1",
+      "xp": "3",
+      "submaterials": {
+        "Pine Logs": "1"
+      }
+    },
+    "Guarding": {
+      "level": "5",
+      "xp": "8",
+      "submaterials": {
+        "Dead Logs": "1"
+      }
+    },
+    "Healing": {
+      "level": "10",
+      "xp": "18",
+      "submaterials": {
+        "Birch Logs": "1"
+      }
+    },
+    "Wealth": {
+      "level": "20",
+      "xp": "40",
+      "submaterials": {
+        "Applewood": "1"
+      }
+    },
+    "Power": {
+      "level": "30",
+      "xp": "105",
+      "submaterials": {
+        "Willow Logs": "1"
+      }
+    },
+    "Nature": {
+      "level": "40",
+      "xp": "200",
+      "submaterials": {
+        "Oak Logs": "1"
+      }
+    },
+    "Fire": {
+      "level": "50",
+      "xp": "425",
+      "submaterials": {
+        "Chestnut Logs": "1"
+      }
+    },
+    "Damage": {
+      "level": "60",
+      "xp": "900",
+      "submaterials": {
+        "Maple Logs": "1"
+      }
+    },
+    "Leeching": {
+      "level": "70",
+      "xp": "1400",
+      "submaterials": {
+        "Olive Logs": "1"
+      }
+    },
+    "Experience": {
+      "level": "75",
+      "xp": "1850",
+      "submaterials": {
+        "Maple Logs": "1",
+        "Olive Logs": "1"
+      }
+    },
+    "Ice": {
+      "level": "80",
+      "xp": "2750",
+      "submaterials": {
+        "Magic Logs": "2"
+      }
+    },
+    "Cursed": {
+      "level": "81",
+      "xp": "4120",
+      "submaterials": {
+        "Palm Wood": "2"
+      }
+    },
+    "Efficiency": {
+      "level": "85",
+      "xp": "4250",
+      "submaterials": {
+        "Pear Wood": "1"
+      }
+    },
+    "Affliction": {
+      "level": "90",
+      "xp": "6000",
+      "submaterials": {
+        "Lime Wood": "1",
+        "Ancient Tablet": "1"
+      }
+    }
+  },
+  "Tailoring": {
+    "Paper": {
+      "level": "1",
+      "xp": "1",
+      "submaterials": {
+        "Pine Logs": "1"
+      }
+    },
+    "Book": {
+      "level": "3",
+      "xp": "5",
+      "submaterials": {
+        "Paper": "5",
+        "Leather": "1"
+      }
+    },
+    "Ember Tome": {
+      "level": "5",
+      "xp": "12",
+      "submaterials": {
+        "Book": "1",
+        "Relic of Fire": "1",
+        "Magic Essence": "1"
+      }
+    },
+    "Leech Tome": {
+      "level": "9",
+      "xp": "20",
+      "submaterials": {
+        "Book": "1",
+        "Relic of Nature": "1",
+        "Magic Essence": "1"
+      }
+    },
+    "Icicle Tome": {
+      "level": "15",
+      "xp": "28",
+      "submaterials": {
+        "Book": "1",
+        "Ice Relic": "1",
+        "Magic Essence": "1"
+      }
+    },
+    "Haunt Tome": {
+      "level": "20",
+      "xp": "40",
+      "submaterials": {
+        "Book": "1",
+        "Cursed Relic": "1",
+        "Magic Essence": "1"
+      }
+    },
+    "Ignite Tome": {
+      "level": "29",
+      "xp": "100",
+      "submaterials": {
+        "Book": "1",
+        "Relic of Fire": "1",
+        "Magic Essence": "5"
+      }
+    },
+    "Drain Tome": {
+      "level": "33",
+      "xp": "115",
+      "submaterials": {
+        "Book": "1",
+        "Relic of Nature": "1",
+        "Magic Essence": "3"
+      }
+    },
+    "Freeze Tome": {
+      "level": "40",
+      "xp": "200",
+      "submaterials": {
+        "Book": "1",
+        "Ice Relic": "1",
+        "Magic Essence": "3"
+      }
+    },
+    "Curse Tome": {
+      "level": "60",
+      "xp": "900",
+      "submaterials": {
+        "Book": "1",
+        "Cursed Relic": "1",
+        "Magic Essence": "3"
+      }
+    },
+    "Inferno Tome": {
+      "level": "68",
+      "xp": "1380",
+      "submaterials": {
+        "Book": "1",
+        "Relic of Fire": "1",
+        "Magic Essence": "10"
+      }
+    },
+    "Consume Tome": {
+      "level": "76",
+      "xp": "2110",
+      "submaterials": {
+        "Book": "1",
+        "Relic of Nature": "1",
+        "Magic Essence": "6"
+      }
+    },
+    "Blizzard Tome": {
+      "level": "80",
+      "xp": "2750",
+      "submaterials": {
+        "Book": "1",
+        "Ice Relic": "1",
+        "Magic Essence": "6"
+      }
+    },
+    "Torture Tome": {
+      "level": "92",
+      "xp": "4300",
+      "submaterials": {
+        "Book": "1",
+        "Cursed Relic": "1",
+        "Magic Essence": "6"
+      }
+    }
+  },
+  "Alchemy": {
+    "Hot Sauce": {
+      "level": "1",
+      "xp": "15",
+      "submaterials": {
+        "Small Empty Vial": "1",
+        "Chili": "3"
+      }
+    },
+    "Mana Flask": {
+      "level": "1",
+      "xp": "15",
+      "submaterials": {
+        "Small Empty Vial": "1",
+        "Blueberry": "2",
+        "Mushroom": "1"
+      }
+    },
+    "Flask": {
+      "level": "3",
+      "xp": "20",
+      "submaterials": {
+        "Small Empty Vial": "1",
+        "Tomato": "2",
+        "Mushroom": "1"
+      }
+    },
+    "Antidote": {
+      "level": "5",
+      "xp": "35",
+      "submaterials": {
+        "Medium Empty Vial": "1",
+        "Horseradish": "2",
+        "Leaf": "2"
+      }
+    },
+    "Divinity Flask": {
+      "level": "10",
+      "xp": "40",
+      "submaterials": {
+        "Small Empty Vial": "1",
+        "Dandelion": "1",
+        "Mushroom": "2"
+      }
+    },
+    "Black Potion": {
+      "level": "15",
+      "xp": "60",
+      "submaterials": {
+        "Medium Empty Vial": "1",
+        "Oat": "2",
+        "Mushroom": "2"
+      }
+    },
+    "Big Mana Flask": {
+      "level": "25",
+      "xp": "80",
+      "submaterials": {
+        "Medium Empty Vial": "1",
+        "Blue Lily": "4",
+        "Mushroom": "2"
+      }
+    },
+    "Big Flask": {
+      "level": "26",
+      "xp": "70",
+      "submaterials": {
+        "Medium Empty Vial": "1",
+        "Raspberry": "3",
+        "Tomato": "1"
+      }
+    },
+    "Big Divinity Flask": {
+      "level": "30",
+      "xp": "120",
+      "submaterials": {
+        "Medium Empty Vial": "1",
+        "Blackberry": "2",
+        "Magic Bead": "1"
+      }
+    },
+    "Accuracy Potion": {
+      "level": "30",
+      "xp": "110",
+      "submaterials": {
+        "Medium Empty Vial": "1",
+        "Cumin Plant": "2",
+        "Mushroom": "2"
+      }
+    },
+    "Archery Potion": {
+      "level": "32",
+      "xp": "110",
+      "submaterials": {
+        "Medium Empty Vial": "1",
+        "Kiwi": "2",
+        "Mushroom": "2"
+      }
+    },
+    "Strength Potion": {
+      "level": "35",
+      "xp": "110",
+      "submaterials": {
+        "Medium Empty Vial": "1",
+        "Paprika": "2",
+        "Mushroom": "2"
+      }
+    },
+    "Magic Potion": {
+      "level": "37",
+      "xp": "120",
+      "submaterials": {
+        "Medium Empty Vial": "1",
+        "Blackberry": "2",
+        "Mushroom": "2"
+      }
+    },
+    "Defence Potion": {
+      "level": "40",
+      "xp": "130",
+      "submaterials": {
+        "Medium Empty Vial": "1",
+        "Mustard": "2",
+        "Mushroom": "2"
+      }
+    },
+    "Speed Potion": {
+      "level": "45",
+      "xp": "140",
+      "submaterials": {
+        "Large Empty Vial": "1",
+        "Cumin Plant": "2",
+        "Mushroom": "2"
+      }
+    },
+    "Snow Potion": {
+      "level": "50",
+      "xp": "150",
+      "submaterials": {
+        "Large Empty Vial": "1",
+        "Blue Lily": "2",
+        "Leaf": "2"
+      }
+    },
+    "Fire Potion": {
+      "level": "55",
+      "xp": "160",
+      "submaterials": {
+        "Large Empty Vial": "1",
+        "Quinoa": "2",
+        "Chili": "2"
+      }
+    },
+    "Super Accuracy Potion": {
+      "level": "65",
+      "xp": "190",
+      "submaterials": {
+        "Large Empty Vial": "1",
+        "Accuracy Potion": "1",
+        "Opal Dust": "5"
+      }
+    },
+    "Super Archery Potion": {
+      "level": "67",
+      "xp": "200",
+      "submaterials": {
+        "Large Empty Vial": "1",
+        "Archery Potion": "1",
+        "Emerald Dust": "5"
+      }
+    },
+    "Super Strength Potion": {
+      "level": "70",
+      "xp": "210",
+      "submaterials": {
+        "Large Empty Vial": "1",
+        "Strength Potion": "1",
+        "Ruby Dust": "5"
+      }
+    },
+    "Super Magic Potion": {
+      "level": "72",
+      "xp": "220",
+      "submaterials": {
+        "Large Empty Vial": "1",
+        "Magic Potion": "1",
+        "Amethyst Dust": "5"
+      }
+    },
+    "Super Defense Potion": {
+      "level": "75",
+      "xp": "230",
+      "submaterials": {
+        "Large Empty Vial": "1",
+        "Defense Potion": "1",
+        "LapisLazuli Dust": "5"
+      }
+    },
+    "Snowman Pet": {
+      "level": "75",
+      "xp": "240",
+      "submaterials": {
+        "Snowball": "350",
+        "Witch Hat": "1",
+        "Coal": "4"
+      }
+    }
+  }
+}
