@@ -7,7 +7,7 @@ import ToggleButtons from "../components/ToggleButtons";
 import Boosts from "../components/Boosts";
 import Footer from "../components/Footer";
 
-import artisanData from "../data/artisan_data.json";
+import artisan_data from "../data/artisan_data.json";
 
 const Crafting = () => {
   // Person's current level
@@ -34,13 +34,13 @@ const Crafting = () => {
 
   // Exp boosts
   const [boostsDidUpdate, setBoostDidUpdate] = useState(false);
-  const [boosts, setBoosts] = useState([{ name: "World Boost", value: 1.5, active: false }]);
+  const [boosts, setBoosts] = useState([]);
   const updateBoosts = (boosts, updatedBoostName) => {
     setBoosts(boosts);
     setBoostDidUpdate(!boostsDidUpdate);
   };
 
-  const data = artisanData["Crafting"];
+  const data = artisan_data["Crafting"];
 
   return (
     <>
@@ -68,7 +68,7 @@ const Crafting = () => {
         levelPercentage={currentPercentage}
         targetLevel={targetLevel}
         element={element}
-        keywords={["Relics of"]}
+        keywords={[""]}
         boosts={boosts}
         boostsDidUpdate={boostsDidUpdate}
         skill="Crafting"

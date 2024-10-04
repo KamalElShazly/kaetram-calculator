@@ -946,6 +946,344 @@
       "image": "alchemy/snowman_pet.png"
     }
   },
+  "Crafting": {
+    "String": {
+      "level": "1",
+      "xp": "15",
+      "submaterials": {
+        "Blue Lily": "1"
+      },
+      "image": "crafting/string.png"
+    },
+    "Small Empty Vial": {
+      "level": "1",
+      "xp": "15",
+      "submaterials": {
+        "Glass": "1"
+      },
+      "image": "crafting/small_empty_vial.png"
+    },
+    "Medium Empty Vial": {
+      "level": "15",
+      "xp": "30",
+      "submaterials": {
+        "Glass": "2"
+      },
+      "image": "crafting/medium_empty_vial.png"
+    },
+    "Large Empty Vial": {
+      "level": "30",
+      "xp": "45",
+      "submaterials": {
+        "Glass": "3"
+      },
+      "image": "crafting/large_empty_vial.png"
+    },
+    "Bucket": {
+      "level": "10",
+      "xp": "50",
+      "submaterials": {
+        "Log": "5"
+      },
+      "image": "crafting/bucket.png"
+    },
+    "Aqua Staff": {
+      "level": "1",
+      "xp": "120",
+      "submaterials": {
+        "Stick": "5",
+        "Bead": "1"
+      },
+      "image": "crafting/aqua_staff.png"
+    },
+    "Lightning Staff": {
+      "level": "10",
+      "xp": "180",
+      "submaterials": {
+        "Stick": "5",
+        "Lightning Bead": "1"
+      },
+      "image": "crafting/lightning_staff.png"
+    },
+    "Nature Staff": {
+      "level": "20",
+      "xp": "260",
+      "submaterials": {
+        "Stick": "5",
+        "Nature Bead": "1"
+      },
+      "image": "crafting/nature_staff.png"
+    },
+    "Fire Staff": {
+      "level": "35",
+      "xp": "420",
+      "submaterials": {
+        "Stick": "5",
+        "Fire Bead": "1"
+      },
+      "image": "crafting/fire_staff.png"
+    },
+    "Dark Staff": {
+      "level": "55",
+      "xp": "575",
+      "submaterials": {
+        "Stick": "5",
+        "Ice Bead": "1"
+      },
+      "image": "crafting/dark_staff.png"
+    },
+    "Nisoc Ring": {
+      "level": "1",
+      "xp": "70",
+      "submaterials": {
+        "Nisoc Ore": "1",
+        "Slotted Silver Ring": "1"
+      },
+      "image": "crafting/nisoc_ring.png"
+    },
+    "Beryl Bronze Ring": {
+      "level": "5",
+      "xp": "100",
+      "submaterials": {
+        "Beryl": "1",
+        "Bronze Ring": "1"
+      },
+      "image": "crafting/beryl_bronze_ring.png"
+    },
+    "Beryl Silver Ring": {
+      "level": "10",
+      "xp": "155",
+      "submaterials": {
+        "Beryl": "1",
+        "Slotted Silver Ring": "1"
+      },
+      "image": "crafting/beryl_silver_ring.png"
+    },
+    "Pythar Ring": {
+      "level": "15",
+      "xp": "195",
+      "submaterials": {
+        "Pythar Ore": "1",
+        "Slotted Silver Ring": "1"
+      },
+      "image": "crafting/pythar_ring.png"
+    },
+    "Topaz Ring": {
+      "level": "22",
+      "xp": "230",
+      "submaterials": {
+        "Topaz": "1",
+        "Slotted Gold Ring": "1"
+      },
+      "image": "crafting/topaz_ring.png"
+    },
+    "Emerald Ring 1": {
+      "level": "32",
+      "xp": "280",
+      "submaterials": {
+        "Emerald": "1",
+        "Slotted Silver Ring": "1"
+      },
+      "image": "crafting/emerald_ring_1.png"
+    },
+    "Emerald Ring 2": {
+      "level": "35",
+      "xp": "320",
+      "submaterials": {
+        "Emerald": "1",
+        "Slotted Gold Ring": "1"
+      },
+      "image": "crafting/emerald_ring_2.png"
+    },
+    "Ruby Ring": {
+      "level": "42",
+      "xp": "365",
+      "submaterials": {
+        "Ruby": "1",
+        "Slotted Gold Ring": "1"
+      },
+      "image": "crafting/ruby_ring.png"
+    },
+    "Goblin Eye Ring": {
+      "level": "50",
+      "xp": "1000",
+      "submaterials": {
+        "Slotted Silver Ring": "2",
+        "Goblin Eye": "3",
+        "Amethyst": "3"
+      },
+      "image": "crafting/goblin_eye_ring.png"
+    },
+    "Beryl Pendant": {
+      "level": "5",
+      "xp": "65",
+      "submaterials": {
+        "Beryl": "1",
+        "String": "1"
+      },
+      "image": "crafting/beryl_pendant.webp"
+    },
+    "Emerald Pendant": {
+      "level": "25",
+      "xp": "230",
+      "submaterials": {
+        "Emerald": "1",
+        "String": "1"
+      },
+      "image": "crafting/emerald_pendant.png"
+    },
+    "Ruby Pendant": {
+      "level": "35",
+      "xp": "270",
+      "submaterials": {
+        "Ruby": "1",
+        "String": "1"
+      },
+      "image": "crafting/ruby_pendant.png"
+    },
+    "Goblin Necklace": {
+      "level": "50",
+      "xp": "1000",
+      "submaterials": {
+        "String": "2",
+        "Goblin Tooth": "3",
+        "Ruby Gem": "3"
+      },
+      "image": "crafting/goblin_necklace.png"
+    },
+    "Clam Shield": {
+      "level": "60",
+      "xp": "2000",
+      "submaterials": {
+        "Wooden Shield": "1",
+        "Clam Shield Right": "1",
+        "Clam Shield Left": "1"
+      },
+      "image": "crafting/clam_shield.png"
+    },
+    "Opal Dust(5x)": {
+      "level": "1",
+      "xp": "5",
+      "submaterials": {
+        "Opal": "1"
+      },
+      "image": "crafting/opal_dust.png"
+    },
+    "Emerald Dust(5x)": {
+      "level": "1",
+      "xp": "5",
+      "submaterials": {
+        "Emerald": "1"
+      },
+      "image": "crafting/emerald_dust.png"
+    },
+    "Ruby Dust(5x)": {
+      "level": "1",
+      "xp": "5",
+      "submaterials": {
+        "Ruby": "1"
+      },
+      "image": "crafting/ruby_dust.png"
+    },
+    "Amethyst Dust(5x)": {
+      "level": "1",
+      "xp": "5",
+      "submaterials": {
+        "Amethyst": "1"
+      },
+      "image": "crafting/amethyst_dust.png"
+    },
+    "Lapis Lazuli Dust(5x)": {
+      "level": "1",
+      "xp": "5",
+      "submaterials": {
+        "Lapis Lazuli": "1"
+      },
+      "image": "crafting/lapis_lazuli_dust.png"
+    },
+    "Shard - Tier 2": {
+      "level": "10",
+      "xp": "75",
+      "submaterials": {
+        "Shard - Tier 1": "2"
+      },
+      "image": "crafting/shard_2.png"
+    },
+    "Shard - Tier 3": {
+      "level": "11",
+      "xp": "100",
+      "submaterials": {
+        "Shard - Tier 2": "2"
+      },
+      "image": "crafting/shard_3.png"
+    },
+    "Shard - Tier 4": {
+      "level": "12",
+      "xp": "125",
+      "submaterials": {
+        "Shard - Tier 3": "2"
+      },
+      "image": "crafting/shard_4.png"
+    },
+    "Shard - Tier 5": {
+      "level": "13",
+      "xp": "150",
+      "submaterials": {
+        "Shard - Tier 4": "2"
+      },
+      "image": "crafting/shard_5.png"
+    },
+    "The Innocent Whisper": {
+      "level": "70",
+      "xp": "5000",
+      "submaterials": {
+        "Frozen Core": "1",
+        "Velvet Thread": "1",
+        "Whisper Fragment": "1"
+      },
+      "image": "crafting/the_innocent_whisper.png"
+    },
+    "The Sea of Tranquility": {
+      "level": "70",
+      "xp": "5000",
+      "submaterials": {
+        "Calm Incisors": "1",
+        "Meditative Totem": "1",
+        "Silk Strand": "1"
+      },
+      "image": "crafting/the_sea_of_tranquility.webp"
+    },
+    "The Captured Eye": {
+      "level": "70",
+      "xp": "5000",
+      "submaterials": {
+        "Omni Scienti": "1",
+        "Left Tentacle of The King": "1",
+        "Right Tentacle of The King": "1"
+      },
+      "image": "crafting/the_captured_eye.png"
+    },
+    "The Forsaken Sin": {
+      "level": "75",
+      "xp": "7500",
+      "submaterials": {
+        "Forsaken Fang": "1",
+        "Smoldering Skull": "1",
+        "Tormented Band": "1"
+      },
+      "image": "crafting/the_forsaken_sin.webp"
+    },
+    "The Fury of Nature": {
+      "level": "80",
+      "xp": "10000",
+      "submaterials": {
+        "Dew Drop Tear": "1",
+        "Elder Bast": "1",
+        "Mother's Embrace": "1"
+      },
+      "image": "crafting/the_fury_of_nature.png"
+    }
+  },
   "Divinity": {
     "Soul": {
       "level": "0",

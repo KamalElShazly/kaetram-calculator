@@ -11,6 +11,7 @@ import Fletching from "./tabs/Fletching";
 import Smithing from "./tabs/Smithing";
 import Cooking from "./tabs/Cooking";
 import Alchemy from "./tabs/Alchemy";
+import Crafting from "./tabs/Crafting";
 import Divinity from "./tabs/Divinity";
 
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
             <Tab label="Smithing" component={Link} to="/smithing" />
             <Tab label="Cooking" component={Link} to="/cooking" />
             <Tab label="Alchemy" component={Link} to="/alchemy" />
+            <Tab label="Crafting" component={Link} to="/crafting" />
             <Tab label="Divinity" component={Link} to="/divinity" />
           </Tabs>
         </Box>
@@ -49,6 +51,7 @@ const App = () => {
         <Route path="smithing" element={<Smithing />} />
         <Route path="cooking" element={<Cooking />} />
         <Route path="alchemy" element={<Alchemy />} />
+        <Route path="crafting" element={<Crafting />} />
         <Route path="divinity" element={<Divinity />} />
       </Routes>
     </>
