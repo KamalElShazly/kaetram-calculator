@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/kaetram-calculator/static/css/main.c5ca51ec.chunk.css",
+    "main.js": "/kaetram-calculator/static/js/main.f166eab6.chunk.js",
+    "main.js.map": "/kaetram-calculator/static/js/main.f166eab6.chunk.js.map",
+    "runtime-main.js": "/kaetram-calculator/static/js/runtime-main.bb4bfd10.js",
+    "runtime-main.js.map": "/kaetram-calculator/static/js/runtime-main.bb4bfd10.js.map",
+    "static/js/2.c0fe3e4f.chunk.js": "/kaetram-calculator/static/js/2.c0fe3e4f.chunk.js",
+    "static/js/2.c0fe3e4f.chunk.js.map": "/kaetram-calculator/static/js/2.c0fe3e4f.chunk.js.map",
+    "index.html": "/kaetram-calculator/index.html",
+    "static/css/main.c5ca51ec.chunk.css.map": "/kaetram-calculator/static/css/main.c5ca51ec.chunk.css.map",
+    "static/js/2.c0fe3e4f.chunk.js.LICENSE.txt": "/kaetram-calculator/static/js/2.c0fe3e4f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb4bfd10.js",
+    "static/js/2.c0fe3e4f.chunk.js",
+    "static/css/main.c5ca51ec.chunk.css",
+    "static/js/main.f166eab6.chunk.js"
+  ]
+}
