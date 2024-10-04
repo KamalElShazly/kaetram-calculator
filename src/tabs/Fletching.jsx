@@ -40,6 +40,8 @@ const Fletching = () => {
     setBoostDidUpdate(!boostsDidUpdate);
   };
 
+  const data = artisanData["Fletching"];
+
   return (
     <>
       <Attribute
@@ -58,7 +60,7 @@ const Fletching = () => {
           alignItems: "center",
         }}
       />
-      <ToggleButtons updateElement={updateElement} skillsData={artisanData} skill="Fletching" currentLevel={currentLevel} />
+      <ToggleButtons data={data} skill="Fletching" currentLevel={currentLevel} updateElement={updateElement} />
       <Boosts boosts={boosts} updateBoosts={updateBoosts} />
 
       <Display

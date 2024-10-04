@@ -27,7 +27,7 @@ const Woodcutting = () => {
     setTargetLevel(targetLevel);
   };
   // Person's target element
-  const [element, setElement] = useState(['loading']);
+  const [element, setElement] = useState(["loading"]);
   const updateElement = (element) => {
     setElement(element);
   };
@@ -40,10 +40,11 @@ const Woodcutting = () => {
     setBoostDidUpdate(!boostsDidUpdate);
   };
 
+  const data = gatheringData["Woodcutting"];
+
   return (
     <>
       <Attribute
-
         maxValue={120}
         attributeName={"Your Woodcutting Level"}
         updateAttribute={updateCurrentLevel}
@@ -51,7 +52,6 @@ const Woodcutting = () => {
         isCurrentLevel={true}
       />
       <Attribute
-
         maxValue={120}
         attributeName={"Target Woodcutting Level"}
         updateAttribute={updateTargetLevel}
@@ -60,12 +60,7 @@ const Woodcutting = () => {
           alignItems: "center",
         }}
       />
-      <ToggleButtons
-        updateElement={updateElement}
-        skillsData={gatheringData}
-        skill="Woodcutting"
-        currentLevel={currentLevel}
-      />
+      <ToggleButtons data={data} skill="Woodcutting" currentLevel={currentLevel} updateElement={updateElement} />
       <Boosts boosts={boosts} updateBoosts={updateBoosts} />
 
       <Display

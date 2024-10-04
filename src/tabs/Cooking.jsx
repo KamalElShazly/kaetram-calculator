@@ -6,7 +6,6 @@ import Display from "../components/Display";
 import ToggleButtons from "../components/ToggleButtons";
 import Boosts from "../components/Boosts";
 import Footer from "../components/Footer";
-import CustomSwitch from "../components/CustomSwitch";
 
 import artisanData from "../data/artisan_data.json";
 
@@ -41,6 +40,8 @@ const Cooking = () => {
     setBoostDidUpdate(!boostsDidUpdate);
   };
 
+  const data = artisanData["Cooking"];
+
   return (
     <>
       <Attribute
@@ -59,7 +60,7 @@ const Cooking = () => {
           alignItems: "center",
         }}
       />
-      <ToggleButtons updateElement={updateElement} skillsData={artisanData} skill="Cooking" currentLevel={currentLevel} />
+      <ToggleButtons data={data} skill="Cooking" currentLevel={currentLevel} updateElement={updateElement} />
       <Boosts boosts={boosts} updateBoosts={updateBoosts} />
 
       <Display

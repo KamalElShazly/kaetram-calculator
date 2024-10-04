@@ -40,6 +40,8 @@ const Mining = () => {
     setBoostDidUpdate(!boostsDidUpdate);
   };
 
+  const data = gatheringData["Mining"];
+
   return (
     <>
       <Attribute
@@ -58,7 +60,7 @@ const Mining = () => {
           alignItems: "center",
         }}
       />
-      <ToggleButtons updateElement={updateElement} skillsData={gatheringData} skill="Mining" currentLevel={currentLevel} />
+      <ToggleButtons data={data} skill="Mining" currentLevel={currentLevel} updateElement={updateElement} />
       <Boosts boosts={boosts} updateBoosts={updateBoosts} />
 
       <Display

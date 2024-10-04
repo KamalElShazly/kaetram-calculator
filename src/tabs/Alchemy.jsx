@@ -40,6 +40,8 @@ const Alchemy = () => {
     setBoostDidUpdate(!boostsDidUpdate);
   };
 
+  const data = artisanData["Alchemy"];
+
   return (
     <>
       <Attribute
@@ -58,7 +60,7 @@ const Alchemy = () => {
           alignItems: "center",
         }}
       />
-      <ToggleButtons updateElement={updateElement} skillsData={artisanData} skill="Alchemy" currentLevel={currentLevel} />
+      <ToggleButtons data={data} skill="Alchemy" currentLevel={currentLevel} updateElement={updateElement} />
       <Boosts boosts={boosts} updateBoosts={updateBoosts} />
 
       <Display

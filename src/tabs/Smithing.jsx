@@ -46,6 +46,8 @@ const Smithing = () => {
     setBuyOrSmeltBars(buyOrSmeltBars);
   };
 
+  const data = artisanData["Smithing"];
+
   return (
     <>
       <Attribute
@@ -64,7 +66,7 @@ const Smithing = () => {
           alignItems: "center",
         }}
       />
-      <ToggleButtons updateElement={updateElement} skillsData={artisanData} skill="Smithing" currentLevel={currentLevel} />
+      <ToggleButtons data={data} skill="Smithing" currentLevel={currentLevel} updateElement={updateElement} />
       <CustomSwitch
         value={buyOrSmeltBars}
         updateValue={updateBuyOrSmeltBars}
@@ -84,7 +86,6 @@ const Smithing = () => {
         skill="Smithing"
         boostsDidUpdate={boostsDidUpdate}
       />
-      {/* <StickyHeadTable/> */}
       <Footer />
     </>
   );

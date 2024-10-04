@@ -6,7 +6,7 @@ import Display from "../components/Display";
 import ToggleButtons from "../components/ToggleButtons";
 import Boosts from "../components/Boosts";
 import Footer from "../components/Footer";
-import Alert from '@mui/material/Alert';
+import Alert from "@mui/material/Alert";
 
 import monsterData from "../data/monsters_data.json";
 
@@ -28,7 +28,7 @@ const Combat = () => {
     setTargetLevel(targetLevel);
   };
   // Person's target monster
-  const [monster, setMonster] = useState(['loading']);
+  const [monster, setMonster] = useState(["loading"]);
   const updateMonster = (monster) => {
     setMonster(monster);
   };
@@ -45,6 +45,8 @@ const Combat = () => {
     setBoosts(boosts);
     setBoostDidUpdate(!boostsDidUpdate);
   };
+
+  const data = monsterData;
 
   return (
     <>
@@ -66,11 +68,7 @@ const Combat = () => {
           alignItems: "center",
         }}
       />
-      <ToggleButtons
-        updateElement={updateMonster}
-        skillsData={monsterData}
-        skill="Combat"
-      />
+      <ToggleButtons data={data} skill="Combat" currentLevel={currentLevel} updateElement={updateMonster} />
       <Boosts boosts={boosts} updateBoosts={updateBoosts} />
 
       <Display

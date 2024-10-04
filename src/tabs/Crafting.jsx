@@ -27,20 +27,20 @@ const Crafting = () => {
     setTargetLevel(targetLevel);
   };
   // Person's target element
-  const [element, setElement] = useState(['loading']);
+  const [element, setElement] = useState(["loading"]);
   const updateElement = (element) => {
     setElement(element);
   };
 
   // Exp boosts
   const [boostsDidUpdate, setBoostDidUpdate] = useState(false);
-  const [boosts, setBoosts] = useState([
-    { name: "World Boost", value: 1.5, active: false },
-  ]);
+  const [boosts, setBoosts] = useState([{ name: "World Boost", value: 1.5, active: false }]);
   const updateBoosts = (boosts, updatedBoostName) => {
     setBoosts(boosts);
     setBoostDidUpdate(!boostsDidUpdate);
   };
+
+  const data = artisanData["Crafting"];
 
   return (
     <>
@@ -60,12 +60,7 @@ const Crafting = () => {
           alignItems: "center",
         }}
       />
-      <ToggleButtons
-        updateElement={updateElement}
-        skillsData={artisanData}
-        skill="Crafting"
-        currentLevel={currentLevel}
-      />
+      <ToggleButtons data={data} skill="Crafting" currentLevel={currentLevel} updateElement={updateElement} />
       <Boosts boosts={boosts} updateBoosts={updateBoosts} />
 
       <Display
