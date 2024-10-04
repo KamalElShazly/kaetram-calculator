@@ -4,8 +4,6 @@ import "../App.css";
 import Attribute from "../components/Attribute";
 import Display from "../components/Display";
 import ToggleButtons from "../components/ToggleButtons";
-import Boosts from "../components/Boosts";
-import Footer from "../components/Footer";
 
 import artisan_data from "../data/artisan_data.json";
 
@@ -32,14 +30,6 @@ const Crafting = () => {
     setElement(element);
   };
 
-  // Exp boosts
-  const [boostsDidUpdate, setBoostDidUpdate] = useState(false);
-  const [boosts, setBoosts] = useState([]);
-  const updateBoosts = (boosts, updatedBoostName) => {
-    setBoosts(boosts);
-    setBoostDidUpdate(!boostsDidUpdate);
-  };
-
   const data = artisan_data["Crafting"];
 
   return (
@@ -61,7 +51,6 @@ const Crafting = () => {
         }}
       />
       <ToggleButtons data={data} skill="Crafting" currentLevel={currentLevel} updateElement={updateElement} />
-      <Boosts boosts={boosts} updateBoosts={updateBoosts} />
 
       <Display
         level={currentLevel}
@@ -69,11 +58,8 @@ const Crafting = () => {
         targetLevel={targetLevel}
         element={element}
         keywords={[""]}
-        boosts={boosts}
-        boostsDidUpdate={boostsDidUpdate}
         skill="Crafting"
       />
-      <Footer />
     </>
   );
 };

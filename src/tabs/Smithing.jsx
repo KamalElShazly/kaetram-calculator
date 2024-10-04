@@ -4,8 +4,6 @@ import "../App.css";
 import Attribute from "../components/Attribute";
 import Display from "../components/Display";
 import ToggleButtons from "../components/ToggleButtons";
-import Boosts from "../components/Boosts";
-import Footer from "../components/Footer";
 import CustomSwitch from "../components/CustomSwitch";
 
 import artisanData from "../data/artisan_data.json";
@@ -33,13 +31,6 @@ const Smithing = () => {
     setElement(element);
   };
 
-  // Exp boosts
-  const [boostsDidUpdate, setBoostDidUpdate] = useState(false);
-  const [boosts, setBoosts] = useState([]);
-  const updateBoosts = (boosts) => {
-    setBoosts(boosts);
-    setBoostDidUpdate(!boostsDidUpdate);
-  };
   // Smelt or buy bars control
   const [buyOrSmeltBars, setBuyOrSmeltBars] = useState(true);
   const updateBuyOrSmeltBars = (buyOrSmeltBars) => {
@@ -74,19 +65,15 @@ const Smithing = () => {
         trueText="Smelt Bars"
         falseText="Buy Bars"
       />
-      <Boosts boosts={boosts} updateBoosts={updateBoosts} />
       <Display
         level={currentLevel}
         levelPercentage={currentPercentage}
         targetLevel={targetLevel}
         element={element}
-        keywords={["Bars"]}
-        boosts={boosts}
+        keywords={[""]}
         buyOrSmeltBars={buyOrSmeltBars}
         skill="Smithing"
-        boostsDidUpdate={boostsDidUpdate}
       />
-      <Footer />
     </>
   );
 };

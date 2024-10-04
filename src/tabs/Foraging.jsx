@@ -4,8 +4,6 @@ import "../App.css";
 import Attribute from "../components/Attribute";
 import Display from "../components/Display";
 import ToggleButtons from "../components/ToggleButtons";
-import Boosts from "../components/Boosts";
-import Footer from "../components/Footer";
 
 import gathering_data from "../data/gathering_data.json";
 
@@ -32,14 +30,6 @@ const Foraging = () => {
     setElement(element);
   };
 
-  // Exp boosts
-  const [boostsDidUpdate, setBoostDidUpdate] = useState(false);
-  const [boosts, setBoosts] = useState([]);
-  const updateBoosts = (boosts, updatedBoostName) => {
-    setBoosts(boosts);
-    setBoostDidUpdate(!boostsDidUpdate);
-  };
-
   const data = gathering_data["Foraging"];
 
   return (
@@ -61,7 +51,6 @@ const Foraging = () => {
         }}
       />
       <ToggleButtons data={data} skill="Foraging" currentLevel={currentLevel} updateElement={updateElement} />
-      <Boosts boosts={boosts} updateBoosts={updateBoosts} />
 
       <Display
         level={currentLevel}
@@ -69,11 +58,8 @@ const Foraging = () => {
         targetLevel={targetLevel}
         element={element}
         keywords={[""]}
-        boosts={boosts}
-        boostsDidUpdate={boostsDidUpdate}
         skill="Foraging"
       />
-      <Footer />
     </>
   );
 };

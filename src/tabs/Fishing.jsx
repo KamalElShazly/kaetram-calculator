@@ -4,8 +4,6 @@ import "../App.css";
 import Attribute from "../components/Attribute";
 import Display from "../components/Display";
 import ToggleButtons from "../components/ToggleButtons";
-import Boosts from "../components/Boosts";
-import Footer from "../components/Footer";
 
 import gatheringData from "../data/gathering_data.json";
 
@@ -31,13 +29,6 @@ const Fishing = () => {
   const updateElement = (element) => {
     setElement(element);
   };
-  // Exp boosts
-  const [boostsDidUpdate, setBoostDidUpdate] = useState(false);
-  const [boosts, setBoosts] = useState([]);
-  const updateBoosts = (boosts, updatedBoostName) => {
-    setBoosts(boosts);
-    setBoostDidUpdate(!boostsDidUpdate);
-  };
 
   const data = gatheringData["Fishing"];
 
@@ -60,7 +51,6 @@ const Fishing = () => {
         }}
       />
       <ToggleButtons data={data} skill="Fishing" currentLevel={currentLevel} updateElement={updateElement} />
-      <Boosts boosts={boosts} updateBoosts={updateBoosts} />
 
       <Display
         level={currentLevel}
@@ -68,11 +58,8 @@ const Fishing = () => {
         targetLevel={targetLevel}
         element={element}
         keywords={[""]}
-        boosts={boosts}
-        boostsDidUpdate={boostsDidUpdate}
         skill="Fishing"
       />
-      <Footer />
     </>
   );
 };

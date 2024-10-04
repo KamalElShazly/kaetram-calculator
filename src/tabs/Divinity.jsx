@@ -4,8 +4,6 @@ import "../App.css";
 import Attribute from "../components/Attribute";
 import Display from "../components/Display";
 import ToggleButtons from "../components/ToggleButtons";
-import Boosts from "../components/Boosts";
-import Footer from "../components/Footer";
 
 import artisanData from "../data/artisan_data.json";
 
@@ -32,14 +30,6 @@ const Divinity = () => {
     setElement(element);
   };
 
-  // Exp boosts
-  const [boostsDidUpdate, setBoostDidUpdate] = useState(false);
-  const [boosts, setBoosts] = useState([]);
-  const updateBoosts = (boosts, updatedBoostName) => {
-    setBoosts(boosts);
-    setBoostDidUpdate(!boostsDidUpdate);
-  };
-
   const data = artisanData["Divinity"];
 
   return (
@@ -61,7 +51,6 @@ const Divinity = () => {
         }}
       />
       <ToggleButtons data={data} skill="Divinity" currentLevel={currentLevel} updateElement={updateElement} />
-      <Boosts boosts={boosts} updateBoosts={updateBoosts} />
 
       <Display
         level={currentLevel}
@@ -69,11 +58,8 @@ const Divinity = () => {
         targetLevel={targetLevel}
         element={element}
         keywords={[""]}
-        boosts={boosts}
-        boostsDidUpdate={boostsDidUpdate}
         skill="Divinity"
       />
-      <Footer />
     </>
   );
 };
