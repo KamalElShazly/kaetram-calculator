@@ -220,41 +220,17 @@
       "submaterials": {},
       "image": "fishing/raw_cory_doras.png"
     },
-    "Shrimp": {
-      "level": "1",
-      "xp": "10",
-      "submaterials": {},
-      "image": "fishing/raw_shrimp.png"
-    },
-    "Scallops": {
-      "level": "5",
-      "xp": "20",
-      "submaterials": {},
-      "image": "fishing/raw_scallops.png"
-    },
     "Clownfish": {
       "level": "10",
       "xp": "25",
       "submaterials": {},
       "image": "fishing/raw_clownfish.png"
     },
-    "Sardine": {
-      "level": "10",
-      "xp": "30",
-      "submaterials": {},
-      "image": "fishing/raw_sardine.png"
-    },
     "Tuna": {
       "level": "15",
       "xp": "35",
       "submaterials": {},
       "image": "fishing/raw_tuna.png"
-    },
-    "Clam": {
-      "level": "20",
-      "xp": "50",
-      "submaterials": {},
-      "image": "fishing/raw_clam.png"
     },
     "Tetra": {
       "level": "25",
@@ -274,35 +250,17 @@
       "submaterials": {},
       "image": "fishing/raw_herring.png"
     },
-    "Skeleton Fish": {
-      "level": "40",
-      "xp": "70",
-      "submaterials": {},
-      "image": "fishing/raw_skeleton_fish.png"
-    },
     "Mackerel": {
       "level": "50",
       "xp": "100",
       "submaterials": {},
       "image": "fishing/raw_mackerel.png"
     },
-    "Jellyfish": {
-      "level": "50",
-      "xp": "90",
-      "submaterials": {},
-      "image": "fishing/jellyfish.png"
-    },
     "Purple Tetra": {
       "level": "55",
       "xp": "110",
       "submaterials": {},
       "image": "fishing/raw_purple_tetra.png"
-    },
-    "Ramshorn Snail": {
-      "level": "60",
-      "xp": "120",
-      "submaterials": {},
-      "image": "fishing/raw_ramshorn_snail.png"
     },
     "Blue Bass": {
       "level": "63",
@@ -316,23 +274,11 @@
       "submaterials": {},
       "image": "fishing/raw_halibut.png"
     },
-    "Choriaster": {
-      "level": "70",
-      "xp": "140",
-      "submaterials": {},
-      "image": "fishing/raw_choriaster.png"
-    },
     "Squid": {
       "level": "75",
       "xp": "160",
       "submaterials": {},
       "image": "fishing/raw_squid.png"
-    },
-    "Eel": {
-      "level": "80",
-      "xp": "190",
-      "submaterials": {},
-      "image": "fishing/raw_eel.png"
     },
     "Octopus": {
       "level": "87",
@@ -351,6 +297,60 @@
       "xp": "400",
       "submaterials": {},
       "image": "fishing/raw_manta_ray.png"
+    },
+    "Shrimp": {
+      "level": "1",
+      "xp": "10",
+      "submaterials": {},
+      "image": "fishing/raw_shrimp.png"
+    },
+    "Scallops": {
+      "level": "5",
+      "xp": "20",
+      "submaterials": {},
+      "image": "fishing/raw_scallops.png"
+    },
+    "Sardine": {
+      "level": "10",
+      "xp": "30",
+      "submaterials": {},
+      "image": "fishing/raw_sardine.png"
+    },
+    "Clam": {
+      "level": "20",
+      "xp": "50",
+      "submaterials": {},
+      "image": "fishing/raw_clam.png"
+    },
+    "Skeleton Fish": {
+      "level": "40",
+      "xp": "70",
+      "submaterials": {},
+      "image": "fishing/raw_skeleton_fish.png"
+    },
+    "Jellyfish": {
+      "level": "50",
+      "xp": "90",
+      "submaterials": {},
+      "image": "fishing/jellyfish.png"
+    },
+    "Ramshorn Snail": {
+      "level": "60",
+      "xp": "120",
+      "submaterials": {},
+      "image": "fishing/raw_ramshorn_snail.png"
+    },
+    "Choriaster": {
+      "level": "70",
+      "xp": "140",
+      "submaterials": {},
+      "image": "fishing/raw_choriaster.png"
+    },
+    "Eel": {
+      "level": "80",
+      "xp": "190",
+      "submaterials": {},
+      "image": "fishing/raw_eel.png"
     }
   },
   "Foraging": {
