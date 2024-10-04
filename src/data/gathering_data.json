@@ -360,6 +360,30 @@
       "submaterials": {},
       "image": "foraging/shiitake.png"
     },
+    "Russula": {
+      "level": "10",
+      "xp": "30",
+      "submaterials": {},
+      "image": "foraging/russula.png"
+    },
+    "Kuriositas": {
+      "level": "20",
+      "xp": "80",
+      "submaterials": {},
+      "image": "foraging/kuriositas.png"
+    },
+    "Matsutake": {
+      "level": "30",
+      "xp": "100",
+      "submaterials": {},
+      "image": "foraging/matsutake.png"
+    },
+    "Cortinarius": {
+      "level": "40",
+      "xp": "150",
+      "submaterials": {},
+      "image": "foraging/cortinarius.png"
+    },
     "Blueberry": {
       "level": "1",
       "xp": "15",
@@ -371,12 +395,6 @@
       "xp": "10",
       "submaterials": {},
       "image": "foraging/dandelion.png"
-    },
-    "Russula": {
-      "level": "10",
-      "xp": "30",
-      "submaterials": {},
-      "image": "foraging/russula.png"
     },
     "Tomato": {
       "level": "5",
@@ -396,12 +414,6 @@
       "submaterials": {},
       "image": "foraging/raspberry.png"
     },
-    "Kuriositas": {
-      "level": "20",
-      "xp": "80",
-      "submaterials": {},
-      "image": "foraging/kuriositas.png"
-    },
     "Blue Lily": {
       "level": "20",
       "xp": "70",
@@ -413,12 +425,6 @@
       "xp": "60",
       "submaterials": {},
       "image": "foraging/oat.png"
-    },
-    "Matsutake": {
-      "level": "30",
-      "xp": "100",
-      "submaterials": {},
-      "image": "foraging/matsutake.png"
     },
     "Corn": {
       "level": "30",
@@ -437,12 +443,6 @@
       "xp": "105",
       "submaterials": {},
       "image": "foraging/banana.png"
-    },
-    "Cortinarius": {
-      "level": "40",
-      "xp": "150",
-      "submaterials": {},
-      "image": "foraging/cortinarius.png"
     },
     "Cumin Plant": {
       "level": "40",
