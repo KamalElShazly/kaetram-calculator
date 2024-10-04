@@ -218,139 +218,139 @@
       "level": "1",
       "xp": "10",
       "submaterials": {},
-      "image": "fishes/raw_cory_doras.png"
+      "image": "fishing/raw_cory_doras.png"
     },
     "Shrimp": {
       "level": "1",
       "xp": "10",
       "submaterials": {},
-      "image": "fishes/raw_shrimp.png"
+      "image": "fishing/raw_shrimp.png"
     },
     "Scallops": {
       "level": "5",
       "xp": "20",
       "submaterials": {},
-      "image": "fishes/raw_scallops.png"
+      "image": "fishing/raw_scallops.png"
     },
     "Clownfish": {
       "level": "10",
       "xp": "25",
       "submaterials": {},
-      "image": "fishes/raw_clownfish.png"
+      "image": "fishing/raw_clownfish.png"
     },
     "Sardine": {
       "level": "10",
       "xp": "30",
       "submaterials": {},
-      "image": "fishes/raw_sardine.png"
+      "image": "fishing/raw_sardine.png"
     },
     "Tuna": {
       "level": "15",
       "xp": "35",
       "submaterials": {},
-      "image": "fishes/raw_tuna.png"
+      "image": "fishing/raw_tuna.png"
     },
     "Clam": {
       "level": "20",
       "xp": "50",
       "submaterials": {},
-      "image": "fishes/raw_clam.png"
+      "image": "fishing/raw_clam.png"
     },
     "Tetra": {
       "level": "25",
       "xp": "60",
       "submaterials": {},
-      "image": "fishes/raw_tetra.png"
+      "image": "fishing/raw_tetra.png"
     },
     "Gourami": {
       "level": "33",
       "xp": "75",
       "submaterials": {},
-      "image": "fishes/raw_gourami.png"
+      "image": "fishing/raw_gourami.png"
     },
     "Herring": {
       "level": "40",
       "xp": "90",
       "submaterials": {},
-      "image": "fishes/raw_herring.png"
+      "image": "fishing/raw_herring.png"
     },
     "Skeleton Fish": {
       "level": "40",
       "xp": "70",
       "submaterials": {},
-      "image": "fishes/raw_skeleton_fish.png"
+      "image": "fishing/raw_skeleton_fish.png"
     },
     "Mackerel": {
       "level": "50",
       "xp": "100",
       "submaterials": {},
-      "image": "fishes/raw_mackerel.png"
+      "image": "fishing/raw_mackerel.png"
     },
     "Jellyfish": {
       "level": "50",
       "xp": "90",
       "submaterials": {},
-      "image": "fishes/jellyfish.png"
+      "image": "fishing/jellyfish.png"
     },
     "Purple Tetra": {
       "level": "55",
       "xp": "110",
       "submaterials": {},
-      "image": "fishes/raw_purple_tetra.png"
+      "image": "fishing/raw_purple_tetra.png"
     },
     "Ramshorn Snail": {
       "level": "60",
       "xp": "120",
       "submaterials": {},
-      "image": "fishes/raw_ramshorn_snail.png"
+      "image": "fishing/raw_ramshorn_snail.png"
     },
     "Blue Bass": {
       "level": "63",
       "xp": "120",
       "submaterials": {},
-      "image": "fishes/raw_blue_bass.png"
+      "image": "fishing/raw_blue_bass.png"
     },
     "Halibut": {
       "level": "69",
       "xp": "140",
       "submaterials": {},
-      "image": "fishes/raw_halibut.png"
+      "image": "fishing/raw_halibut.png"
     },
     "Choriaster": {
       "level": "70",
       "xp": "140",
       "submaterials": {},
-      "image": "fishes/raw_choriaster.png"
+      "image": "fishing/raw_choriaster.png"
     },
     "Squid": {
       "level": "75",
       "xp": "160",
       "submaterials": {},
-      "image": "fishes/raw_squid.png"
+      "image": "fishing/raw_squid.png"
     },
     "Eel": {
       "level": "80",
       "xp": "190",
       "submaterials": {},
-      "image": "fishes/raw_eel.png"
+      "image": "fishing/raw_eel.png"
     },
     "Octopus": {
       "level": "87",
       "xp": "210",
       "submaterials": {},
-      "image": "fishes/raw_octopus.png"
+      "image": "fishing/raw_octopus.png"
     },
     "Shark": {
       "level": "93",
       "xp": "275",
       "submaterials": {},
-      "image": "fishes/raw_shark.png"
+      "image": "fishing/raw_shark.png"
     },
     "Manta Ray": {
       "level": "99",
       "xp": "400",
       "submaterials": {},
-      "image": "fishes/raw_manta_ray.png"
+      "image": "fishing/raw_manta_ray.png"
     }
   },
   "Foraging": {
