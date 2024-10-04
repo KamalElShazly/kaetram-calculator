@@ -1,16 +1,17 @@
 import React from "react";
 import "./App.css";
 import { Routes, Route, Navigate, Link } from "react-router-dom";
+import { Box, Tab, Tabs } from "@mui/material";
+import Header from "./components/Header";
+import Woodcutting from "./tabs/Woodcutting";
+import Mining from "./tabs/Mining";
+import Fishing from "./tabs/Fishing";
+import Foraging from "./tabs/Foraging";
+import Fletching from "./tabs/Fletching";
 import Smithing from "./tabs/Smithing";
 import Cooking from "./tabs/Cooking";
-import Fletching from "./tabs/Fletching";
-import Mining from "./tabs/Mining";
-import Woodcutting from "./tabs/Woodcutting";
-import Fishing from "./tabs/Fishing";
 import Alchemy from "./tabs/Alchemy";
-import Header from "./components/Header";
-import { Box, Tab, Tabs } from "@mui/material";
-import Foraging from "./tabs/Foraging";
+import Divinity from "./tabs/Divinity";
 
 const App = () => {
   const [value, setValue] = React.useState(0);
@@ -33,6 +34,7 @@ const App = () => {
             <Tab label="Smithing" component={Link} to="/smithing" />
             <Tab label="Cooking" component={Link} to="/cooking" />
             <Tab label="Alchemy" component={Link} to="/alchemy" />
+            <Tab label="Divinity" component={Link} to="/divinity" />
           </Tabs>
         </Box>
       </Box>
@@ -47,6 +49,7 @@ const App = () => {
         <Route path="smithing" element={<Smithing />} />
         <Route path="cooking" element={<Cooking />} />
         <Route path="alchemy" element={<Alchemy />} />
+        <Route path="divinity" element={<Divinity />} />
       </Routes>
     </>
   );
