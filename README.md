@@ -1,6 +1,6 @@
 # Kaetram Skills calculator
 
-https://chends888.github.io/kaetram-calculator/
+https://kamalelshazly.github.io/kaetram-calculator/
 
 This is a calculator built with React to support calculating Skills XP on Kaetram.
 
