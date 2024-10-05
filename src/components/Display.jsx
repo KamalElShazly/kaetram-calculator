@@ -92,26 +92,6 @@ const Display = ({ level, levelPercentage, targetLevel, element, keywords, skill
                   {skill === "Smithing" ? (
                     // Don't include smelting XP
                     switchValue ? (
-                      element[1]["xp-smith"] === "0" ? (
-                        <ListItemText
-                          primary={
-                            "Total " +
-                            subelement +
-                            ": " +
-                            addCommas(Math.ceil(expGap / parseInt(element[1]["xp-smelt"])) * element[1]["submaterials"][subelement])
-                          }
-                        />
-                      ) : (
-                        <ListItemText
-                          primary={
-                            "Total " +
-                            subelement +
-                            ": " +
-                            addCommas(Math.ceil(expGap / parseInt(element[1]["xp-smith"])) * element[1]["submaterials"][subelement])
-                          }
-                        />
-                      )
-                    ) : (
                       <ListItemText
                         primary={
                           "Total " +
@@ -121,6 +101,24 @@ const Display = ({ level, levelPercentage, targetLevel, element, keywords, skill
                             Math.ceil(expGap / (parseInt(element[1]["xp-smith"]) + parseInt(element[1]["xp-smelt"]))) *
                               element[1]["submaterials"][subelement]
                           )
+                        }
+                      />
+                    ) : element[1]["xp-smith"] === "0" ? (
+                      <ListItemText
+                        primary={
+                          "Total " +
+                          subelement +
+                          ": " +
+                          addCommas(Math.ceil(expGap / parseInt(element[1]["xp-smelt"])) * element[1]["submaterials"][subelement])
+                        }
+                      />
+                    ) : (
+                      <ListItemText
+                        primary={
+                          "Total " +
+                          subelement +
+                          ": " +
+                          addCommas(Math.ceil(expGap / parseInt(element[1]["xp-smith"])) * element[1]["submaterials"][subelement])
                         }
                       />
                     )

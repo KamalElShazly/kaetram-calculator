@@ -32,9 +32,9 @@ const Smithing = () => {
   };
 
   // Smelt or buy bars control
-  const [buyOrSmeltBars, setBuyOrSmeltBars] = useState(true);
-  const updateBuyOrSmeltBars = (buyOrSmeltBars) => {
-    setBuyOrSmeltBars(buyOrSmeltBars);
+  const [smeltBars, setSmeltBars] = useState(true);
+  const updateSmeltBars = (smeltBars) => {
+    setSmeltBars(smeltBars);
   };
 
   const data = artisanData["Smithing"];
@@ -58,13 +58,7 @@ const Smithing = () => {
         }}
       />
       <ToggleButtons data={data} skill="Smithing" currentLevel={currentLevel} updateElement={updateElement} />
-      <CustomSwitch
-        value={buyOrSmeltBars}
-        updateValue={updateBuyOrSmeltBars}
-        element={element}
-        trueText="Smelt Bars"
-        falseText="Buy Bars"
-      />
+      <CustomSwitch value={smeltBars} updateValue={updateSmeltBars} element={element} trueText="Smelt Bars" falseText="Buy Bars" />
       <Display
         level={currentLevel}
         levelPercentage={currentPercentage}
@@ -72,7 +66,7 @@ const Smithing = () => {
         element={element}
         keywords={[""]}
         skill="Smithing"
-        switchValue={buyOrSmeltBars}
+        switchValue={smeltBars}
       />
     </>
   );
