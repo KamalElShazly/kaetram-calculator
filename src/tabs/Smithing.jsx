@@ -71,8 +71,8 @@ const Smithing = () => {
         targetLevel={targetLevel}
         element={element}
         keywords={[""]}
-        buyOrSmeltBars={buyOrSmeltBars}
         skill="Smithing"
+        switchValue={buyOrSmeltBars}
       />
     </>
   );

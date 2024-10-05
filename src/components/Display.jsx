@@ -7,7 +7,7 @@ import ListItemText from "@mui/material/ListItemText";
 
 import expData from "../data/exp_data.json";
 
-const Display = ({ level, levelPercentage, targetLevel, element, keywords, buyOrSmeltBars, skill }) => {
+const Display = ({ level, levelPercentage, targetLevel, element, keywords, skill, switchValue }) => {
   const [expGap, setExpGap] = React.useState(0);
 
   const addCommas = (num) => {
@@ -44,13 +44,7 @@ const Display = ({ level, levelPercentage, targetLevel, element, keywords, buyOr
                 <></>
               ) : skill === "Smithing" ? (
                 // Render results for Smithing
-                buyOrSmeltBars ? (
-                  <ListItemText
-                    primary={
-                      "Total " + element[0] + " " + keywords[0] + ": " + addCommas(Math.ceil(expGap / parseInt(element[1]["xp-smith"])))
-                    }
-                  />
-                ) : (
+                switchValue ? (
                   <ListItemText
                     primary={
                       "Total " +
@@ -59,6 +53,26 @@ const Display = ({ level, levelPercentage, targetLevel, element, keywords, buyOr
                       keywords[0] +
                       ": " +
                       addCommas(Math.ceil(expGap / (parseInt(element[1]["xp-smith"]) + parseInt(element[1]["xp-smelt"]))))
+                    }
+                  />
+                ) : (
+                  <ListItemText
+                    primary={
+                      "Total " + element[0] + " " + keywords[0] + ": " + addCommas(Math.ceil(expGap / parseInt(element[1]["xp-smith"])))
+                    }
+                  />
+                )
+              ) : skill === "Divinity" ? (
+                switchValue ? (
+                  <ListItemText
+                    primary={
+                      "Total " + keywords[0] + " " + element[0] + ": " + addCommas(Math.ceil(expGap / parseInt(element[1]["xp-demon"])))
+                    }
+                  />
+                ) : (
+                  <ListItemText
+                    primary={
+                      "Total " + keywords[0] + " " + element[0] + ": " + addCommas(Math.ceil(expGap / parseInt(element[1]["xp-direct"])))
                     }
                   />
                 )
@@ -77,7 +91,7 @@ const Display = ({ level, levelPercentage, targetLevel, element, keywords, buyOr
                 <ListItem key={subelement}>
                   {skill === "Smithing" ? (
                     // Don't include smelting XP
-                    buyOrSmeltBars ? (
+                    switchValue ? (
                       element[1]["xp-smith"] === "0" ? (
                         <ListItemText
                           primary={

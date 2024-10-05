@@ -6,6 +6,7 @@ import Display from "../components/Display";
 import ToggleButtons from "../components/ToggleButtons";
 
 import artisanData from "../data/artisan_data.json";
+import CustomSwitch from "../components/CustomSwitch";
 
 const Divinity = () => {
   // Person's current level
@@ -30,6 +31,12 @@ const Divinity = () => {
     setElement(element);
   };
 
+  // Soul Demon or use directly control
+  const [useSoulDemon, setUseSoulDemon] = useState(true);
+  const updateUseSoulDemon = (useSoulDemon) => {
+    setUseSoulDemon(useSoulDemon);
+  };
+
   const data = artisanData["Divinity"];
 
   return (
@@ -51,6 +58,13 @@ const Divinity = () => {
         }}
       />
       <ToggleButtons data={data} skill="Divinity" currentLevel={currentLevel} updateElement={updateElement} />
+      <CustomSwitch
+        value={useSoulDemon}
+        updateValue={updateUseSoulDemon}
+        element={element}
+        trueText="Use Soul Demon"
+        falseText="Use Directly"
+      />
 
       <Display
         level={currentLevel}
@@ -59,6 +73,7 @@ const Divinity = () => {
         element={element}
         keywords={[""]}
         skill="Divinity"
+        switchValue={useSoulDemon}
       />
     </>
   );

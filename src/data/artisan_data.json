@@ -1287,37 +1287,43 @@
   "Divinity": {
     "Soul": {
       "level": "0",
-      "xp": "8",
+      "xp-demon": "8",
+      "xp-direct": "5",
       "submaterials": {},
       "image": "divinity/soul.png"
     },
     "Spirit": {
       "level": "0",
-      "xp": "20",
+      "xp-demon": "20",
+      "xp-direct": "13",
       "submaterials": {},
       "image": "divinity/spirit.png"
     },
     "Essence": {
       "level": "0",
-      "xp": "55",
+      "xp-demon": "55",
+      "xp-direct": "35",
       "submaterials": {},
       "image": "divinity/essence.png"
     },
     "Psyche": {
       "level": "0",
-      "xp": "256",
+      "xp-demon": "256",
+      "xp-direct": "166",
       "submaterials": {},
       "image": "divinity/psyche.png"
     },
     "Ethos": {
       "level": "0",
-      "xp": "455",
+      "xp-demon": "455",
+      "xp-direct": "295",
       "submaterials": {},
       "image": "divinity/ethos.png"
     },
     "Pneuma": {
       "level": "0",
-      "xp": "965",
+      "xp-demon": "965",
+      "xp-direct": "627",
       "submaterials": {},
       "image": "divinity/pneuma.png"
     }
