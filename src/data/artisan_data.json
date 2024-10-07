@@ -541,7 +541,7 @@
       "submaterials": {
         "Raw Sausage": "1"
       },
-      "image": "cooking/cooked_sausage.png"
+      "image": "cooking/cooked_sausage.webp"
     },
     "Cooked Clam": {
       "level": "20",
@@ -592,7 +592,8 @@
       "xp": "110",
       "submaterials": {
         "Raw Gourami": "1"
-      }
+      },
+      "image": "cooking/cooked_gourami.png"
     },
     "Cooked Herring": {
       "level": "40",
