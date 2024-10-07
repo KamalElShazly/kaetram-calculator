@@ -8,6 +8,14 @@
       },
       "image": "fletching/watermelon_slice.png"
     },
+    "Sawdust(10x)": {
+      "level": "1",
+      "xp": "10",
+      "submaterials": {
+        "Logs": "1"
+      },
+      "image": "fletching/sawdust.webp"
+    },
     "Stick(4x)": {
       "level": "1",
       "xp": "10",
@@ -945,6 +953,51 @@
         "Coal": "4"
       },
       "image": "alchemy/snowman_pet.png"
+    },
+    "Body Scroll(40x)": {
+      "level": "10",
+      "xp": "60",
+      "submaterials": {
+        "Empty Scroll": "20",
+        "Body Spider Heart": "1"
+      },
+      "image": "alchemy/body_scroll.webp"
+    },
+    "Geo Scroll(40x)": {
+      "level": "15",
+      "xp": "65",
+      "submaterials": {
+        "Empty Scroll": "20",
+        "Geo Spider Heart": "1"
+      },
+      "image": "alchemy/geo_scroll.webp"
+    },
+    "Hydro Scroll(40x)": {
+      "level": "20",
+      "xp": "70",
+      "submaterials": {
+        "Empty Scroll": "20",
+        "Aqua Spider Heart": "1"
+      },
+      "image": "alchemy/hydro_scroll.webp"
+    },
+    "Aero Scroll(40x)": {
+      "level": "25",
+      "xp": "75",
+      "submaterials": {
+        "Empty Scroll": "20",
+        "Aero Spider Heart": "1"
+      },
+      "image": "alchemy/aero_scroll.webp"
+    },
+    "Pyro Scroll(40x)": {
+      "level": "30",
+      "xp": "80",
+      "submaterials": {
+        "Empty Scroll": "20",
+        "Lava Golem Heart": "1"
+      },
+      "image": "alchemy/pyro_scroll.webp"
     }
   },
   "Crafting": {
@@ -980,11 +1033,19 @@
       },
       "image": "crafting/large_empty_vial.png"
     },
+    "Empty Scroll": {
+      "level": "10",
+      "xp": "10",
+      "submaterials": {
+        "Paper": "10"
+      },
+      "image": "crafting/empty_scroll.webp"
+    },
     "Bucket": {
       "level": "10",
-      "xp": "50",
+      "xp": "30",
       "submaterials": {
-        "Log": "5"
+        "Log": "3"
       },
       "image": "crafting/bucket.png"
     },
@@ -996,6 +1057,15 @@
         "Bead": "1"
       },
       "image": "crafting/aqua_staff.png"
+    },
+    "Aero Staff": {
+      "level": "1",
+      "xp": "120",
+      "submaterials": {
+        "Stick": "5",
+        "Aero Bead": "1"
+      },
+      "image": "crafting/aero_staff.webp"
     },
     "Lightning Staff": {
       "level": "10",
