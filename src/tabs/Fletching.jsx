@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "../App.css";
 import Attribute from "../components/Attribute";
 import Display from "../components/Display";
+import Group from "../components/Group";
 import ToggleButtons from "../components/ToggleButtons";
 
 import artisanData from "../data/artisan_data.json";
@@ -50,7 +51,22 @@ const Fletching = () => {
           alignItems: "center",
         }}
       />
-      <ToggleButtons data={data} skill="Fletching" currentLevel={currentLevel} updateElement={updateElement} />
+
+      <Group title="Wood">
+        <ToggleButtons data={data.Wood} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Arrows">
+        <ToggleButtons data={data.Arrows} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Weapons">
+        <ToggleButtons data={data.Weapons} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Misc">
+        <ToggleButtons data={data.Misc} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
 
       <Display
         level={currentLevel}

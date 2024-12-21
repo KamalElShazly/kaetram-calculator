@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "../App.css";
 import Attribute from "../components/Attribute";
 import Display from "../components/Display";
+import Group from "../components/Group";
 import ToggleButtons from "../components/ToggleButtons";
 
 import gatheringData from "../data/gathering_data.json";
@@ -50,7 +51,14 @@ const Fishing = () => {
           alignItems: "center",
         }}
       />
-      <ToggleButtons data={data} skill="Fishing" currentLevel={currentLevel} updateElement={updateElement} />
+
+      <Group title="Pole">
+        <ToggleButtons data={data.Pole} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Cage">
+        <ToggleButtons data={data.Cage} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
 
       <Display
         level={currentLevel}

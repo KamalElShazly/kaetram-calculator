@@ -30,8 +30,8 @@ const App = () => {
             <Tabs value={pathname} variant="scrollable">
               <Tab label="Woodcutting" component={Link} to="/woodcutting" value="/woodcutting" />
               <Tab label="Mining" component={Link} to="/mining" value="/mining" />
-              <Tab label="Fishing" component={Link} to="/fishing" value="/fishing" />
               <Tab label="Foraging" component={Link} to="/foraging" value="/foraging" />
+              <Tab label="Fishing" component={Link} to="/fishing" value="/fishing" />
               <Tab label="Fletching" component={Link} to="/fletching" value="/fletching" />
               <Tab label="Smithing" component={Link} to="/smithing" value="/smithing" />
               <Tab label="Cooking" component={Link} to="/cooking" value="/cooking" />

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "../App.css";
 import Attribute from "../components/Attribute";
 import Display from "../components/Display";
+import Group from "../components/Group";
 import ToggleButtons from "../components/ToggleButtons";
 
 import artisan_data from "../data/artisan_data.json";
@@ -50,7 +51,38 @@ const Crafting = () => {
           alignItems: "center",
         }}
       />
-      <ToggleButtons data={data} skill="Crafting" currentLevel={currentLevel} updateElement={updateElement} />
+
+      <Group title="Misc">
+        <ToggleButtons data={data.Misc} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Staves">
+        <ToggleButtons data={data.Staves} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Rings">
+        <ToggleButtons data={data.Rings} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Necklaces">
+        <ToggleButtons data={data.Necklaces} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Gear">
+        <ToggleButtons data={data.Gear} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Shards">
+        <ToggleButtons data={data.Shards} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Dust">
+        <ToggleButtons data={data.Dust} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Chiseling">
+        <ToggleButtons data={data.Chiseling} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
 
       <Display
         level={currentLevel}

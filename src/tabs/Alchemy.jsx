@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "../App.css";
 import Attribute from "../components/Attribute";
 import Display from "../components/Display";
+import Group from "../components/Group";
 import ToggleButtons from "../components/ToggleButtons";
 
 import artisanData from "../data/artisan_data.json";
@@ -50,7 +51,22 @@ const Alchemy = () => {
           alignItems: "center",
         }}
       />
-      <ToggleButtons data={data} skill="Alchemy" currentLevel={currentLevel} updateElement={updateElement} />
+
+      <Group title="Potions">
+        <ToggleButtons data={data.Potions} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Scrolls">
+        <ToggleButtons data={data.Scrolls} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Gear">
+        <ToggleButtons data={data.Gear} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Misc">
+        <ToggleButtons data={data.Misc} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
 
       <Display
         level={currentLevel}
