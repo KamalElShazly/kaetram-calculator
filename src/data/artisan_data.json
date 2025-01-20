@@ -358,7 +358,151 @@
       }
     }
   },
-  "Smelting": {
+  "Smithing": {
+    "Smelting": {
+      "Molten Glass": {
+        "level": "1",
+        "xp": "5",
+        "submaterials": {
+          "Sand or Glass Shard": "2"
+        }
+      },
+      "Copper Bar": {
+        "level": "1",
+        "xp": "20",
+        "submaterials": {
+          "Copper Ore": "1",
+          "Coal": "1"
+        }
+      },
+      "Copper Block": {
+        "level": "10",
+        "xp": "150",
+        "submaterials": {
+          "Copper Bar": "20"
+        }
+      },
+      "Tin Bar": {
+        "level": "1",
+        "xp": "20",
+        "submaterials": {
+          "Tin Ore": "1",
+          "Coal": "1"
+        }
+      },
+      "Tin Block": {
+        "level": "10",
+        "xp": "150",
+        "submaterials": {
+          "Tin Bar": "20"
+        }
+      },
+      "Bronze Bar": {
+        "level": "5",
+        "xp": "20",
+        "submaterials": {
+          "Copper Ore": "1",
+          "Tin Ore": "1"
+        }
+      },
+      "Bronze Block": {
+        "level": "15",
+        "xp": "150",
+        "submaterials": {
+          "Bronze Bar": "20"
+        }
+      },
+      "Iron Bar": {
+        "level": "20",
+        "xp": "30",
+        "submaterials": {
+          "Iron Ore": "1",
+          "Coal": "1"
+        }
+      },
+      "Iron Block": {
+        "level": "30",
+        "xp": "200",
+        "submaterials": {
+          "Iron Bar": "20"
+        }
+      },
+      "Gold Bar": {
+        "level": "20",
+        "xp": "50",
+        "submaterials": {
+          "Gold Ore": "1",
+          "Coal": "1"
+        }
+      },
+      "Gold Block": {
+        "level": "30",
+        "xp": "250",
+        "submaterials": {
+          "Gold Bar": "20"
+        }
+      },
+      "Nisoc Bar": {
+        "level": "35",
+        "xp": "85",
+        "submaterials": {
+          "Nisoc Ore": "1",
+          "Coal": "1"
+        }
+      },
+      "Nisoc Block": {
+        "level": "45",
+        "xp": "350",
+        "submaterials": {
+          "Nisoc Bar": "20"
+        }
+      },
+      "Cinnabar Bar": {
+        "level": "45",
+        "xp": "110",
+        "submaterials": {
+          "Cinnabar Ore": "1",
+          "Coal": "1"
+        }
+      },
+      "Cinnabar Block": {
+        "level": "55",
+        "xp": "500",
+        "submaterials": {
+          "Cinnabar Bar": "20"
+        }
+      },
+      "Pythar Bar": {
+        "level": "55",
+        "xp": "135",
+        "submaterials": {
+          "Pythar Ore": "1",
+          "Coal": "1"
+        }
+      },
+      "Pythar Block": {
+        "level": "65",
+        "xp": "800",
+        "submaterials": {
+          "Pythar Bar": "20"
+        }
+      },
+      "Ibo Bar": {
+        "level": "65",
+        "xp": "155",
+        "submaterials": {
+          "Ibo Ore": "1",
+          "Coal": "1"
+        }
+      },
+      "Ibo Block": {
+        "level": "70",
+        "xp": "1000",
+        "submaterials": {
+          "Ibo Bar": "20"
+        }
+      }
+    },
     "Paper(10x)": {
       "level": "1",
       "xp": "10",
@@ -367,150 +511,6 @@
         "Water Bucket": "1"
       }
     },
-    "Molten Glass": {
-      "level": "1",
-      "xp": "5",
-      "submaterials": {
-        "Sand or Glass Shard": "2"
-      }
-    },
-    "Copper Bar": {
-      "level": "1",
-      "xp": "20",
-      "submaterials": {
-        "Copper Ore": "1",
-        "Coal": "1"
-      }
-    },
-    "Copper Block": {
-      "level": "10",
-      "xp": "150",
-      "submaterials": {
-        "Copper Bar": "20"
-      }
-    },
-    "Tin Bar": {
-      "level": "1",
-      "xp": "20",
-      "submaterials": {
-        "Tin Ore": "1",
-        "Coal": "1"
-      }
-    },
-    "Tin Block": {
-      "level": "10",
-      "xp": "150",
-      "submaterials": {
-        "Tin Bar": "20"
-      }
-    },
-    "Bronze Bar": {
-      "level": "5",
-      "xp": "20",
-      "submaterials": {
-        "Copper Ore": "1",
-        "Tin Ore": "1"
-      }
-    },
-    "Bronze Block": {
-      "level": "15",
-      "xp": "150",
-      "submaterials": {
-        "Bronze Bar": "20"
-      }
-    },
-    "Iron Bar": {
-      "level": "20",
-      "xp": "30",
-      "submaterials": {
-        "Iron Ore": "1",
-        "Coal": "1"
-      }
-    },
-    "Iron Block": {
-      "level": "30",
-      "xp": "200",
-      "submaterials": {
-        "Iron Bar": "20"
-      }
-    },
-    "Gold Bar": {
-      "level": "20",
-      "xp": "50",
-      "submaterials": {
-        "Gold Ore": "1",
-        "Coal": "1"
-      }
-    },
-    "Gold Block": {
-      "level": "30",
-      "xp": "250",
-      "submaterials": {
-        "Gold Bar": "20"
-      }
-    },
-    "Nisoc Bar": {
-      "level": "35",
-      "xp": "85",
-      "submaterials": {
-        "Nisoc Ore": "1",
-        "Coal": "1"
-      }
-    },
-    "Nisoc Block": {
-      "level": "45",
-      "xp": "350",
-      "submaterials": {
-        "Nisoc Bar": "20"
-      }
-    },
-    "Cinnabar Bar": {
-      "level": "45",
-      "xp": "110",
-      "submaterials": {
-        "Cinnabar Ore": "1",
-        "Coal": "1"
-      }
-    },
-    "Cinnabar Block": {
-      "level": "55",
-      "xp": "500",
-      "submaterials": {
-        "Cinnabar Bar": "20"
-      }
-    },
-    "Pythar Bar": {
-      "level": "55",
-      "xp": "135",
-      "submaterials": {
-        "Pythar Ore": "1",
-        "Coal": "1"
-      }
-    },
-    "Pythar Block": {
-      "level": "65",
-      "xp": "800",
-      "submaterials": {
-        "Pythar Bar": "20"
-      }
-    },
-    "Ibo Bar": {
-      "level": "65",
-      "xp": "155",
-      "submaterials": {
-        "Ibo Ore": "1",
-        "Coal": "1"
-      }
-    },
-    "Ibo Block": {
-      "level": "70",
-      "xp": "1000",
-      "submaterials": {
-        "Ibo Bar": "20"
-      }
-    }
-  },
-  "Smithing": {
     "Nisoc Arrowhead (15x)": {
       "level": "35",
       "xp-smith": "65",

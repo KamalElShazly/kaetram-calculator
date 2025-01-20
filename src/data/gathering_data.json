@@ -230,26 +230,31 @@
       "Shiitake": {
         "level": "1",
         "xp": "15",
+        "submaterials": {},
         "image": "foraging/shiitake.png"
       },
       "Russula": {
         "level": "10",
         "xp": "30",
+        "submaterials": {},
         "image": "foraging/russula.png"
       },
       "Kuriositas": {
         "level": "30",
         "xp": "80",
+        "submaterials": {},
         "image": "foraging/kuriositas.png"
       },
       "Matsutake": {
         "level": "40",
         "xp": "100",
+        "submaterials": {},
         "image": "foraging/matsutake.png"
       },
       "Cortinarius": {
         "level": "50",
         "xp": "115",
+        "submaterials": {},
         "image": "foraging/cortinarius.png"
       }
     },
@@ -257,91 +262,109 @@
       "Blueberry": {
         "level": "1",
         "xp": "15",
+        "submaterials": {},
         "image": "foraging/blueberry.png"
       },
       "Dandelion": {
         "level": "1",
         "xp": "10",
+        "submaterials": {},
         "image": "foraging/dandelion.png"
       },
       "Tomato": {
         "level": "5",
         "xp": "30",
+        "submaterials": {},
         "image": "foraging/tomato.png"
       },
       "Peach": {
         "level": "10",
         "xp": "40",
+        "submaterials": {},
         "image": "foraging/peach.png"
       },
       "Raspberry": {
         "level": "15",
         "xp": "55",
+        "submaterials": {},
         "image": "foraging/raspberry.png"
       },
       "Blue Lily": {
         "level": "20",
         "xp": "70",
+        "submaterials": {},
         "image": "foraging/blue_lily.png"
       },
       "Oat": {
         "level": "20",
         "xp": "60",
+        "submaterials": {},
         "image": "foraging/oat.png"
       },
       "Corn": {
         "level": "30",
         "xp": "100",
+        "submaterials": {},
         "image": "foraging/corn.png"
       },
       "Blackberry": {
         "level": "35",
         "xp": "120",
+        "submaterials": {},
         "image": "foraging/blackberry.png"
       },
       "Banana": {
         "level": "35",
         "xp": "105",
+        "submaterials": {},
         "image": "foraging/banana.png"
       },
       "Cumin Plant": {
         "level": "40",
         "xp": "130",
+        "submaterials": {},
         "image": "foraging/cumin_plant.png"
       },
       "Kiwi": {
         "level": "40",
         "xp": "115",
+        "submaterials": {},
         "image": "foraging/kiwi.png"
       },
       "Paprika": {
         "level": "45",
         "xp": "130",
+        "submaterials": {},
         "image": "foraging/paprika.png"
       },
       "Mustard": {
         "level": "50",
         "xp": "150",
+        "submaterials": {},
         "image": "foraging/mustard.png"
       },
       "Mulberry": {
         "level": "55",
         "xp": "160",
+        "submaterials": {},
         "image": "foraging/mulberry.png"
       },
       "Quinoa": {
         "level": "60",
         "xp": "170",
+        "submaterials": {},
         "image": "foraging/quinoa.png"
       },
       "Galaxy Lily": {
         "level": "60",
         "xp": "150",
+        "submaterials": {},
         "image": "foraging/galaxy_lily.webp"
       },
       "Death Lily": {
         "level": "90",
         "xp": "100",
+        "submaterials": {},
         "image": "foraging/death_lily.webp"
       }
     }
