@@ -52,16 +52,28 @@ const Alchemy = () => {
         }}
       />
 
-      <Group title="Potions">
-        <ToggleButtons data={data.Potions} currentLevel={currentLevel} updateElement={updateElement} />
+      <Group title="Small Potions">
+        <ToggleButtons data={data.Small_Potions} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Medium Potions">
+        <ToggleButtons data={data.Medium_Potions} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Large Potions">
+        <ToggleButtons data={data.Large_Potions} currentLevel={currentLevel} updateElement={updateElement} />
       </Group>
 
       <Group title="Scrolls">
         <ToggleButtons data={data.Scrolls} currentLevel={currentLevel} updateElement={updateElement} />
       </Group>
 
-      <Group title="Gear">
-        <ToggleButtons data={data.Gear} currentLevel={currentLevel} updateElement={updateElement} />
+      <Group title="Equipment">
+        <ToggleButtons data={data.Equipment} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Pets">
+        <ToggleButtons data={data.Pets} currentLevel={currentLevel} updateElement={updateElement} />
       </Group>
 
       <Group title="Misc">

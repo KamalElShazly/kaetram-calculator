@@ -813,16 +813,7 @@
     }
   },
   "Alchemy": {
-    "Potions": {
-      "Hot Sauce": {
-        "level": "1",
-        "xp": "15",
-        "submaterials": {
-          "Small Empty Vial": "1",
-          "Chili": "3"
-        },
-        "image": "alchemy/hot_sauce.png"
-      },
+    "Small_Potions": {
       "Mana Flask": {
         "level": "1",
         "xp": "15",
@@ -843,16 +834,6 @@
         },
         "image": "alchemy/flask.png"
       },
-      "Antidote": {
-        "level": "5",
-        "xp": "35",
-        "submaterials": {
-          "Medium Empty Vial": "1",
-          "Horseradish": "2",
-          "Leaf": "2"
-        },
-        "image": "alchemy/antidote.png"
-      },
       "Divinity Flask": {
         "level": "10",
         "xp": "40",
@@ -862,6 +843,18 @@
           "Mushroom": "2"
         },
         "image": "alchemy/divinity_flask.png"
+      }
+    },
+    "Medium_Potions": {
+      "Antidote": {
+        "level": "5",
+        "xp": "35",
+        "submaterials": {
+          "Medium Empty Vial": "1",
+          "Horseradish": "2",
+          "Leaf": "2"
+        },
+        "image": "alchemy/antidote.png"
       },
       "Black Potion": {
         "level": "15",
@@ -962,6 +955,17 @@
         },
         "image": "alchemy/defense_potion.png"
       },
+      "Hot Sauce": {
+        "level": "60",
+        "xp": "180",
+        "submaterials": {
+          "Medium Empty Vial": "1",
+          "Chili": "4"
+        },
+        "image": "alchemy/hot_sauce.png"
+      }
+    },
+    "Large_Potions": {
       "Speed Potion": {
         "level": "45",
         "xp": "140",
@@ -1048,7 +1052,7 @@
         "submaterials": {
           "Large Empty Vial": "1",
           "Defense Potion": "1",
-          "LapisLazuli Dust": "5"
+          "Lapis Lazuli Dust": "5"
         },
         "image": "alchemy/super_defense_potion.png"
       }
@@ -1100,12 +1104,13 @@
         "image": "alchemy/pyro_scroll.webp"
       }
     },
-    "Gear": {
+    "Equipment": {
       "Fox Gargoyle Helmet": {
         "level": "85",
         "xp": "5000",
         "submaterials": {
-          "Shade Mother Core": "1",
+          "Shade Mother's Core": "1",
+          "Samurai Helmet": "1",
           "Death Lily": "15",
           "Pure Mana Essence": "30",
           "Radioactive Shard": "125"
@@ -1116,7 +1121,8 @@
         "level": "85",
         "xp": "5000",
         "submaterials": {
-          "Shade Mother Core": "1",
+          "Shade Mother's Core": "1",
+          "Samurai Chestplate": "1",
           "Death Lily": "15",
           "Pure Mana Essence": "30",
           "Radioactive Shard": "125"
@@ -1127,7 +1133,8 @@
         "level": "85",
         "xp": "5000",
         "submaterials": {
-          "Shade Mother Core": "1",
+          "Shade Mother's Core": "1",
+          "Samurai Legplates": "1",
           "Death Lily": "15",
           "Pure Mana Essence": "30",
           "Radioactive Shard": "125"
@@ -1138,7 +1145,8 @@
         "level": "85",
         "xp": "5000",
         "submaterials": {
-          "Shade Mother Core": "1",
+          "Shade Mother's Core": "1",
+          "Samurai Geta": "1",
           "Death Lily": "15",
           "Pure Mana Essence": "30",
           "Radioactive Shard": "125"
@@ -1146,17 +1154,28 @@
         "image": "alchemy/fox_graveyard_boots.png"
       }
     },
-    "Misc": {
-      "Snowman": {
-        "level": "75",
-        "xp": "240",
+    "Pets": {
+      "Frozen Kana": {
+        "level": "65",
+        "xp": "7500",
         "submaterials": {
           "Snowball": "35",
           "Witch Hat": "1",
           "Coal": "4"
         },
-        "image": "alchemy/snowman_pet.png"
+        "image": "alchemy/frozen_kana_pet.webp"
       },
+      "Phantom Friend": {
+        "level": "90",
+        "xp": "5000",
+        "submaterials": {
+          "Shade Mother's Core": "1",
+          "Fox Fire": "4"
+        },
+        "image": "alchemy/phantom_friend_pet.webp"
+      }
+    },
+    "Misc": {
       "Pure Mana Essence": {
         "level": "85",
         "xp": "420",
