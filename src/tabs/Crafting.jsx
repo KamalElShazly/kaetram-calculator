@@ -56,8 +56,12 @@ const Crafting = () => {
         <ToggleButtons data={data.Misc} currentLevel={currentLevel} updateElement={updateElement} />
       </Group>
 
-      <Group title="Staves">
-        <ToggleButtons data={data.Staves} currentLevel={currentLevel} updateElement={updateElement} />
+      <Group title="Vials">
+        <ToggleButtons data={data.Vials} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Staffs">
+        <ToggleButtons data={data.Staffs} currentLevel={currentLevel} updateElement={updateElement} />
       </Group>
 
       <Group title="Rings">
@@ -68,8 +72,32 @@ const Crafting = () => {
         <ToggleButtons data={data.Necklaces} currentLevel={currentLevel} updateElement={updateElement} />
       </Group>
 
-      <Group title="Gear">
-        <ToggleButtons data={data.Gear} currentLevel={currentLevel} updateElement={updateElement} />
+      <Group title="Boss Rings">
+        <ToggleButtons data={data.Boss_Rings} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Boss Necklaces">
+        <ToggleButtons data={data.Boss_Necklaces} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Boss Pendants">
+        <ToggleButtons data={data.Boss_Pendants} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Daggers">
+        <ToggleButtons data={data.Daggers} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Shields">
+        <ToggleButtons data={data.Shields} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Equipment">
+        <ToggleButtons data={data.Equipment} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Arrows">
+        <ToggleButtons data={data.Arrows} currentLevel={currentLevel} updateElement={updateElement} />
       </Group>
 
       <Group title="Shards">

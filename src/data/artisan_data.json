@@ -1177,30 +1177,6 @@
         },
         "image": "crafting/string.png"
       },
-      "Small Empty Vial": {
-        "level": "1",
-        "xp": "15",
-        "submaterials": {
-          "Glass": "1"
-        },
-        "image": "crafting/small_empty_vial.png"
-      },
-      "Medium Empty Vial": {
-        "level": "15",
-        "xp": "30",
-        "submaterials": {
-          "Glass": "2"
-        },
-        "image": "crafting/medium_empty_vial.png"
-      },
-      "Large Empty Vial": {
-        "level": "30",
-        "xp": "45",
-        "submaterials": {
-          "Glass": "3"
-        },
-        "image": "crafting/large_empty_vial.png"
-      },
       "Empty Scroll": {
         "level": "10",
         "xp": "10",
@@ -1218,13 +1194,39 @@
         "image": "crafting/bucket.png"
       }
     },
-    "Staves": {
+    "Vials": {
+      "Small Empty Vial": {
+        "level": "1",
+        "xp": "15",
+        "submaterials": {
+          "Molten Glass": "1"
+        },
+        "image": "crafting/small_empty_vial.png"
+      },
+      "Medium Empty Vial": {
+        "level": "15",
+        "xp": "30",
+        "submaterials": {
+          "Molten Glass": "2"
+        },
+        "image": "crafting/medium_empty_vial.png"
+      },
+      "Large Empty Vial": {
+        "level": "30",
+        "xp": "45",
+        "submaterials": {
+          "Molten Glass": "3"
+        },
+        "image": "crafting/large_empty_vial.png"
+      }
+    },
+    "Staffs": {
       "Aqua Staff": {
         "level": "1",
         "xp": "120",
         "submaterials": {
           "Stick": "5",
-          "Bead": "1"
+          "Magic Bead": "1"
         },
         "image": "crafting/aqua_staff.png"
       },
@@ -1275,127 +1277,225 @@
       }
     },
     "Rings": {
-      "Nisoc Ring": {
-        "level": "1",
-        "xp": "70",
-        "submaterials": {
-          "Nisoc Ore": "1",
-          "Slotted Silver Ring": "1"
-        },
-        "image": "crafting/nisoc_ring.png"
-      },
       "Beryl Bronze Ring": {
-        "level": "5",
-        "xp": "100",
+        "level": "7",
+        "xp": "41",
         "submaterials": {
-          "Beryl": "1",
-          "Bronze Ring": "1"
+          "Bronze Socketed Ring": "1",
+          "Beryl Gem": "1"
         },
         "image": "crafting/beryl_bronze_ring.png"
       },
-      "Beryl Silver Ring": {
-        "level": "10",
-        "xp": "155",
+      "Opal Bronze Ring": {
+        "level": "25",
+        "xp": "87",
         "submaterials": {
-          "Beryl": "1",
-          "Slotted Silver Ring": "1"
+          "Bronze Socketed Ring": "1",
+          "Opal Gem": "1"
         },
-        "image": "crafting/beryl_silver_ring.png"
+        "image": "crafting/opal_bronze_ring.png"
       },
-      "Pythar Ring": {
-        "level": "15",
-        "xp": "195",
-        "submaterials": {
-          "Pythar Ore": "1",
-          "Slotted Silver Ring": "1"
-        },
-        "image": "crafting/pythar_ring.png"
-      },
-      "Topaz Ring": {
-        "level": "22",
-        "xp": "230",
-        "submaterials": {
-          "Topaz": "1",
-          "Slotted Gold Ring": "1"
-        },
-        "image": "crafting/topaz_ring.png"
-      },
-      "Emerald Ring 1": {
-        "level": "32",
-        "xp": "280",
-        "submaterials": {
-          "Emerald": "1",
-          "Slotted Silver Ring": "1"
-        },
-        "image": "crafting/emerald_ring_1.png"
-      },
-      "Emerald Ring 2": {
+      "Topaz Bronze Ring": {
         "level": "35",
-        "xp": "320",
+        "xp": "112",
         "submaterials": {
-          "Emerald": "1",
-          "Slotted Gold Ring": "1"
+          "Bronze Socketed Ring": "1",
+          "Topaz Gem": "1"
         },
-        "image": "crafting/emerald_ring_2.png"
+        "image": "crafting/topaz_bronze_ring.png"
       },
-      "Ruby Ring": {
-        "level": "42",
-        "xp": "365",
+      "Axinite Bronze Ring": {
+        "level": "40",
+        "xp": "125",
         "submaterials": {
-          "Ruby": "1",
-          "Slotted Gold Ring": "1"
+          "Bronze Socketed Ring": "1",
+          "Axinite Gem": "1"
         },
-        "image": "crafting/ruby_ring.png"
+        "image": "crafting/axinite_bronze_ring.png"
       },
+      "Lapis Lazuli Silver Ring": {
+        "level": "50",
+        "xp": "150",
+        "submaterials": {
+          "Silver Socketed Ring": "1",
+          "Lapis Lazuli Gem": "1"
+        },
+        "image": "crafting/lapis_lazuli_silver_ring.png"
+      },
+      "Citrine Silver Ring": {
+        "level": "60",
+        "xp": "175",
+        "submaterials": {
+          "Silver Socketed Ring": "1",
+          "Citrine Gem": "1"
+        },
+        "image": "crafting/citrine_silver_ring.png"
+      },
+      "Peridot Silver Ring": {
+        "level": "70",
+        "xp": "201",
+        "submaterials": {
+          "Silver Socketed Ring": "1",
+          "Peridot Gem": "1"
+        },
+        "image": "crafting/peridot_silver_ring.png"
+      },
+      "Emerald Gold Ring": {
+        "level": "75",
+        "xp": "213",
+        "submaterials": {
+          "Gold Socketed Ring": "1",
+          "Emerald Gem": "1"
+        },
+        "image": "crafting/emerald_gold_ring.webp"
+      },
+      "Ruby Gold Ring": {
+        "level": "85",
+        "xp": "239",
+        "submaterials": {
+          "Gold Socketed Ring": "1",
+          "Ruby Gem": "1"
+        },
+        "image": "crafting/ruby_gold_ring.webp"
+      },
+      "Amethyst Gold Ring": {
+        "level": "90",
+        "xp": "251",
+        "submaterials": {
+          "Gold Socketed Ring": "1",
+          "Amethyst Gem": "1"
+        },
+        "image": "crafting/amethyst_gold_ring.webp"
+      }
+    },
+    "Necklaces": {
+      "Beryl Bronze Necklace": {
+        "level": "7",
+        "xp": "41",
+        "submaterials": {
+          "Bronze Socketed Necklace": "1",
+          "Beryl Gem": "1"
+        },
+        "image": "crafting/beryl_bronze_necklace.webp"
+      },
+      "Opal Bronze Necklace": {
+        "level": "25",
+        "xp": "87",
+        "submaterials": {
+          "Bronze Socketed Necklace": "1",
+          "Opal Gem": "1"
+        },
+        "image": "crafting/opal_bronze_necklace.webp"
+      },
+      "Topaz Bronze Necklace": {
+        "level": "35",
+        "xp": "112",
+        "submaterials": {
+          "Bronze Socketed Necklace": "1",
+          "Topaz Gem": "1"
+        },
+        "image": "crafting/topaz_bronze_necklace.webp"
+      },
+      "Axinite Bronze Necklace": {
+        "level": "40",
+        "xp": "125",
+        "submaterials": {
+          "Bronze Socketed Necklace": "1",
+          "Axinite Gem": "1"
+        },
+        "image": "crafting/axinite_bronze_necklace.png"
+      },
+      "Lapis Lazuli Silver Necklace": {
+        "level": "50",
+        "xp": "150",
+        "submaterials": {
+          "Silver Socketed Necklace": "1",
+          "Lapis Lazuli Gem": "1"
+        },
+        "image": "crafting/lapis_lazuli_silver_necklace.webp"
+      },
+      "Citrine Silver Necklace": {
+        "level": "60",
+        "xp": "175",
+        "submaterials": {
+          "Silver Socketed Necklace": "1",
+          "Citrine Gem": "1"
+        },
+        "image": "crafting/citrine_silver_necklace.png"
+      },
+      "Peridot Silver Necklace": {
+        "level": "70",
+        "xp": "201",
+        "submaterials": {
+          "Silver Socketed Necklace": "1",
+          "Peridot Gem": "1"
+        },
+        "image": "crafting/peridot_silver_necklace.webp"
+      },
+      "Emerald Gold Necklace": {
+        "level": "75",
+        "xp": "213",
+        "submaterials": {
+          "Gold Socketed Necklace": "1",
+          "Emerald Gem": "1"
+        },
+        "image": "crafting/emerald_gold_necklace.webp"
+      },
+      "Ruby Gold Necklace": {
+        "level": "85",
+        "xp": "239",
+        "submaterials": {
+          "Gold Socketed Necklace": "1",
+          "Ruby Gem": "1"
+        },
+        "image": "crafting/ruby_gold_necklace.png"
+      },
+      "Amethyst Gold Necklace": {
+        "level": "90",
+        "xp": "251",
+        "submaterials": {
+          "Gold Socketed Necklace": "1",
+          "Amethyst Gem": "1"
+        },
+        "image": "crafting/amethyst_gold_necklace.png"
+      }
+    },
+    "Boss_Rings": {
       "Goblin Eye Ring": {
         "level": "50",
         "xp": "1000",
         "submaterials": {
-          "Slotted Silver Ring": "2",
+          "Silver Socketed Ring": "2",
           "Goblin Eye": "3",
-          "Amethyst": "3"
+          "Citrine Gem": "3"
         },
         "image": "crafting/goblin_eye_ring.png"
+      },
+      "Ethereal Ring": {
+        "level": "85",
+        "xp": "1000",
+        "submaterials": {
+          "Gold Socketed Ring": "2",
+          "Pure Soul": "4",
+          "Ethereal Orb": "20",
+          "Pure Mana Essence": "69"
+        },
+        "image": "crafting/ethereal_ring.png"
       }
     },
-    "Necklaces": {
-      "Beryl Pendant": {
-        "level": "5",
-        "xp": "65",
-        "submaterials": {
-          "Beryl": "1",
-          "String": "1"
-        },
-        "image": "crafting/beryl_pendant.webp"
-      },
-      "Emerald Pendant": {
-        "level": "25",
-        "xp": "230",
-        "submaterials": {
-          "Emerald": "1",
-          "String": "1"
-        },
-        "image": "crafting/emerald_pendant.png"
-      },
-      "Ruby Pendant": {
-        "level": "35",
-        "xp": "270",
-        "submaterials": {
-          "Ruby": "1",
-          "String": "1"
-        },
-        "image": "crafting/ruby_pendant.png"
-      },
+    "Boss_Necklaces": {
       "Goblin Necklace": {
         "level": "50",
         "xp": "1000",
         "submaterials": {
-          "String": "2",
+          "Silver Socketed Necklace": "2",
           "Goblin Tooth": "3",
-          "Ruby Gem": "3"
+          "Lapis Lazuli Gem": "3"
         },
         "image": "crafting/goblin_necklace.png"
-      },
+      }
+    },
+    "Boss_Pendants": {
       "The Innocent Whisper": {
         "level": "70",
         "xp": "5000",
@@ -1420,7 +1520,7 @@
         "level": "70",
         "xp": "5000",
         "submaterials": {
-          "Omni Scienti": "1",
+          "Omniscienti": "1",
           "Left Tentacle of The King": "1",
           "Right Tentacle of The King": "1"
         },
@@ -1440,24 +1540,14 @@
         "level": "80",
         "xp": "10000",
         "submaterials": {
-          "Dew Drop Tear": "1",
+          "Dewdrop Tear": "1",
           "Elder Bast": "1",
           "Mother's Embrace": "1"
         },
         "image": "crafting/the_fury_of_nature.png"
       }
     },
-    "Gear": {
-      "Clam Shield": {
-        "level": "60",
-        "xp": "2000",
-        "submaterials": {
-          "Wooden Shield": "1",
-          "Clam Shield Right": "1",
-          "Clam Shield Left": "1"
-        },
-        "image": "crafting/clam_shield.png"
-      },
+    "Daggers": {
       "Opal Dagger": {
         "level": "65",
         "xp": "2500",
@@ -1478,16 +1568,30 @@
           "Citrine Gem": "20",
           "Lapis Lazuli Gem": "20",
           "Emerald Gem": "60",
-          "Ruby Gem": "600",
+          "Ruby Gem": "60",
           "Amethyst Gem": "80"
         },
-        "image": "crafting/jeweled_dagger.png"
-      },
+        "image": "crafting/jeweled_dagger.webp"
+      }
+    },
+    "Shields": {
+      "Clam Shield": {
+        "level": "60",
+        "xp": "2000",
+        "submaterials": {
+          "Wooden Shield": "1",
+          "Clam Shield Right": "1",
+          "Clam Shield Left": "1"
+        },
+        "image": "crafting/clam_shield.png"
+      }
+    },
+    "Equipment": {
       "Ethereal Mage Helmet": {
         "level": "85",
         "xp": "5000",
         "submaterials": {
-          "Soul Dragon Core": "1",
+          "Soul Dragon's Core": "1",
           "Pure Soul": "4",
           "Soul Logs": "12",
           "Ethereal Orb": "14"
@@ -1498,10 +1602,10 @@
         "level": "85",
         "xp": "5000",
         "submaterials": {
-          "Soul Dragon Core": "1",
+          "Soul Dragon's Core": "1",
           "Pure Soul": "4",
           "Soul Logs": "12",
-          "Ethereal Orb": "14"
+          "Ethereal Orb": "15"
         },
         "image": "crafting/ethereal_mage_chestplate.png"
       },
@@ -1509,10 +1613,10 @@
         "level": "85",
         "xp": "5000",
         "submaterials": {
-          "Soul Dragon Core": "1",
+          "Soul Dragon's Core": "1",
           "Pure Soul": "4",
           "Soul Logs": "12",
-          "Ethereal Orb": "14"
+          "Ethereal Orb": "15"
         },
         "image": "crafting/ethereal_mage_legplates.png"
       },
@@ -1520,12 +1624,50 @@
         "level": "85",
         "xp": "5000",
         "submaterials": {
-          "Soul Dragon Core": "1",
+          "Soul Dragon's Core": "1",
           "Pure Soul": "4",
           "Soul Logs": "12",
-          "Ethereal Orb": "14"
+          "Ethereal Orb": "15"
         },
         "image": "crafting/ethereal_mage_boots.png"
+      }
+    },
+    "Arrows": {
+      "Nisoc Arrow(5x)": {
+        "level": "35",
+        "xp": "8",
+        "submaterials": {
+          "Arrow": "5",
+          "Nisoc Arrowhead": "5"
+        },
+        "image": "fletching/nisoc_arrow.png"
+      },
+      "Cinnabar Arrow(5x)": {
+        "level": "45",
+        "xp": "10",
+        "submaterials": {
+          "Arrow": "5",
+          "Cinnabar Arrowhead": "5"
+        },
+        "image": "fletching/cinnabar_arrow.png"
+      },
+      "Pythar Arrow(5x)": {
+        "level": "55",
+        "xp": "12",
+        "submaterials": {
+          "Arrow": "5",
+          "Pythar Arrowhead": "5"
+        },
+        "image": "fletching/pythar_arrow.png"
+      },
+      "Ibo Arrow(5x)": {
+        "level": "65",
+        "xp": "15",
+        "submaterials": {
+          "Arrow": "5",
+          "Ibo Arrowhead": "5"
+        },
+        "image": "fletching/ibo_arrow.png"
       }
     },
     "Shards": {
@@ -1569,7 +1711,23 @@
         "submaterials": {
           "Opal": "1"
         },
-        "image": "crafting/opal_dust.png"
+        "image": "crafting/opal_dust.webp"
+      },
+      "Axinite Dust(5x)": {
+        "level": "1",
+        "xp": "5",
+        "submaterials": {
+          "Axinite": "1"
+        },
+        "image": "crafting/axinite_dust.webp"
+      },
+      "Lapis Lazuli Dust(5x)": {
+        "level": "1",
+        "xp": "5",
+        "submaterials": {
+          "Lapis Lazuli": "1"
+        },
+        "image": "crafting/lapis_lazuli_dust.webp"
       },
       "Emerald Dust(5x)": {
         "level": "1",
@@ -1577,7 +1735,7 @@
         "submaterials": {
           "Emerald": "1"
         },
-        "image": "crafting/emerald_dust.png"
+        "image": "crafting/emerald_dust.webp"
       },
       "Ruby Dust(5x)": {
         "level": "1",
@@ -1593,97 +1751,89 @@
         "submaterials": {
           "Amethyst": "1"
         },
-        "image": "crafting/amethyst_dust.png"
-      },
-      "Lapis Lazuli Dust(5x)": {
-        "level": "1",
-        "xp": "5",
-        "submaterials": {
-          "Lapis Lazuli": "1"
-        },
-        "image": "crafting/lapis_lazuli_dust.png"
+        "image": "crafting/amethyst_dust.webp"
       }
     },
     "Chiseling": {
       "Beryl Gem": {
-        "level": "1",
-        "xp": "10",
+        "level": "5",
+        "xp": "18",
         "submaterials": {
           "Beryl": "1"
         },
         "image": "crafting/beryl_gem.png"
       },
       "Opal Gem": {
-        "level": "1",
-        "xp": "10",
+        "level": "20",
+        "xp": "37",
         "submaterials": {
           "Opal": "1"
         },
         "image": "crafting/opal_gem.png"
       },
       "Topaz Gem": {
-        "level": "1",
-        "xp": "10",
+        "level": "30",
+        "xp": "49",
         "submaterials": {
           "Topaz": "1"
         },
         "image": "crafting/topaz_gem.png"
       },
       "Axinite Gem": {
-        "level": "1",
-        "xp": "10",
+        "level": "35",
+        "xp": "56",
         "submaterials": {
           "Axinite": "1"
         },
-        "image": "crafting/axinite_gem.png"
+        "image": "crafting/axinite_gem.webp"
+      },
+      "Lapis Lazuli Gem": {
+        "level": "45",
+        "xp": "68",
+        "submaterials": {
+          "Lapis Lazuli": "1"
+        },
+        "image": "crafting/lapis_lazuli_gem.webp"
       },
       "Citrine Gem": {
-        "level": "1",
-        "xp": "10",
+        "level": "55",
+        "xp": "81",
         "submaterials": {
           "Citrine": "1"
         },
-        "image": "crafting/citrine_gem.png"
+        "image": "crafting/citrine_gem.webp"
       },
       "Peridot Gem": {
-        "level": "1",
-        "xp": "10",
+        "level": "65",
+        "xp": "94",
         "submaterials": {
           "Peridot": "1"
         },
         "image": "crafting/peridot_gem.png"
       },
-      "Lapis Lazuli Gem": {
-        "level": "1",
-        "xp": "10",
-        "submaterials": {
-          "Lapis Lazuli": "1"
-        },
-        "image": "crafting/lapis_lazuli_gem.png"
-      },
       "Emerald Gem": {
-        "level": "1",
-        "xp": "10",
+        "level": "70",
+        "xp": "100",
         "submaterials": {
           "Emerald": "1"
         },
         "image": "crafting/emerald_gem.png"
       },
       "Ruby Gem": {
-        "level": "1",
-        "xp": "10",
+        "level": "78",
+        "xp": "110",
         "submaterials": {
           "Ruby": "1"
         },
-        "image": "crafting/ruby_gem.png"
+        "image": "crafting/ruby_gem.webp"
       },
       "Amethyst Gem": {
-        "level": "1",
-        "xp": "10",
+        "level": "83",
+        "xp": "117",
         "submaterials": {
           "Amethyst": "1"
         },
-        "image": "crafting/amethyst_gem.png"
+        "image": "crafting/amethyst_gem.webp"
       }
     }
   },
