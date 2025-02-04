@@ -100,45 +100,45 @@
   "Mining": {
     "Copper Ore": {
       "level": "1",
-      "xp": "30",
+      "xp": "24",
       "submaterials": {},
       "image": "mining/copper_ore.png"
     },
     "Tin Ore": {
       "level": "1",
-      "xp": "30",
+      "xp": "24",
       "submaterials": {},
       "image": "mining/tin_ore.png"
     },
-    "Coal": {
-      "level": "1",
-      "xp": "20",
-      "submaterials": {},
-      "image": "mining/coal.png"
-    },
     "Beryl": {
-      "level": "1",
-      "xp": "20",
+      "level": "5",
+      "xp": "35",
       "submaterials": {},
       "image": "mining/beryl.png"
     },
+    "Coal": {
+      "level": "10",
+      "xp": "48",
+      "submaterials": {},
+      "image": "mining/coal.png"
+    },
     "Iron Ore": {
-      "level": "15",
-      "xp": "45",
+      "level": "20",
+      "xp": "74",
       "submaterials": {},
       "image": "mining/iron_ore.png"
     },
     "Opal": {
-      "level": "15",
-      "xp": "60",
+      "level": "20",
+      "xp": "74",
       "submaterials": {},
       "image": "mining/opal.png"
     },
     "Topaz": {
-      "level": "25",
-      "xp": "90",
+      "level": "30",
+      "xp": "100",
       "submaterials": {},
-      "image": "mining/topaz.png"
+      "image": "mining/topaz.webp"
     },
     "Nisoc Ore": {
       "level": "30",
@@ -146,23 +146,11 @@
       "submaterials": {},
       "image": "mining/nisoc_ore.webp"
     },
-    "Gold Ore": {
-      "level": "30",
-      "xp": "120",
-      "submaterials": {},
-      "image": "mining/gold_ore.png"
-    },
     "Axinite": {
-      "level": "30",
-      "xp": "130",
-      "submaterials": {},
-      "image": "mining/axinite.png"
-    },
-    "Cinnabar Ore": {
       "level": "35",
-      "xp": "105",
+      "xp": "113",
       "submaterials": {},
-      "image": "mining/cinnabar_ore.png"
+      "image": "mining/axinite.webp"
     },
     "Space Rock": {
       "level": "40",
@@ -170,57 +158,75 @@
       "submaterials": {},
       "image": "mining/space_rock.webp"
     },
-    "Pythar Ore": {
-      "level": "45",
-      "xp": "125",
+    "Silver Ore": {
+      "level": "40",
+      "xp": "126",
       "submaterials": {},
-      "image": "mining/pythar_ore.png"
+      "image": "mining/silver_ore.png"
     },
     "Lapis Lazuli": {
       "level": "45",
-      "xp": "140",
+      "xp": "139",
       "submaterials": {},
-      "image": "mining/lapis_lazuli.png"
+      "image": "mining/lapis_lazuli.webp"
+    },
+    "Cinnabar Ore": {
+      "level": "50",
+      "xp": "153",
+      "submaterials": {},
+      "image": "mining/cinnabar_ore.png"
     },
     "Citrine": {
-      "level": "50",
-      "xp": "150",
+      "level": "55",
+      "xp": "166",
       "submaterials": {},
       "image": "mining/citrine.webp"
     },
-    "Peridot": {
-      "level": "55",
-      "xp": "160",
+    "Pythar Ore": {
+      "level": "65",
+      "xp": "192",
       "submaterials": {},
-      "image": "mining/peridot.png"
+      "image": "mining/pythar_ore.webp"
     },
-    "Ibo Ore": {
-      "level": "55",
-      "xp": "150",
+    "Peridot": {
+      "level": "65",
+      "xp": "192",
       "submaterials": {},
-      "image": "mining/ibo_ore.png"
+      "image": "mining/peridot.webp"
     },
     "Emerald": {
-      "level": "57",
-      "xp": "170",
+      "level": "70",
+      "xp": "205",
       "submaterials": {},
       "image": "mining/emerald.png"
     },
-    "Ruby": {
-      "level": "62",
-      "xp": "180",
+    "Gold Ore": {
+      "level": "75",
+      "xp": "218",
       "submaterials": {},
-      "image": "mining/ruby.png"
+      "image": "mining/gold_ore.png"
+    },
+    "Ruby": {
+      "level": "78",
+      "xp": "226",
+      "submaterials": {},
+      "image": "mining/ruby.webp"
     },
     "Amethyst": {
-      "level": "65",
-      "xp": "200",
+      "level": "83",
+      "xp": "239",
       "submaterials": {},
       "image": "mining/amethyst.png"
     },
+    "Ibo Ore": {
+      "level": "85",
+      "xp": "244",
+      "submaterials": {},
+      "image": "mining/ibo_ore.png"
+    },
     "Meteorite Ore": {
       "level": "90",
-      "xp": "350",
+      "xp": "257",
       "submaterials": {},
       "image": "mining/meteorite_ore.png"
     }
