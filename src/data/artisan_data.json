@@ -1,19 +1,11 @@
 {
   "Fletching": {
-    "Wood": {
-      "Sawdust(10x)": {
+    "Sticks": {
+      "Stick(5x)": {
         "level": "1",
         "xp": "10",
         "submaterials": {
-          "Logs": "1"
-        },
-        "image": "fletching/sawdust.webp"
-      },
-      "Stick(4x)": {
-        "level": "1",
-        "xp": "10",
-        "submaterials": {
-          "Oak Logs": "1"
+          "Oak Log": "1"
         },
         "image": "fletching/stick.png"
       },
@@ -21,7 +13,7 @@
         "level": "5",
         "xp": "15",
         "submaterials": {
-          "Palm Logs": "1"
+          "Palm Log": "1"
         },
         "image": "fletching/palm_stick.png"
       },
@@ -29,66 +21,82 @@
         "level": "10",
         "xp": "20",
         "submaterials": {
-          "Heliphatit Logs": "1"
+          "Heliphatit Log": "1"
         },
         "image": "fletching/heliphatit_stick.png"
       },
       "Zoncil Stick(6x)": {
         "level": "20",
-        "xp": "30",
+        "xp": "32",
         "submaterials": {
-          "Zoncil Logs": "1"
+          "Zoncil Log": "1"
         },
         "image": "fletching/zoncil_stick.png"
       },
-      "Zondul Stick(6x)": {
-        "level": "20",
-        "xp": "30",
+      "Zondul Stick(8x)": {
+        "level": "25",
+        "xp": "39",
         "submaterials": {
-          "Zondul Logs": "1"
+          "Zondul Log": "1"
         },
         "image": "fletching/zondul_stick.png"
       },
       "Pine Stick(8x)": {
         "level": "30",
-        "xp": "40",
+        "xp": "46",
         "submaterials": {
-          "Pine Logs": "1"
+          "Pine Log": "1"
         },
         "image": "fletching/pine_stick.png"
       },
       "Ice Stick(10x)": {
         "level": "35",
-        "xp": "45",
+        "xp": "52",
         "submaterials": {
-          "Ice Logs": "1"
+          "Ice Log": "1"
         },
         "image": "fletching/ice_stick.png"
       },
       "Ice Palm Stick(10x)": {
         "level": "40",
-        "xp": "50",
+        "xp": "60",
         "submaterials": {
-          "Ice Palm Logs": "1"
+          "Ice Palm Log": "1"
         },
         "image": "fletching/ice_palm_stick.png"
       },
       "Bloodwood Stick(10x)": {
         "level": "60",
-        "xp": "70",
+        "xp": "87",
         "submaterials": {
-          "Bloodwood Logs": "1"
+          "Bloodwood Log": "1"
         },
         "image": "fletching/bloodwood_stick.png"
+      },
+      "Flastel Stick(10x)": {
+        "level": "70",
+        "xp": "96",
+        "submaterials": {
+          "Flastel Log": "1"
+        },
+        "image": "fletching/flastel_stick.webp"
+      },
+      "Puhrix Stick(10x)": {
+        "level": "80",
+        "xp": "107",
+        "submaterials": {
+          "Puhrix Log": "1"
+        },
+        "image": "fletching/puhrix_stick.webp"
       }
     },
     "Arrows": {
-      "Arrow(5x)": {
+      "Arrow(25x)": {
         "level": "1",
         "xp": "2",
         "submaterials": {
-          "Stick": "1",
-          "Feather": "5"
+          "Stick": "5",
+          "Feather": "25"
         },
         "image": "fletching/arrow.png"
       },
@@ -188,16 +196,7 @@
         "image": "fletching/ice_arrow.png"
       }
     },
-    "Weapons": {
-      "Wooden Dagger": {
-        "level": "5",
-        "xp": "30",
-        "submaterials": {
-          "Log": "20",
-          "Pine Log": "5"
-        },
-        "image": "fletching/wooden_dagger.png"
-      },
+    "Bows": {
       "Wooden Bow": {
         "level": "5",
         "xp": "30",
@@ -271,16 +270,16 @@
         },
         "image": "fletching/axinite_bow.png"
       },
-      "Lapislazuli Bow": {
+      "Lapis Lazuli Bow": {
         "level": "30",
         "xp": "240",
         "submaterials": {
           "Any Stick": "3",
           "String": "2",
           "Nisoc Bar": "5",
-          "Lapislazuli": "10"
+          "Lapis Lazuli": "10"
         },
-        "image": "fletching/lapislazuli_bow.png"
+        "image": "fletching/lapis_lazuli_bow.png"
       },
       "Citrine Bow": {
         "level": "35",
@@ -347,6 +346,14 @@
         },
         "image": "fletching/watermelon_slice.png"
       },
+      "Sawdust(10x)": {
+        "level": "1",
+        "xp": "10",
+        "submaterials": {
+          "Log": "1"
+        },
+        "image": "fletching/sawdust.webp"
+      },
       "Torch": {
         "level": "3",
         "xp": "15",
@@ -355,6 +362,23 @@
           "Coal": "1"
         },
         "image": "fletching/torch.png"
+      },
+      "Raw Clam": {
+        "level": "1",
+        "xp": "0",
+        "submaterials": {
+          "Clam": "1"
+        },
+        "image": "fishing/raw_clam.png"
+      },
+      "Wooden Dagger": {
+        "level": "5",
+        "xp": "10",
+        "submaterials": {
+          "Log": "20",
+          "Pine Log": "5"
+        },
+        "image": "fletching/wooden_dagger.png"
       }
     }
   },

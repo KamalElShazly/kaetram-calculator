@@ -52,16 +52,16 @@ const Fletching = () => {
         }}
       />
 
-      <Group title="Wood">
-        <ToggleButtons data={data.Wood} currentLevel={currentLevel} updateElement={updateElement} />
+      <Group title="Sticks">
+        <ToggleButtons data={data.Sticks} currentLevel={currentLevel} updateElement={updateElement} />
       </Group>
 
       <Group title="Arrows">
         <ToggleButtons data={data.Arrows} currentLevel={currentLevel} updateElement={updateElement} />
       </Group>
 
-      <Group title="Weapons">
-        <ToggleButtons data={data.Weapons} currentLevel={currentLevel} updateElement={updateElement} />
+      <Group title="Bows">
+        <ToggleButtons data={data.Bows} currentLevel={currentLevel} updateElement={updateElement} />
       </Group>
 
       <Group title="Misc">
