@@ -1931,6 +1931,13 @@
       "xp-direct": "627",
       "submaterials": {},
       "image": "divinity/pneuma.png"
+    },
+    "Pure Soul": {
+      "level": "0",
+      "xp-demon": "2500",
+      "xp-direct": "1625",
+      "submaterials": {},
+      "image": "divinity/pure_soul.webp"
     }
   }
 }
