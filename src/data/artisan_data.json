@@ -382,194 +382,1551 @@
       }
     }
   },
+  "Smelting": {
+    "Molten Glass": {
+      "level": "1",
+      "xp": "5",
+      "submaterials": {
+        "Sand or Glass Shard": "2"
+      },
+      "image": "smelting/molten_glass.webp"
+    },
+    "Copper Bar": {
+      "level": "1",
+      "xp": "24",
+      "submaterials": {
+        "Copper Ore": "1"
+      },
+      "image": "smelting/copper_bar.png"
+    },
+    "Copper Block": {
+      "level": "10",
+      "xp": "96",
+      "submaterials": {
+        "Copper Bar": "20"
+      },
+      "image": "smelting/copper_block.webp"
+    },
+    "Bronze Bar": {
+      "level": "10",
+      "xp": "48",
+      "submaterials": {
+        "Copper Ore": "1",
+        "Tin Ore": "1"
+      },
+      "image": "smelting/bronze_bar.png"
+    },
+    "Bronze Block": {
+      "level": "20",
+      "xp": "192",
+      "submaterials": {
+        "Bronze Bar": "20"
+      },
+      "image": "smelting/bronze_block.webp"
+    },
+    "Iron Bar": {
+      "level": "20",
+      "xp": "74",
+      "submaterials": {
+        "Iron Ore": "1",
+        "Coal": "2"
+      },
+      "image": "smelting/iron_bar.webp"
+    },
+    "Iron Block": {
+      "level": "30",
+      "xp": "296",
+      "submaterials": {
+        "Iron Bar": "20"
+      },
+      "image": "smelting/iron_block.webp"
+    },
+    "Nisoc Bar": {
+      "level": "30",
+      "xp": "100",
+      "submaterials": {
+        "Nisoc Ore": "1",
+        "Coal": "3"
+      },
+      "image": "smelting/nisoc_bar.png"
+    },
+    "Nisoc Block": {
+      "level": "40",
+      "xp": "400",
+      "submaterials": {
+        "Nisoc Bar": "20"
+      },
+      "image": "smelting/nisoc_block.webp"
+    },
+    "Silver Bar": {
+      "level": "40",
+      "xp": "126",
+      "submaterials": {
+        "Silver Ore": "1",
+        "Coal": "4"
+      },
+      "image": "smelting/silver_bar.png"
+    },
+    "Silver Block": {
+      "level": "50",
+      "xp": "504",
+      "submaterials": {
+        "Silver Bar": "20"
+      },
+      "image": "smelting/silver_block.webp"
+    },
+    "Cinnabar Bar": {
+      "level": "50",
+      "xp": "153",
+      "submaterials": {
+        "Cinnabar Ore": "1",
+        "Coal": "4"
+      },
+      "image": "smelting/cinnabar_bar.png"
+    },
+    "Cinnabar Block": {
+      "level": "60",
+      "xp": "612",
+      "submaterials": {
+        "Cinnabar Bar": "20"
+      },
+      "image": "smelting/cinnabar_block.png"
+    },
+    "Pythar Bar": {
+      "level": "65",
+      "xp": "192",
+      "submaterials": {
+        "Pythar Ore": "1",
+        "Coal": "4"
+      },
+      "image": "smelting/pythar_bar.webp"
+    },
+    "Pythar Block": {
+      "level": "75",
+      "xp": "768",
+      "submaterials": {
+        "Pythar Bar": "20"
+      },
+      "image": "smelting/pythar_block.webp"
+    },
+    "Gold Bar": {
+      "level": "75",
+      "xp": "218",
+      "submaterials": {
+        "Gold Ore": "1",
+        "Coal": "4"
+      },
+      "image": "smelting/gold_bar.png"
+    },
+    "Gold Block": {
+      "level": "85",
+      "xp": "872",
+      "submaterials": {
+        "Gold Bar": "20"
+      },
+      "image": "smelting/gold_block.webp"
+    },
+    "Ibo Bar": {
+      "level": "85",
+      "xp": "244",
+      "submaterials": {
+        "Ibo Ore": "1",
+        "Coal": "4"
+      },
+      "image": "smelting/ibo_bar.webp"
+    },
+    "Ibo Block": {
+      "level": "95",
+      "xp": "976",
+      "submaterials": {
+        "Ibo Bar": "20"
+      },
+      "image": "smelting/ibo_block.webp"
+    },
+    "Meteorite Bar": {
+      "level": "95",
+      "xp": "270",
+      "submaterials": {
+        "Meteorite Ore": "1",
+        "Coal": "4"
+      },
+      "image": "smelting/meteorite_bar.png"
+    }
+  },
   "Smithing": {
-    "Smelting": {
-      "Molten Glass": {
+    "Misc": {
+      "Paper(10x)": {
         "level": "1",
-        "xp": "5",
+        "xp": "10",
         "submaterials": {
-          "Sand or Glass Shard": "2"
-        }
-      },
-      "Copper Bar": {
-        "level": "1",
-        "xp": "20",
-        "submaterials": {
-          "Copper Ore": "1",
-          "Coal": "1"
-        }
-      },
-      "Copper Block": {
-        "level": "10",
-        "xp": "150",
-        "submaterials": {
-          "Copper Bar": "20"
-        }
-      },
-      "Tin Bar": {
-        "level": "1",
-        "xp": "20",
-        "submaterials": {
-          "Tin Ore": "1",
-          "Coal": "1"
-        }
-      },
-      "Tin Block": {
-        "level": "10",
-        "xp": "150",
-        "submaterials": {
-          "Tin Bar": "20"
-        }
-      },
-      "Bronze Bar": {
-        "level": "5",
-        "xp": "20",
-        "submaterials": {
-          "Copper Ore": "1",
-          "Tin Ore": "1"
-        }
-      },
-      "Bronze Block": {
-        "level": "15",
-        "xp": "150",
-        "submaterials": {
-          "Bronze Bar": "20"
-        }
-      },
-      "Iron Bar": {
-        "level": "20",
-        "xp": "30",
-        "submaterials": {
-          "Iron Ore": "1",
-          "Coal": "1"
-        }
-      },
-      "Iron Block": {
-        "level": "30",
-        "xp": "200",
-        "submaterials": {
-          "Iron Bar": "20"
-        }
+          "Sawdust": "50",
+          "Water Bucket": "1"
+        },
+        "image": "smithing/paper.webp"
       },
       "Gold Bar": {
+        "level": "1",
+        "xp": "15",
+        "submaterials": {
+          "Gold Nugget": "1"
+        },
+        "image": "smelting/gold_bar.png"
+      },
+      "Glass": {
+        "level": "1",
+        "xp": "10",
+        "submaterials": {
+          "Molten Glass": "1"
+        },
+        "image": "smithing/glass.webp"
+      },
+      "Glass Shards(2x)": {
+        "level": "1",
+        "xp": "1",
+        "submaterials": {
+          "Any Vial": "2"
+        },
+        "image": "smithing/glass_shard.webp"
+      },
+      "Shiny Dagger": {
         "level": "20",
-        "xp": "50",
+        "xp": "25",
         "submaterials": {
-          "Gold Ore": "1",
-          "Coal": "1"
-        }
+          "Wooden Dagger": "1",
+          "Bronze Block": "10",
+          "Iron Block": "10"
+        },
+        "image": "smithing/shiny_dagger.png"
       },
-      "Gold Block": {
-        "level": "30",
-        "xp": "250",
-        "submaterials": {
-          "Gold Bar": "20"
-        }
-      },
-      "Nisoc Bar": {
-        "level": "35",
-        "xp": "85",
-        "submaterials": {
-          "Nisoc Ore": "1",
-          "Coal": "1"
-        }
-      },
-      "Nisoc Block": {
-        "level": "45",
-        "xp": "350",
-        "submaterials": {
-          "Nisoc Bar": "20"
-        }
-      },
-      "Cinnabar Bar": {
-        "level": "45",
-        "xp": "110",
-        "submaterials": {
-          "Cinnabar Ore": "1",
-          "Coal": "1"
-        }
-      },
-      "Cinnabar Block": {
+      "Dark Dagger": {
         "level": "55",
-        "xp": "500",
+        "xp": "2500",
         "submaterials": {
-          "Cinnabar Bar": "20"
-        }
+          "Shiny Dagger": "1",
+          "Nisoc Block": "10",
+          "Cinnabar Block": "15"
+        },
+        "image": "smithing/dark_dagger.webp"
       },
-      "Pythar Bar": {
-        "level": "55",
-        "xp": "135",
+      "Light Dagger": {
+        "level": "75",
+        "xp": "5000",
         "submaterials": {
-          "Pythar Ore": "1",
-          "Coal": "1"
-        }
+          "Dark Dagger": "1",
+          "Pythar Block": "20",
+          "Ibo Block": "6"
+        },
+        "image": "smithing/light_dagger.webp"
       },
-      "Pythar Block": {
-        "level": "65",
-        "xp": "800",
-        "submaterials": {
-          "Pythar Bar": "20"
-        }
-      },
-      "Ibo Bar": {
-        "level": "65",
-        "xp": "155",
-        "submaterials": {
-          "Ibo Ore": "1",
-          "Coal": "1"
-        }
-      },
-      "Ibo Block": {
-        "level": "70",
+      "Ruthless Dragon Scale": {
+        "level": "80",
         "xp": "1000",
         "submaterials": {
-          "Ibo Bar": "20"
-        }
+          "Dragon Scale": "1",
+          "Iron Block": "10",
+          "Nisoc Block": "5",
+          "Ruby Gem": "10",
+          "Ruby": "5",
+          "Dragonblood Vial": "10"
+        },
+        "image": "smithing/ruthless_dragon_scale.png"
       }
     },
-    "Paper(10x)": {
-      "level": "1",
-      "xp": "10",
-      "submaterials": {
-        "Sawdust": "50",
-        "Water Bucket": "1"
+    "Copper": {
+      "Small Copper Figurine": {
+        "level": "1",
+        "xp": "6",
+        "submaterials": {
+          "Copper Bar": "1"
+        },
+        "image": "smithing/copper_figurine_small.webp"
+      },
+      "Copper Handle": {
+        "level": "1",
+        "xp": "18",
+        "submaterials": {
+          "Copper Bar": "1",
+          "Log": "1"
+        },
+        "image": "smithing/copper_handle.webp"
+      },
+      "Copper Arrowhead(20x)": {
+        "level": "2",
+        "xp": "16",
+        "submaterials": {
+          "Copper Bar": "2"
+        },
+        "image": "smithing/copper_arrowhead.webp"
+      },
+      "Copper Helmet": {
+        "level": "2",
+        "xp": "16",
+        "submaterials": {
+          "Copper Bar": "2"
+        },
+        "image": "smithing/copper_helmet.webp"
+      },
+      "Copper Boots": {
+        "level": "3",
+        "xp": "30",
+        "submaterials": {
+          "Copper Bar": "3",
+          "String": "6"
+        },
+        "image": "smithing/copper_boots.webp"
+      },
+      "Copper Shield": {
+        "level": "4",
+        "xp": "34",
+        "submaterials": {
+          "Copper Bar": "3",
+          "Log": "1"
+        },
+        "image": "smithing/copper_shield.webp"
+      },
+      "Medium Copper Figurine": {
+        "level": "5",
+        "xp": "18",
+        "submaterials": {
+          "Copper Bar": "3"
+        },
+        "image": "smithing/copper_figurine_medium.webp"
+      },
+      "Copper Pickaxe": {
+        "level": "5",
+        "xp": "34",
+        "submaterials": {
+          "Copper Bar": "3",
+          "Copper Handle": "1"
+        },
+        "image": "smithing/copper_pickaxe.png"
+      },
+      "Copper Axe": {
+        "level": "5",
+        "xp": "34",
+        "submaterials": {
+          "Copper Bar": "3",
+          "Copper Handle": "1"
+        },
+        "image": "smithing/copper_axe.png"
+      },
+      "Copper Scythe": {
+        "level": "5",
+        "xp": "34",
+        "submaterials": {
+          "Copper Bar": "3",
+          "Copper Handle": "1"
+        },
+        "image": "smithing/copper_scythe.png"
+      },
+      "Copper Sword": {
+        "level": "7",
+        "xp": "44",
+        "submaterials": {
+          "Copper Bar": "4",
+          "Copper Handle": "1"
+        },
+        "image": "smithing/copper_sword.webp"
+      },
+      "Copper Legplates": {
+        "level": "8",
+        "xp": "32",
+        "submaterials": {
+          "Copper Bar": "4"
+        },
+        "image": "smithing/copper_legplates.webp"
+      },
+      "Copper Chestplate": {
+        "level": "9",
+        "xp": "55",
+        "submaterials": {
+          "Copper Bar": "5",
+          "String": "15"
+        },
+        "image": "smithing/copper_chestplate.webp"
+      },
+      "Large Copper Figurine": {
+        "level": "10",
+        "xp": "36",
+        "submaterials": {
+          "Copper Bar": "6"
+        },
+        "image": "smithing/copper_figurine_large.webp"
+      },
+      "Copper Greatsword": {
+        "level": "11",
+        "xp": "60",
+        "submaterials": {
+          "Copper Bar": "6",
+          "Copper Handle": "1"
+        },
+        "image": "smithing/copper_greatsword.webp"
       }
     },
-    "Nisoc Arrowhead (15x)": {
-      "level": "35",
-      "xp-smith": "65",
-      "xp-smelt": "20",
-      "submaterials": {
-        "Nisoc Bar": "1"
+    "Bronze": {
+      "Small Bronze Figurine": {
+        "level": "10",
+        "xp": "12",
+        "submaterials": {
+          "Bronze Bar": "1"
+        },
+        "image": "smithing/bronze_figurine_small.webp"
       },
-      "image": "smithing/nisoc_arrowhead.png"
+      "Bronze Handle": {
+        "level": "10",
+        "xp": "32",
+        "submaterials": {
+          "Bronze Bar": "1",
+          "Palm Log": "1"
+        },
+        "image": "smithing/bronze_handle.webp"
+      },
+      "Bronze Arrowhead(20x)": {
+        "level": "11",
+        "xp": "36",
+        "submaterials": {
+          "Bronze Bar": "2"
+        },
+        "image": "smithing/bronze_arrowhead.webp"
+      },
+      "Bronze Helmet": {
+        "level": "11",
+        "xp": "61",
+        "submaterials": {
+          "Bronze Bar": "2",
+          "Hide": "1"
+        },
+        "image": "smithing/bronze_helmet.webp"
+      },
+      "Bronze Boots": {
+        "level": "12",
+        "xp": "63",
+        "submaterials": {
+          "Bronze Bar": "3",
+          "String": "6"
+        },
+        "image": "smithing/bronze_boots.webp"
+      },
+      "Bronze Shield": {
+        "level": "13",
+        "xp": "68",
+        "submaterials": {
+          "Bronze Bar": "3",
+          "Palm Log": "1"
+        },
+        "image": "smithing/bronze_shield.webp"
+      },
+      "Bronze Ring": {
+        "level": "14",
+        "xp": "36",
+        "submaterials": {
+          "Bronze Bar": "2"
+        },
+        "image": "smithing/bronze_ring.webp"
+      },
+      "Bronze Necklace": {
+        "level": "14",
+        "xp": "36",
+        "submaterials": {
+          "Bronze Bar": "2"
+        },
+        "image": "smithing/bronze_necklace.webp"
+      },
+      "Medium Bronze Figurine": {
+        "level": "14",
+        "xp": "36",
+        "submaterials": {
+          "Bronze Bar": "3"
+        },
+        "image": "smithing/bronze_figurine_medium.webp"
+      },
+      "Bronze Pickaxe": {
+        "level": "15",
+        "xp": "68",
+        "submaterials": {
+          "Bronze Bar": "3",
+          "Bronze Handle": "1"
+        },
+        "image": "smithing/bronze_pickaxe.png"
+      },
+      "Bronze Axe": {
+        "level": "15",
+        "xp": "68",
+        "submaterials": {
+          "Bronze Bar": "3",
+          "Bronze Handle": "1"
+        },
+        "image": "smithing/bronze_axe.png"
+      },
+      "Bronze Scythe": {
+        "level": "15",
+        "xp": "68",
+        "submaterials": {
+          "Bronze Bar": "3",
+          "Bronze Handle": "1"
+        },
+        "image": "smithing/bronze_scythe.png"
+      },
+      "Bronze Sword": {
+        "level": "16",
+        "xp": "99",
+        "submaterials": {
+          "Bronze Bar": "4",
+          "Bronze Handle": "1"
+        },
+        "image": "smithing/bronze_sword.webp"
+      },
+      "Bronze Spear": {
+        "level": "16",
+        "xp": "99",
+        "submaterials": {
+          "Bronze Bar": "4",
+          "Bronze Handle": "1"
+        },
+        "image": "smithing/bronze_spear.png"
+      },
+      "Bronze Socketed Ring": {
+        "level": "17",
+        "xp": "72",
+        "submaterials": {
+          "Bronze Bar": "4"
+        },
+        "image": "smithing/bronze_socketed_ring.webp"
+      },
+      "Bronze Socketed Necklace": {
+        "level": "17",
+        "xp": "72",
+        "submaterials": {
+          "Bronze Bar": "4"
+        },
+        "image": "smithing/bronze_socketed_necklace.webp"
+      },
+      "Bronze Battleaxe": {
+        "level": "18",
+        "xp": "99",
+        "submaterials": {
+          "Bronze Bar": "4",
+          "Bronze Handle": "1"
+        },
+        "image": "smithing/bronze_battleaxe.png"
+      },
+      "Bronze Legplates": {
+        "level": "18",
+        "xp": "122",
+        "submaterials": {
+          "Bronze Bar": "4",
+          "Hide": "2"
+        },
+        "image": "smithing/bronze_legplates.webp"
+      },
+      "Bronze Chestplate": {
+        "level": "19",
+        "xp": "113",
+        "submaterials": {
+          "Bronze Bar": "5",
+          "String": "15"
+        },
+        "image": "smithing/bronze_chestplate.webp"
+      },
+      "Large Bronze Figurine": {
+        "level": "20",
+        "xp": "72",
+        "submaterials": {
+          "Bronze Bar": "6"
+        },
+        "image": "smithing/bronze_figurine_large.webp"
+      },
+      "Bronze Greatsword": {
+        "level": "21",
+        "xp": "135",
+        "submaterials": {
+          "Bronze Bar": "6",
+          "Bronze Handle": "1"
+        },
+        "image": "smithing/bronze_greatsword.png"
+      }
     },
-    "Cinnabar Arrowhead (15x)": {
-      "level": "45",
-      "xp-smith": "80",
-      "xp-smelt": "110",
-      "submaterials": {
-        "Cinnabar Bar": "1"
+    "Iron": {
+      "Small Iron Figurine": {
+        "level": "20",
+        "xp": "19",
+        "submaterials": {
+          "Iron Bar": "1"
+        },
+        "image": "smithing/iron_figurine_small.webp"
       },
-      "image": "smithing/cinnabar_arrowhead.png"
+      "Iron Handle": {
+        "level": "20",
+        "xp": "51",
+        "submaterials": {
+          "Iron Bar": "1",
+          "Zon Log": "1"
+        },
+        "image": "smithing/iron_handle.webp"
+      },
+      "Iron Arrowhead(20x)": {
+        "level": "21",
+        "xp": "50",
+        "submaterials": {
+          "Iron Bar": "2"
+        },
+        "image": "smithing/iron_arrowhead.webp"
+      },
+      "Iron Helmet": {
+        "level": "21",
+        "xp": "80",
+        "submaterials": {
+          "Iron Bar": "2",
+          "Hide": "1"
+        },
+        "image": "smithing/iron_helmet.webp"
+      },
+      "Iron Boots": {
+        "level": "22",
+        "xp": "87",
+        "submaterials": {
+          "Iron Bar": "3",
+          "String": "6"
+        },
+        "image": "smithing/iron_boots.webp"
+      },
+      "Iron Shield": {
+        "level": "23",
+        "xp": "101",
+        "submaterials": {
+          "Iron Bar": "3",
+          "Zon Log": "1"
+        },
+        "image": "smithing/iron_shield.webp"
+      },
+      "Medium Iron Figurine": {
+        "level": "24",
+        "xp": "57",
+        "submaterials": {
+          "Iron Bar": "3"
+        },
+        "image": "smithing/iron_figurine_medium.webp"
+      },
+      "Iron Pickaxe": {
+        "level": "25",
+        "xp": "112",
+        "submaterials": {
+          "Iron Bar": "3",
+          "Iron Handle": "1"
+        },
+        "image": "smithing/iron_pickaxe.png"
+      },
+      "Iron Axe": {
+        "level": "25",
+        "xp": "112",
+        "submaterials": {
+          "Iron Bar": "3",
+          "Iron Handle": "1"
+        },
+        "image": "smithing/iron_axe.png"
+      },
+      "Iron Scythe": {
+        "level": "25",
+        "xp": "112",
+        "submaterials": {
+          "Iron Bar": "3",
+          "Iron Handle": "1"
+        },
+        "image": "smithing/iron_scythe.png"
+      },
+      "Iron Sword": {
+        "level": "26",
+        "xp": "137",
+        "submaterials": {
+          "Iron Bar": "4",
+          "Iron Handle": "1"
+        },
+        "image": "smithing/iron_sword.png"
+      },
+      "Iron Spear": {
+        "level": "26",
+        "xp": "137",
+        "submaterials": {
+          "Iron Bar": "4",
+          "Iron Handle": "1"
+        },
+        "image": "smithing/iron_spear.webp"
+      },
+      "Iron Battleaxe": {
+        "level": "27",
+        "xp": "142",
+        "submaterials": {
+          "Iron Bar": "4",
+          "Iron Handle": "1"
+        },
+        "image": "smithing/iron_battleaxe.png"
+      },
+      "Iron Legplates": {
+        "level": "28",
+        "xp": "160",
+        "submaterials": {
+          "Iron Bar": "4",
+          "Hide": "2"
+        },
+        "image": "smithing/iron_legplates.webp"
+      },
+      "Iron Chestplate": {
+        "level": "29",
+        "xp": "155",
+        "submaterials": {
+          "Iron Bar": "5",
+          "String": "15"
+        },
+        "image": "smithing/iron_chestplate.webp"
+      },
+      "Large Iron Figurine": {
+        "level": "30",
+        "xp": "114",
+        "submaterials": {
+          "Iron Bar": "6"
+        },
+        "image": "smithing/iron_figurine_large.webp"
+      },
+      "Iron Greatsword": {
+        "level": "31",
+        "xp": "187",
+        "submaterials": {
+          "Iron Bar": "6",
+          "Iron Handle": "1"
+        },
+        "image": "smithing/iron_greatsword.png"
+      }
     },
-    "Pythar Arrowhead (15x)": {
-      "level": "55",
-      "xp-smith": "95",
-      "xp-smelt": "135",
-      "submaterials": {
-        "Pythar Bar": "1"
+    "Nisoc": {
+      "Small Nisoc Figurine": {
+        "level": "30",
+        "xp": "25",
+        "submaterials": {
+          "Nisoc Bar": "1"
+        },
+        "image": "smithing/nisoc_figurine_small.webp"
       },
-      "image": "smithing/pythar_arrowhead.png"
+      "Nisoc Handle": {
+        "level": "30",
+        "xp": "68",
+        "submaterials": {
+          "Nisoc Bar": "1",
+          "Zon Log": "1"
+        },
+        "image": "smithing/nisoc_handle.webp"
+      },
+      "Nisoc Arrowhead(20x)": {
+        "level": "31",
+        "xp": "67",
+        "submaterials": {
+          "Nisoc Bar": "2"
+        },
+        "image": "smithing/nisoc_arrowhead.webp"
+      },
+      "Nisoc Helmet": {
+        "level": "31",
+        "xp": "106",
+        "submaterials": {
+          "Nisoc Bar": "2",
+          "Hide": "1"
+        },
+        "image": "smithing/nisoc_helmet.webp"
+      },
+      "Nisoc Boots": {
+        "level": "32",
+        "xp": "114",
+        "submaterials": {
+          "Nisoc Bar": "3",
+          "String": "6"
+        },
+        "image": "smithing/nisoc_boots.webp"
+      },
+      "Nisoc Shield": {
+        "level": "33",
+        "xp": "134",
+        "submaterials": {
+          "Nisoc Bar": "3",
+          "Zon Log": "1"
+        },
+        "image": "smithing/nisoc_shield.png"
+      },
+      "Medium Nisoc Figurine": {
+        "level": "34",
+        "xp": "75",
+        "submaterials": {
+          "Nisoc Bar": "3"
+        },
+        "image": "smithing/nisoc_figurine_medium.webp"
+      },
+      "Nisoc Pickaxe": {
+        "level": "35",
+        "xp": "149",
+        "submaterials": {
+          "Nisoc Bar": "3",
+          "Nisoc Handle": "1"
+        },
+        "image": "smithing/nisoc_pickaxe.png"
+      },
+      "Nisoc Axe": {
+        "level": "35",
+        "xp": "149",
+        "submaterials": {
+          "Nisoc Bar": "3",
+          "Nisoc Handle": "1"
+        },
+        "image": "smithing/nisoc_axe.png"
+      },
+      "Nisoc Scythe": {
+        "level": "35",
+        "xp": "149",
+        "submaterials": {
+          "Nisoc Bar": "3",
+          "Nisoc Handle": "1"
+        },
+        "image": "smithing/nisoc_scythe.png"
+      },
+      "Nisoc Sword": {
+        "level": "36",
+        "xp": "182",
+        "submaterials": {
+          "Nisoc Bar": "4",
+          "Nisoc Handle": "1"
+        },
+        "image": "smithing/nisoc_sword.png"
+      },
+      "Nisoc Spear": {
+        "level": "36",
+        "xp": "182",
+        "submaterials": {
+          "Nisoc Bar": "4",
+          "Nisoc Handle": "1"
+        },
+        "image": "smithing/nisoc_spear.webp"
+      },
+      "Nisoc Battleaxe": {
+        "level": "37",
+        "xp": "192",
+        "submaterials": {
+          "Nisoc Bar": "4",
+          "Nisoc Handle": "1"
+        },
+        "image": "smithing/nisoc_battleaxe.png"
+      },
+      "Nisoc Legplates": {
+        "level": "38",
+        "xp": "212",
+        "submaterials": {
+          "Nisoc Bar": "4",
+          "Hide": "2"
+        },
+        "image": "smithing/nisoc_legplates.webp"
+      },
+      "Nisoc Chestplate": {
+        "level": "39",
+        "xp": "203",
+        "submaterials": {
+          "Nisoc Bar": "5",
+          "String": "15"
+        },
+        "image": "smithing/nisoc_chestplate.webp"
+      },
+      "Large Nisoc Figurine": {
+        "level": "40",
+        "xp": "150",
+        "submaterials": {
+          "Nisoc Bar": "6"
+        },
+        "image": "smithing/nisoc_figurine_large.webp"
+      },
+      "Nisoc Greatsword": {
+        "level": "41",
+        "xp": "248",
+        "submaterials": {
+          "Nisoc Bar": "6",
+          "Nisoc Handle": "1"
+        },
+        "image": "smithing/nisoc_greatsword.webp"
+      }
     },
-    "Ibo Arrowhead (15x)": {
-      "level": "65",
-      "xp-smith": "110",
-      "xp-smelt": "155",
-      "submaterials": {
-        "Ibo Bar": "1"
+    "Silver": {
+      "Small Silver Figurine": {
+        "level": "40",
+        "xp": "32",
+        "submaterials": {
+          "Silver Bar": "1"
+        },
+        "image": "smithing/silver_figurine_small.webp"
       },
-      "image": "smithing/ibo_arrowhead.webp"
+      "Silver Handle": {
+        "level": "41",
+        "xp": "92",
+        "submaterials": {
+          "Silver Bar": "1",
+          "Alkythn Log": "1"
+        },
+        "image": "smithing/silver_handle.webp"
+      },
+      "Silver Arrowhead(20x)": {
+        "level": "42",
+        "xp": "84",
+        "submaterials": {
+          "Silver Bar": "2"
+        },
+        "image": "smithing/silver_arrowhead.webp"
+      },
+      "Silver Shield": {
+        "level": "43",
+        "xp": "176",
+        "submaterials": {
+          "Silver Bar": "3",
+          "Alkythn Log": "1"
+        },
+        "image": "smithing/silver_shield.png"
+      },
+      "Silver Ring": {
+        "level": "44",
+        "xp": "84",
+        "submaterials": {
+          "Silver Bar": "2"
+        },
+        "image": "smithing/silver_ring.webp"
+      },
+      "Silver Necklace": {
+        "level": "44",
+        "xp": "84",
+        "submaterials": {
+          "Silver Bar": "2"
+        },
+        "image": "smithing/silver_necklace.webp"
+      },
+      "Medium Silver Figurine": {
+        "level": "45",
+        "xp": "96",
+        "submaterials": {
+          "Silver Bar": "3"
+        },
+        "image": "smithing/silver_figurine_medium.webp"
+      },
+      "Silver Sword": {
+        "level": "45",
+        "xp": "231",
+        "submaterials": {
+          "Silver Bar": "4",
+          "Silver Handle": "1"
+        },
+        "image": "smithing/silver_sword.webp"
+      },
+      "Silver Spear": {
+        "level": "47",
+        "xp": "241",
+        "submaterials": {
+          "Silver Bar": "4",
+          "Silver Handle": "1"
+        },
+        "image": "smithing/silver_spear.webp"
+      },
+      "Silver Socketed Ring": {
+        "level": "48",
+        "xp": "168",
+        "submaterials": {
+          "Silver Bar": "4"
+        },
+        "image": "smithing/silver_socketed_ring.webp"
+      },
+      "Silver Socketed Necklace": {
+        "level": "48",
+        "xp": "168",
+        "submaterials": {
+          "Silver Bar": "4"
+        },
+        "image": "smithing/silver_socketed_necklace.webp"
+      },
+      "Silver Battleaxe": {
+        "level": "49",
+        "xp": "246",
+        "submaterials": {
+          "Silver Bar": "4",
+          "Silver Handle": "1"
+        },
+        "image": "smithing/silver_battleaxe.png"
+      },
+      "Large Silver Figurine": {
+        "level": "50",
+        "xp": "192",
+        "submaterials": {
+          "Silver Bar": "6"
+        },
+        "image": "smithing/silver_figurine_large.webp"
+      }
+    },
+    "Cinnabar": {
+      "Small Cinnabar Figurine": {
+        "level": "50",
+        "xp": "38",
+        "submaterials": {
+          "Cinnabar Bar": "1"
+        },
+        "image": "smithing/cinnabar_figurine_small.webp"
+      },
+      "Cinnabar Handle": {
+        "level": "50",
+        "xp": "111",
+        "submaterials": {
+          "Cinnabar Bar": "1",
+          "Ice Log": "1"
+        },
+        "image": "smithing/cinnabar_handle.webp"
+      },
+      "Cinnabar Arrowhead(20x)": {
+        "level": "51",
+        "xp": "102",
+        "submaterials": {
+          "Cinnabar Bar": "2"
+        },
+        "image": "smithing/cinnabar_arrowhead.webp"
+      },
+      "Cinnabar Helmet": {
+        "level": "51",
+        "xp": "157",
+        "submaterials": {
+          "Cinnabar Bar": "2",
+          "Hide": "1"
+        },
+        "image": "smithing/cinnabar_helmet.webp"
+      },
+      "Cinnabar Boots": {
+        "level": "52",
+        "xp": "174",
+        "submaterials": {
+          "Cinnabar Bar": "3",
+          "String": "6"
+        },
+        "image": "smithing/cinnabar_boots.webp"
+      },
+      "Cinnabar Shield": {
+        "level": "53",
+        "xp": "213",
+        "submaterials": {
+          "Cinnabar Bar": "3",
+          "Ice Log": "1"
+        },
+        "image": "smithing/cinnabar_shield.webp"
+      },
+      "Medium Cinnabar Figurine": {
+        "level": "54",
+        "xp": "114",
+        "submaterials": {
+          "Cinnabar Bar": "3"
+        },
+        "image": "smithing/cinnabar_figurine_medium.webp"
+      },
+      "Cinnabar Pickaxe": {
+        "level": "55",
+        "xp": "230",
+        "submaterials": {
+          "Cinnabar Bar": "3",
+          "Cinnabar Handle": "1"
+        },
+        "image": "smithing/cinnabar_pickaxe.png"
+      },
+      "Cinnabar Axe": {
+        "level": "55",
+        "xp": "230",
+        "submaterials": {
+          "Cinnabar Bar": "3",
+          "Cinnabar Handle": "1"
+        },
+        "image": "smithing/cinnabar_axe.png"
+      },
+      "Cinnabar Scythe": {
+        "level": "55",
+        "xp": "230",
+        "submaterials": {
+          "Cinnabar Bar": "3",
+          "Cinnabar Handle": "1"
+        },
+        "image": "smithing/cinnabar_scythe.png"
+      },
+      "Cinnabar Sword": {
+        "level": "56",
+        "xp": "281",
+        "submaterials": {
+          "Cinnabar Bar": "4",
+          "Cinnabar Handle": "1"
+        },
+        "image": "smithing/cinnabar_sword.webp"
+      },
+      "Cinnabar Spear": {
+        "level": "56",
+        "xp": "281",
+        "submaterials": {
+          "Cinnabar Bar": "4",
+          "Cinnabar Handle": "1"
+        },
+        "image": "smithing/cinnabar_spear.webp"
+      },
+      "Cinnabar Battleaxe": {
+        "level": "57",
+        "xp": "291",
+        "submaterials": {
+          "Cinnabar Bar": "4",
+          "Cinnabar Handle": "1"
+        },
+        "image": "smithing/cinnabar_battleaxe.png"
+      },
+      "Cinnabar Legplates": {
+        "level": "58",
+        "xp": "314",
+        "submaterials": {
+          "Cinnabar Bar": "4",
+          "Hide": "2"
+        },
+        "image": "smithing/cinnabar_legplates.webp"
+      },
+      "Cinnabar Chestplate": {
+        "level": "59",
+        "xp": "308",
+        "submaterials": {
+          "Cinnabar Bar": "5",
+          "String": "15"
+        },
+        "image": "smithing/cinnabar_chestplate.webp"
+      },
+      "Large Cinnabar Figurine": {
+        "level": "60",
+        "xp": "228",
+        "submaterials": {
+          "Cinnabar Bar": "6"
+        },
+        "image": "smithing/cinnabar_figurine_large.webp"
+      },
+      "Cinnabar Greatsword": {
+        "level": "61",
+        "xp": "383",
+        "submaterials": {
+          "Cinnabar Bar": "6",
+          "Cinnabar Handle": "1"
+        },
+        "image": "smithing/cinnabar_greatsword.webp"
+      }
+    },
+    "Pythar": {
+      "Small Pythar Figurine": {
+        "level": "65",
+        "xp": "48",
+        "submaterials": {
+          "Pythar Bar": "1"
+        },
+        "image": "smithing/pythar_figurine_small.webp"
+      },
+      "Pythar Handle": {
+        "level": "65",
+        "xp": "139",
+        "submaterials": {
+          "Pythar Bar": "1",
+          "Bloodwood Log": "1"
+        },
+        "image": "smithing/pythar_handle.webp"
+      },
+      "Pythar Arrowhead(20x)": {
+        "level": "66",
+        "xp": "128",
+        "submaterials": {
+          "Pythar Bar": "2"
+        },
+        "image": "smithing/pythar_arrowhead.webp"
+      },
+      "Pythar Helmet": {
+        "level": "66",
+        "xp": "198",
+        "submaterials": {
+          "Pythar Bar": "2",
+          "Hide": "1"
+        },
+        "image": "smithing/pythar_helmet.webp"
+      },
+      "Pythar Boots": {
+        "level": "67",
+        "xp": "216",
+        "submaterials": {
+          "Pythar Bar": "3",
+          "String": "6"
+        },
+        "image": "smithing/pythar_boots.webp"
+      },
+      "Pythar Shield": {
+        "level": "68",
+        "xp": "267",
+        "submaterials": {
+          "Pythar Bar": "3",
+          "Bloodwood Log": "1"
+        },
+        "image": "smithing/pythar_shield.webp"
+      },
+      "Medium Pythar Figurine": {
+        "level": "69",
+        "xp": "144",
+        "submaterials": {
+          "Pythar Bar": "3"
+        },
+        "image": "smithing/pythar_figurine_medium.webp"
+      },
+      "Pythar Pickaxe": {
+        "level": "69",
+        "xp": "293",
+        "submaterials": {
+          "Pythar Bar": "3",
+          "Pythar Handle": "1"
+        },
+        "image": "smithing/pythar_pickaxe.png"
+      },
+      "Pythar Axe": {
+        "level": "69",
+        "xp": "293",
+        "submaterials": {
+          "Pythar Bar": "3",
+          "Pythar Handle": "1"
+        },
+        "image": "smithing/pythar_axe.png"
+      },
+      "Pythar Scythe": {
+        "level": "69",
+        "xp": "293",
+        "submaterials": {
+          "Pythar Bar": "3",
+          "Pythar Handle": "1"
+        },
+        "image": "smithing/pythar_scythe.png"
+      },
+      "Pythar Sword": {
+        "level": "70",
+        "xp": "357",
+        "submaterials": {
+          "Pythar Bar": "4",
+          "Pythar Handle": "1"
+        },
+        "image": "smithing/pythar_sword.webp"
+      },
+      "Pythar Spear": {
+        "level": "70",
+        "xp": "357",
+        "submaterials": {
+          "Pythar Bar": "4",
+          "Pythar Handle": "1"
+        },
+        "image": "smithing/pythar_spear.png"
+      },
+      "Pythar Battleaxe": {
+        "level": "71",
+        "xp": "372",
+        "submaterials": {
+          "Pythar Bar": "4",
+          "Pythar Handle": "1"
+        },
+        "image": "smithing/pythar_battleaxe.png"
+      },
+      "Pythar Legplates": {
+        "level": "72",
+        "xp": "396",
+        "submaterials": {
+          "Pythar Bar": "4",
+          "Hide": "2"
+        },
+        "image": "smithing/pythar_legplates.webp"
+      },
+      "Pythar Chestplate": {
+        "level": "73",
+        "xp": "380",
+        "submaterials": {
+          "Pythar Bar": "5",
+          "String": "15"
+        },
+        "image": "smithing/pythar_chestplate.webp"
+      },
+      "Large Pythar Figurine": {
+        "level": "75",
+        "xp": "288",
+        "submaterials": {
+          "Pythar Bar": "6"
+        },
+        "image": "smithing/pythar_figurine_large.webp"
+      },
+      "Pythar Greatsword": {
+        "level": "76",
+        "xp": "485",
+        "submaterials": {
+          "Pythar Bar": "6",
+          "Pythar Handle": "1"
+        },
+        "image": "smithing/pythar_greatsword.webp"
+      }
+    },
+    "Gold": {
+      "Small Gold Figurine": {
+        "level": "75",
+        "xp": "55",
+        "submaterials": {
+          "Gold Bar": "1"
+        },
+        "image": "smithing/gold_figurine_small.webp"
+      },
+      "Gold Ring": {
+        "level": "77",
+        "xp": "145",
+        "submaterials": {
+          "Gold Bar": "2"
+        },
+        "image": "smithing/gold_ring.webp"
+      },
+      "Gold Necklace": {
+        "level": "77",
+        "xp": "145",
+        "submaterials": {
+          "Gold Bar": "2"
+        },
+        "image": "smithing/gold_necklace.webp"
+      },
+      "Medium Gold Figurine": {
+        "level": "78",
+        "xp": "165",
+        "submaterials": {
+          "Gold Bar": "3"
+        },
+        "image": "smithing/gold_figurine_medium.webp"
+      },
+      "Gold Socketed Ring": {
+        "level": "79",
+        "xp": "291",
+        "submaterials": {
+          "Gold Bar": "4"
+        },
+        "image": "smithing/gold_socketed_ring.webp"
+      },
+      "Gold Socketed Necklace": {
+        "level": "79",
+        "xp": "291",
+        "submaterials": {
+          "Gold Bar": "4"
+        },
+        "image": "smithing/gold_socketed_necklace.webp"
+      },
+      "Large Gold Figurine": {
+        "level": "80",
+        "xp": "327",
+        "submaterials": {
+          "Gold Bar": "6"
+        },
+        "image": "smithing/gold_figurine_large.webp"
+      }
+    },
+    "Ibo": {
+      "Small Ibo Figurine": {
+        "level": "85",
+        "xp": "61",
+        "submaterials": {
+          "Ibo Bar": "1"
+        },
+        "image": "smithing/ibo_figurine_small.webp"
+      },
+      "Ibo Handle": {
+        "level": "85",
+        "xp": "182",
+        "submaterials": {
+          "Ibo Bar": "1",
+          "Puhrix Log": "1"
+        },
+        "image": "smithing/ibo_handle.webp"
+      },
+      "Ibo Arrowhead(20x)": {
+        "level": "86",
+        "xp": "164",
+        "submaterials": {
+          "Ibo Bar": "2"
+        },
+        "image": "smithing/ibo_arrowhead.webp"
+      },
+      "Ibo Helmet": {
+        "level": "86",
+        "xp": "259",
+        "submaterials": {
+          "Ibo Bar": "2",
+          "Hide": "1"
+        },
+        "image": "smithing/ibo_helmet.webp"
+      },
+      "Ibo Boots": {
+        "level": "87",
+        "xp": "288",
+        "submaterials": {
+          "Ibo Bar": "3",
+          "String": "6"
+        },
+        "image": "smithing/ibo_boots.webp"
+      },
+      "Ibo Shield": {
+        "level": "88",
+        "xp": "346",
+        "submaterials": {
+          "Ibo Bar": "3",
+          "Puhrix Log": "1"
+        },
+        "image": "smithing/ibo_shield.webp"
+      },
+      "Medium Ibo Figurine": {
+        "level": "88",
+        "xp": "183",
+        "submaterials": {
+          "Ibo Bar": "3"
+        },
+        "image": "smithing/ibo_figurine_medium.webp"
+      },
+      "Ibo Pickaxe": {
+        "level": "89",
+        "xp": "396",
+        "submaterials": {
+          "Ibo Bar": "3",
+          "Ibo Handle": "1"
+        },
+        "image": "smithing/ibo_pickaxe.png"
+      },
+      "Ibo Axe": {
+        "level": "89",
+        "xp": "396",
+        "submaterials": {
+          "Ibo Bar": "3",
+          "Ibo Handle": "1"
+        },
+        "image": "smithing/ibo_axe.png"
+      },
+      "Ibo Scythe": {
+        "level": "89",
+        "xp": "396",
+        "submaterials": {
+          "Ibo Bar": "3",
+          "Ibo Handle": "1"
+        },
+        "image": "smithing/ibo_scythe.png"
+      },
+      "Ibo Sword": {
+        "level": "90",
+        "xp": "478",
+        "submaterials": {
+          "Ibo Bar": "4",
+          "Ibo Handle": "1"
+        },
+        "image": "smithing/ibo_sword.webp"
+      },
+      "Ibo Spear": {
+        "level": "91",
+        "xp": "498",
+        "submaterials": {
+          "Ibo Bar": "4",
+          "Ibo Handle": "1"
+        },
+        "image": "smithing/ibo_spear.webp"
+      },
+      "Ibo Battleaxe": {
+        "level": "92",
+        "xp": "508",
+        "submaterials": {
+          "Ibo Bar": "4",
+          "Ibo Handle": "1"
+        },
+        "image": "smithing/ibo_battleaxe.png"
+      },
+      "Ibo Legplates": {
+        "level": "93",
+        "xp": "518",
+        "submaterials": {
+          "Ibo Bar": "4",
+          "Hide": "2"
+        },
+        "image": "smithing/ibo_legplates.webp"
+      },
+      "Ibo Chestplate": {
+        "level": "94",
+        "xp": "515",
+        "submaterials": {
+          "Ibo Bar": "5",
+          "String": "15"
+        },
+        "image": "smithing/ibo_chestplate.webp"
+      },
+      "Large Ibo Figurine": {
+        "level": "95",
+        "xp": "366",
+        "submaterials": {
+          "Ibo Bar": "6"
+        },
+        "image": "smithing/ibo_figurine_large.webp"
+      },
+      "Ibo Greatsword": {
+        "level": "96",
+        "xp": "642",
+        "submaterials": {
+          "Ibo Bar": "6",
+          "Ibo Handle": "1"
+        },
+        "image": "smithing/ibo_greatsword.webp"
+      }
+    },
+    "Meteorite": {
+      "Meteorite Helmet": {
+        "level": "95",
+        "xp": "5000",
+        "submaterials": {
+          "Meteorite Golem's Core": "1",
+          "Meteorite Bar": "12",
+          "Colossal Helmet": "1",
+          "Hellkeeper Helmet": "1",
+          "Cinnabar Block": "4",
+          "Pythar Block": "4",
+          "Ibo Block": "4"
+        },
+        "image": "smithing/meteorite_helmet.webp"
+      },
+      "Meteorite Chestplate": {
+        "level": "95",
+        "xp": "5000",
+        "submaterials": {
+          "Meteorite Golem's Core": "1",
+          "Meteorite Bar": "12",
+          "Colossal Chestplate": "1",
+          "Hellkeeper Chestplate": "1",
+          "Cinnabar Block": "4",
+          "Pythar Block": "4",
+          "Ibo Block": "4"
+        },
+        "image": "smithing/meteorite_chestplate.webp"
+      },
+      "Meteorite Legplates": {
+        "level": "95",
+        "xp": "5000",
+        "submaterials": {
+          "Meteorite Golem's Core": "1",
+          "Meteorite Bar": "12",
+          "Colossal Legplates": "1",
+          "Hellkeeper Legplates": "1",
+          "Cinnabar Block": "4",
+          "Pythar Block": "4",
+          "Ibo Block": "4"
+        },
+        "image": "smithing/meteorite_legplates.webp"
+      },
+      "Meteorite Boots": {
+        "level": "95",
+        "xp": "5000",
+        "submaterials": {
+          "Meteorite Golem's Core": "1",
+          "Meteorite Bar": "12",
+          "Colossal Boots": "1",
+          "Hellkeeper Boots": "1",
+          "Cinnabar Block": "4",
+          "Pythar Block": "4",
+          "Ibo Block": "4"
+        },
+        "image": "smithing/meteorite_boots.webp"
+      }
     }
   },
   "Cooking": {

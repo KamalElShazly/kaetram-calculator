@@ -12,6 +12,7 @@ import Mining from "./tabs/Mining";
 import Fishing from "./tabs/Fishing";
 import Foraging from "./tabs/Foraging";
 import Fletching from "./tabs/Fletching";
+import Smelting from "./tabs/Smelting";
 import Smithing from "./tabs/Smithing";
 import Cooking from "./tabs/Cooking";
 import Alchemy from "./tabs/Alchemy";
@@ -33,6 +34,7 @@ const App = () => {
               <Tab label="Foraging" component={Link} to="/foraging" value="/foraging" />
               <Tab label="Fishing" component={Link} to="/fishing" value="/fishing" />
               <Tab label="Fletching" component={Link} to="/fletching" value="/fletching" />
+              <Tab label="Smelting" component={Link} to="/smelting" value="/smelting" />
               <Tab label="Smithing" component={Link} to="/smithing" value="/smithing" />
               <Tab label="Cooking" component={Link} to="/cooking" value="/cooking" />
               <Tab label="Alchemy" component={Link} to="/alchemy" value="/alchemy" />
@@ -49,6 +51,7 @@ const App = () => {
         <Route path="fishing" element={<Fishing />} />
         <Route path="foraging" element={<Foraging />} />
         <Route path="fletching" element={<Fletching />} />
+        <Route path="smelting" element={<Smelting />} />
         <Route path="smithing" element={<Smithing />} />
         <Route path="cooking" element={<Cooking />} />
         <Route path="alchemy" element={<Alchemy />} />

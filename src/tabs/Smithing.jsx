@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import "../App.css";
 import Attribute from "../components/Attribute";
 import Display from "../components/Display";
+import Group from "../components/Group";
 import ToggleButtons from "../components/ToggleButtons";
-import CustomSwitch from "../components/CustomSwitch";
 
 import artisanData from "../data/artisan_data.json";
 
@@ -31,12 +31,6 @@ const Smithing = () => {
     setElement(element);
   };
 
-  // Smelt or buy bars control
-  const [smeltBars, setSmeltBars] = useState(true);
-  const updateSmeltBars = (smeltBars) => {
-    setSmeltBars(smeltBars);
-  };
-
   const data = artisanData["Smithing"];
 
   return (
@@ -57,8 +51,51 @@ const Smithing = () => {
           alignItems: "center",
         }}
       />
-      <ToggleButtons data={data} skill="Smithing" currentLevel={currentLevel} updateElement={updateElement} />
-      <CustomSwitch value={smeltBars} updateValue={updateSmeltBars} element={element} trueText="Smelt Bars" falseText="Buy Bars" />
+
+      <Group title="Misc">
+        <ToggleButtons data={data.Misc} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Copper">
+        <ToggleButtons data={data.Copper} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Bronze">
+        <ToggleButtons data={data.Bronze} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Iron">
+        <ToggleButtons data={data.Iron} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Nisoc">
+        <ToggleButtons data={data.Nisoc} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Silver">
+        <ToggleButtons data={data.Silver} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Cinnabar">
+        <ToggleButtons data={data.Cinnabar} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Pythar">
+        <ToggleButtons data={data.Pythar} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Gold">
+        <ToggleButtons data={data.Gold} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Ibo">
+        <ToggleButtons data={data.Ibo} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Meteorite">
+        <ToggleButtons data={data.Meteorite} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
       <Display
         level={currentLevel}
         levelPercentage={currentPercentage}
@@ -66,7 +103,6 @@ const Smithing = () => {
         element={element}
         keywords={[""]}
         skill="Smithing"
-        switchValue={smeltBars}
       />
     </>
   );
