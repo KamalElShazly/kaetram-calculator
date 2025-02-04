@@ -707,6 +707,15 @@
       },
       "image": "cooking/cooked_skeleton_fish.png"
     },
+    "Cheese Block": {
+      "level": "50",
+      "xp": "80",
+      "submaterials": {
+        "Cheese": "8",
+        "Milk Bottle": "4"
+      },
+      "image": "cooking/cheese_block.webp"
+    },
     "Jellyfish Smoothie": {
       "level": "50",
       "xp": "90",
@@ -796,7 +805,7 @@
       "image": "cooking/cooked_octopus.png"
     },
     "Cooked Shark": {
-      "level": "90",
+      "level": "93",
       "xp": "280",
       "submaterials": {
         "Raw Shark": "1"
