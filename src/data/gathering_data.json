@@ -14,85 +14,85 @@
     },
     "Palm": {
       "level": "5",
-      "xp": "15",
+      "xp": "23",
       "submaterials": {},
       "image": "woodcutting/palm_log.png"
     },
     "Heliphatit": {
       "level": "10",
-      "xp": "30",
+      "xp": "38",
       "submaterials": {},
       "image": "woodcutting/heliphatit_log.png"
     },
     "Aquasillius": {
       "level": "15",
-      "xp": "40",
+      "xp": "51",
       "submaterials": {},
       "image": "woodcutting/aquasillius_log.png"
     },
     "Zoncil": {
       "level": "20",
-      "xp": "75",
+      "xp": "65",
       "submaterials": {},
       "image": "woodcutting/zoncil_log.png"
     },
     "Zondul": {
       "level": "25",
-      "xp": "85",
+      "xp": "78",
       "submaterials": {},
       "image": "woodcutting/zondul_log.png"
     },
     "Alkythn": {
       "level": "30",
-      "xp": "100",
+      "xp": "92",
       "submaterials": {},
       "image": "woodcutting/alkythn_log.webp"
     },
     "Snow Oak": {
       "level": "35",
-      "xp": "115",
+      "xp": "106",
       "submaterials": {},
       "image": "woodcutting/ice_log.png"
     },
     "Pine": {
       "level": "40",
-      "xp": "130",
+      "xp": "119",
       "submaterials": {},
       "image": "woodcutting/pine_log.webp"
     },
     "Ice Oak": {
       "level": "45",
-      "xp": "140",
+      "xp": "132",
       "submaterials": {},
       "image": "woodcutting/ice_log.png"
     },
     "Ice Palm": {
       "level": "50",
-      "xp": "155",
+      "xp": "146",
       "submaterials": {},
       "image": "woodcutting/ice_palm_log.png"
     },
     "Bloodwood": {
       "level": "60",
-      "xp": "170",
+      "xp": "174",
       "submaterials": {},
       "image": "woodcutting/bloodwood_log.png"
     },
     "Flastel": {
-      "level": "67",
-      "xp": "190",
+      "level": "70",
+      "xp": "192",
       "submaterials": {},
-      "image": "woodcutting/bloodwood_log.png"
+      "image": "woodcutting/flastel_log.png"
     },
     "Puhrix": {
       "level": "75",
-      "xp": "210",
+      "xp": "214",
       "submaterials": {},
-      "image": "woodcutting/bloodwood_log.png"
+      "image": "woodcutting/puhrix_log.webp"
     },
     "Soul": {
       "level": "90",
-      "xp": "350",
+      "xp": "500",
       "submaterials": {},
       "image": "woodcutting/soul_log.png"
     }
