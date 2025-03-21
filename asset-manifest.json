@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/kaetram-calculator/static/css/main.f6d2535a.css",
-    "main.js": "/kaetram-calculator/static/js/main.3178d779.js",
+    "main.js": "/kaetram-calculator/static/js/main.0b108191.js",
     "index.html": "/kaetram-calculator/index.html",
     "main.f6d2535a.css.map": "/kaetram-calculator/static/css/main.f6d2535a.css.map",
-    "main.3178d779.js.map": "/kaetram-calculator/static/js/main.3178d779.js.map"
+    "main.0b108191.js.map": "/kaetram-calculator/static/js/main.0b108191.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d2535a.css",
-    "static/js/main.3178d779.js"
+    "static/js/main.0b108191.js"
   ]
 }
