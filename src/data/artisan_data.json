@@ -2578,13 +2578,21 @@
   },
   "Crafting": {
     "Misc": {
-      "String": {
+      "String(3x)": {
         "level": "1",
         "xp": "15",
         "submaterials": {
-          "Blue Lily": "1"
+          "Any Stringables": "1"
         },
         "image": "crafting/string.png"
+      },
+      "Bowstring": {
+        "level": "15",
+        "xp": "50",
+        "submaterials": {
+          "Blue Lily": "1"
+        },
+        "image": "crafting/bow_string.png"
       },
       "Empty Scroll": {
         "level": "10",
@@ -2598,7 +2606,7 @@
         "level": "10",
         "xp": "30",
         "submaterials": {
-          "Log": "3"
+          "Oak Log": "3"
         },
         "image": "crafting/bucket.png"
       }
@@ -2632,7 +2640,7 @@
     "Staffs": {
       "Aqua Staff": {
         "level": "1",
-        "xp": "120",
+        "xp": "30",
         "submaterials": {
           "Stick": "5",
           "Magic Bead": "1"
@@ -2641,7 +2649,7 @@
       },
       "Aero Staff": {
         "level": "1",
-        "xp": "120",
+        "xp": "30",
         "submaterials": {
           "Stick": "5",
           "Aero Bead": "1"
@@ -2650,7 +2658,7 @@
       },
       "Lightning Staff": {
         "level": "10",
-        "xp": "180",
+        "xp": "50",
         "submaterials": {
           "Stick": "5",
           "Lightning Bead": "1"
@@ -2659,7 +2667,7 @@
       },
       "Nature Staff": {
         "level": "20",
-        "xp": "260",
+        "xp": "80",
         "submaterials": {
           "Stick": "5",
           "Nature Bead": "1"
@@ -2668,7 +2676,7 @@
       },
       "Fire Staff": {
         "level": "35",
-        "xp": "420",
+        "xp": "100",
         "submaterials": {
           "Stick": "5",
           "Fire Bead": "1"
@@ -2677,7 +2685,7 @@
       },
       "Dark Staff": {
         "level": "55",
-        "xp": "575",
+        "xp": "165",
         "submaterials": {
           "Stick": "5",
           "Ice Bead": "1"
