@@ -2447,6 +2447,52 @@
         "image": "alchemy/super_defense_potion.png"
       }
     },
+    "Equipment": {
+      "Ethereal Mage Helmet": {
+        "level": "85",
+        "xp": "5000",
+        "submaterials": {
+          "Soul Dragon's Core": "1",
+          "Pure Soul": "4",
+          "Soul Logs": "12",
+          "Ethereal Orb": "14"
+        },
+        "image": "alchemy/ethereal_mage_helmet.png"
+      },
+      "Ethereal Mage Chestplate": {
+        "level": "85",
+        "xp": "5000",
+        "submaterials": {
+          "Soul Dragon's Core": "1",
+          "Pure Soul": "4",
+          "Soul Logs": "12",
+          "Ethereal Orb": "15"
+        },
+        "image": "alchemy/ethereal_mage_chestplate.png"
+      },
+      "Ethereal Mage Legplates": {
+        "level": "85",
+        "xp": "5000",
+        "submaterials": {
+          "Soul Dragon's Core": "1",
+          "Pure Soul": "4",
+          "Soul Logs": "12",
+          "Ethereal Orb": "15"
+        },
+        "image": "alchemy/ethereal_mage_legplates.png"
+      },
+      "Ethereal Mage Boots": {
+        "level": "85",
+        "xp": "5000",
+        "submaterials": {
+          "Soul Dragon's Core": "1",
+          "Pure Soul": "4",
+          "Soul Logs": "12",
+          "Ethereal Orb": "15"
+        },
+        "image": "alchemy/ethereal_mage_boots.png"
+      }
+    },
     "Scrolls": {
       "Body Scroll(45x)": {
         "level": "10",
@@ -2494,56 +2540,6 @@
         "image": "alchemy/pyro_scroll.webp"
       }
     },
-    "Equipment": {
-      "Fox Gargoyle Helmet": {
-        "level": "85",
-        "xp": "5000",
-        "submaterials": {
-          "Shade Mother's Core": "1",
-          "Samurai Helmet": "1",
-          "Death Lily": "15",
-          "Pure Mana Essence": "30",
-          "Radioactive Shard": "125"
-        },
-        "image": "alchemy/fox_graveyard_helmet.png"
-      },
-      "Fox Gargoyle Chestplate": {
-        "level": "85",
-        "xp": "5000",
-        "submaterials": {
-          "Shade Mother's Core": "1",
-          "Samurai Chestplate": "1",
-          "Death Lily": "15",
-          "Pure Mana Essence": "30",
-          "Radioactive Shard": "125"
-        },
-        "image": "alchemy/fox_graveyard_chestplate.png"
-      },
-      "Fox Gargoyle Legplates": {
-        "level": "85",
-        "xp": "5000",
-        "submaterials": {
-          "Shade Mother's Core": "1",
-          "Samurai Legplates": "1",
-          "Death Lily": "15",
-          "Pure Mana Essence": "30",
-          "Radioactive Shard": "125"
-        },
-        "image": "alchemy/fox_graveyard_legplates.png"
-      },
-      "Fox Gargoyle Boots": {
-        "level": "85",
-        "xp": "5000",
-        "submaterials": {
-          "Shade Mother's Core": "1",
-          "Samurai Geta": "1",
-          "Death Lily": "15",
-          "Pure Mana Essence": "30",
-          "Radioactive Shard": "125"
-        },
-        "image": "alchemy/fox_graveyard_boots.png"
-      }
-    },
     "Pets": {
       "Frozen Kana": {
         "level": "65",
@@ -2580,7 +2576,7 @@
     "Misc": {
       "String(3x)": {
         "level": "1",
-        "xp": "15",
+        "xp": "3",
         "submaterials": {
           "Any Stringables": "1"
         },
@@ -2588,7 +2584,7 @@
       },
       "Bowstring": {
         "level": "15",
-        "xp": "50",
+        "xp": "40",
         "submaterials": {
           "Blue Lily": "1"
         },
@@ -2635,6 +2631,514 @@
           "Molten Glass": "3"
         },
         "image": "crafting/large_empty_vial.png"
+      }
+    },
+    "Boots": {
+      "Leather Boots": {
+        "level": "1",
+        "xp": "12",
+        "submaterials": {
+          "Cow Hide": "1",
+          "String": "1"
+        },
+        "image": "crafting/leather_boots.png"
+      },
+      "Snekskin Boots": {
+        "level": "10",
+        "xp": "18",
+        "submaterials": {
+          "Snek Skin": "1",
+          "String": "1"
+        },
+        "image": "crafting/snek_skin_boots.png"
+      },
+      "Orchide Boots": {
+        "level": "20",
+        "xp": "24",
+        "submaterials": {
+          "Orc Hide": "1",
+          "String": "1"
+        },
+        "image": "crafting/orc_hide_boots.png"
+      },
+      "Lava Snekskin Boots": {
+        "level": "30",
+        "xp": "31",
+        "submaterials": {
+          "Lava Snek Skin": "1",
+          "String": "1"
+        },
+        "image": "crafting/lava_snek_skin_boots.png"
+      },
+      "Verdant Boots": {
+        "level": "40",
+        "xp": "37",
+        "submaterials": {
+          "Verdant Dragonhide": "1",
+          "String": "1"
+        },
+        "image": "crafting/verdant_boots.png"
+      },
+      "Cerulean Boots": {
+        "level": "50",
+        "xp": "43",
+        "submaterials": {
+          "Cerulean Dragonhide": "1",
+          "String": "1"
+        },
+        "image": "crafting/cerulean_boots.png"
+      },
+      "Crimson Boots": {
+        "level": "60",
+        "xp": "58",
+        "submaterials": {
+          "Crimson Dragonhide": "1",
+          "String": "1"
+        },
+        "image": "crafting/crimson_boots.png"
+      },
+      "Ashen Boots": {
+        "level": "70",
+        "xp": "67",
+        "submaterials": {
+          "Ashen Dragonhide": "1",
+          "String": "1"
+        },
+        "image": "crafting/ashen_boots.png"
+      },
+      "Frostveil Boots": {
+        "level": "80",
+        "xp": "75",
+        "submaterials": {
+          "Frostveil Dragonhide": "1",
+          "String": "1"
+        },
+        "image": "crafting/frostveil_boots.png"
+      },
+      "Lunar Boots": {
+        "level": "90",
+        "xp": "84",
+        "submaterials": {
+          "Lunar Dragonhide": "1",
+          "String": "1"
+        },
+        "image": "crafting/lunar_boots.png"
+      },
+      "Fox Gargoyle Boots": {
+        "level": "85",
+        "xp": "5000",
+        "submaterials": {
+          "Shade Mother's Core": "1",
+          "Samurai Geta": "1",
+          "Death Lily": "15",
+          "Pure Mana Essence": "30",
+          "Radioactive Shard": "125"
+        },
+        "image": "crafting/fox_gargoyle_boots.png"
+      }
+    },
+    "Hoods": {
+      "Leather Hood": {
+        "level": "3",
+        "xp": "23",
+        "submaterials": {
+          "Cow Hide": "2",
+          "String": "2"
+        },
+        "image": "crafting/leather_hood.png"
+      },
+      "Snekskin Hood": {
+        "level": "13",
+        "xp": "36",
+        "submaterials": {
+          "Snek Skin": "2",
+          "String": "2"
+        },
+        "image": "crafting/snek_skin_hood.png"
+      },
+      "Orchide Hood": {
+        "level": "23",
+        "xp": "49",
+        "submaterials": {
+          "Orc Hide": "2",
+          "String": "2"
+        },
+        "image": "crafting/orc_hide_hood.png"
+      },
+      "Lava Snekskin Hood": {
+        "level": "33",
+        "xp": "61",
+        "submaterials": {
+          "Lava Snek Skin": "2",
+          "String": "2"
+        },
+        "image": "crafting/lava_snek_skin_hood.png"
+      },
+      "Verdant Hood": {
+        "level": "43",
+        "xp": "74",
+        "submaterials": {
+          "Verdant Dragonhide": "2",
+          "String": "2"
+        },
+        "image": "crafting/verdant_hood.png"
+      },
+      "Cerulean Hood": {
+        "level": "53",
+        "xp": "87",
+        "submaterials": {
+          "Cerulean Dragonhide": "2",
+          "String": "2"
+        },
+        "image": "crafting/cerulean_hood.png"
+      },
+      "Crimson Hood": {
+        "level": "63",
+        "xp": "116",
+        "submaterials": {
+          "Crimson Dragonhide": "2",
+          "String": "2"
+        },
+        "image": "crafting/crimson_hood.png"
+      },
+      "Ashen Hood": {
+        "level": "73",
+        "xp": "133",
+        "submaterials": {
+          "Ashen Dragonhide": "2",
+          "String": "2"
+        },
+        "image": "crafting/ashen_hood.png"
+      },
+      "Frostveil Hood": {
+        "level": "83",
+        "xp": "150",
+        "submaterials": {
+          "Frostveil Dragonhide": "2",
+          "String": "2"
+        },
+        "image": "crafting/frostveil_hood.png"
+      },
+      "Lunar Hood": {
+        "level": "93",
+        "xp": "168",
+        "submaterials": {
+          "Lunar Dragonhide": "2",
+          "String": "2"
+        },
+        "image": "crafting/lunar_hood.png"
+      },
+      "Fox Gargoyle Hood": {
+        "level": "85",
+        "xp": "5000",
+        "submaterials": {
+          "Shade Mother's Core": "1",
+          "Samurai Helmet": "1",
+          "Death Lily": "15",
+          "Pure Mana Essence": "30",
+          "Radioactive Shard": "125"
+        },
+        "image": "crafting/fox_gargoyle_hood.png"
+      }
+    },
+    "Leggings": {
+      "Leather Leggings": {
+        "level": "5",
+        "xp": "35",
+        "submaterials": {
+          "Cow Hide": "3",
+          "String": "4"
+        },
+        "image": "crafting/leather_leggings.png"
+      },
+      "Snekskin Leggings": {
+        "level": "15",
+        "xp": "54",
+        "submaterials": {
+          "Snek Skin": "3",
+          "String": "4"
+        },
+        "image": "crafting/snek_skin_leggings.png"
+      },
+      "Orchide Leggings": {
+        "level": "25",
+        "xp": "73",
+        "submaterials": {
+          "Orc Hide": "3",
+          "String": "4"
+        },
+        "image": "crafting/orc_hide_leggings.png"
+      },
+      "Lava Snekskin Leggings": {
+        "level": "35",
+        "xp": "92",
+        "submaterials": {
+          "Lava Snek Skin": "3",
+          "String": "4"
+        },
+        "image": "crafting/lava_snek_skin_leggings.png"
+      },
+      "Verdant Leggings": {
+        "level": "45",
+        "xp": "111",
+        "submaterials": {
+          "Verdant Dragonhide": "3",
+          "String": "4"
+        },
+        "image": "crafting/verdant_leggings.png"
+      },
+      "Cerulean Leggings": {
+        "level": "55",
+        "xp": "130",
+        "submaterials": {
+          "Cerulean Dragonhide": "3",
+          "String": "4"
+        },
+        "image": "crafting/cerulean_leggings.png"
+      },
+      "Crimson Leggings": {
+        "level": "65",
+        "xp": "174",
+        "submaterials": {
+          "Crimson Dragonhide": "3",
+          "String": "4"
+        },
+        "image": "crafting/crimson_leggings.png"
+      },
+      "Ashen Leggings": {
+        "level": "75",
+        "xp": "200",
+        "submaterials": {
+          "Ashen Dragonhide": "3",
+          "String": "4"
+        },
+        "image": "crafting/ashen_leggings.png"
+      },
+      "Frostveil Leggings": {
+        "level": "85",
+        "xp": "224",
+        "submaterials": {
+          "Frostveil Dragonhide": "3",
+          "String": "4"
+        },
+        "image": "crafting/frostveil_leggings.png"
+      },
+      "Lunar Leggings": {
+        "level": "95",
+        "xp": "252",
+        "submaterials": {
+          "Lunar Dragonhide": "3",
+          "String": "4"
+        },
+        "image": "crafting/lunar_leggings.png"
+      },
+      "Fox Gargoyle Leggings": {
+        "level": "85",
+        "xp": "5000",
+        "submaterials": {
+          "Shade Mother's Core": "1",
+          "Samurai Legplates": "1",
+          "Death Lily": "15",
+          "Pure Mana Essence": "30",
+          "Radioactive Shard": "125"
+        },
+        "image": "crafting/fox_gargoyle_leggings.png"
+      }
+    },
+    "Quivers": {
+      "Leather Quiver": {
+        "level": "7",
+        "xp": "28",
+        "submaterials": {
+          "Cow Hide": "2",
+          "Oak Logs": "1"
+        },
+        "image": "crafting/leather_quiver.png"
+      },
+      "Snekskin Quiver": {
+        "level": "17",
+        "xp": "46",
+        "submaterials": {
+          "Snek Skin": "2",
+          "Palm Logs": "1"
+        },
+        "image": "crafting/snek_skin_quiver.png"
+      },
+      "Orchide Quiver": {
+        "level": "27",
+        "xp": "68",
+        "submaterials": {
+          "Orc Hide": "2",
+          "Aquasillius Logs": "1"
+        },
+        "image": "crafting/orc_hide_quiver.png"
+      },
+      "Lava Snekskin Quiver": {
+        "level": "37",
+        "xp": "81",
+        "submaterials": {
+          "Lava Snek Skin": "2",
+          "Zondul Logs": "1"
+        },
+        "image": "crafting/lava_snek_skin_quiver.png"
+      },
+      "Verdant Quiver": {
+        "level": "47",
+        "xp": "104",
+        "submaterials": {
+          "Verdant Dragonhide": "2",
+          "Spruce Logs": "1"
+        },
+        "image": "crafting/verdant_quiver.png"
+      },
+      "Cerulean Quiver": {
+        "level": "57",
+        "xp": "119",
+        "submaterials": {
+          "Cerulean Dragonhide": "2",
+          "Birch Logs": "1"
+        },
+        "image": "crafting/cerulean_quiver.png"
+      },
+      "Crimson Quiver": {
+        "level": "67",
+        "xp": "161",
+        "submaterials": {
+          "Crimson Dragonhide": "2",
+          "Ice Palm Logs": "1"
+        },
+        "image": "crafting/crimson_quiver.png"
+      },
+      "Ashen Quiver": {
+        "level": "77",
+        "xp": "188",
+        "submaterials": {
+          "Ashen Dragonhide": "2",
+          "Bloodwood Logs": "1"
+        },
+        "image": "crafting/ashen_quiver.png"
+      },
+      "Frostveil Quiver": {
+        "level": "87",
+        "xp": "210",
+        "submaterials": {
+          "Frostveil Dragonhide": "2",
+          "Flastel Logs": "1"
+        },
+        "image": "crafting/frostveil_quiver.png"
+      },
+      "Lunar Quiver": {
+        "level": "97",
+        "xp": "238",
+        "submaterials": {
+          "Lunar Dragonhide": "2",
+          "Puhrix Logs": "1"
+        },
+        "image": "crafting/lunar_quiver.png"
+      }
+    },
+    "Bodies": {
+      "Leather Chestpiece": {
+        "level": "9",
+        "xp": "46",
+        "submaterials": {
+          "Cow Hide": "4",
+          "String": "5"
+        },
+        "image": "crafting/leather_body.png"
+      },
+      "Snekskin Body": {
+        "level": "19",
+        "xp": "72",
+        "submaterials": {
+          "Snek Skin": "4",
+          "String": "5"
+        },
+        "image": "crafting/snek_skin_body.png"
+      },
+      "Orchide Body": {
+        "level": "29",
+        "xp": "97",
+        "submaterials": {
+          "Orc Hide": "4",
+          "String": "5"
+        },
+        "image": "crafting/orc_hide_body.png"
+      },
+      "Lava Snekskin Body": {
+        "level": "39",
+        "xp": "122",
+        "submaterials": {
+          "Lava Snek Skin": "4",
+          "String": "5"
+        },
+        "image": "crafting/lava_snek_skin_body.png"
+      },
+      "Verdant Body": {
+        "level": "49",
+        "xp": "148",
+        "submaterials": {
+          "Verdant Dragonhide": "4",
+          "String": "5"
+        },
+        "image": "crafting/verdant_body.png"
+      },
+      "Cerulean Body": {
+        "level": "59",
+        "xp": "173",
+        "submaterials": {
+          "Cerulean Dragonhide": "4",
+          "String": "5"
+        },
+        "image": "crafting/cerulean_body.png"
+      },
+      "Crimson Body": {
+        "level": "69",
+        "xp": "232",
+        "submaterials": {
+          "Crimson Dragonhide": "4",
+          "String": "5"
+        },
+        "image": "crafting/crimson_body.png"
+      },
+      "Ashen Body": {
+        "level": "79",
+        "xp": "266",
+        "submaterials": {
+          "Ashen Dragonhide": "4",
+          "String": "5"
+        },
+        "image": "crafting/ashen_body.png"
+      },
+      "Frostveil Body": {
+        "level": "89",
+        "xp": "299",
+        "submaterials": {
+          "Frostveil Dragonhide": "4",
+          "String": "5"
+        },
+        "image": "crafting/frostveil_body.png"
+      },
+      "Lunar Body": {
+        "level": "99",
+        "xp": "333",
+        "submaterials": {
+          "Lunar Dragonhide": "4",
+          "String": "5"
+        },
+        "image": "crafting/lunar_body.png"
+      },
+      "Fox Gargoyle Body": {
+        "level": "85",
+        "xp": "5000",
+        "submaterials": {
+          "Shade Mother's Core": "1",
+          "Samurai Chestplate": "1",
+          "Death Lily": "15",
+          "Pure Mana Essence": "30",
+          "Radioactive Shard": "125"
+        },
+        "image": "crafting/fox_gargoyle_body.png"
       }
     },
     "Staffs": {
@@ -3001,52 +3505,6 @@
           "Clam Shield Left": "1"
         },
         "image": "crafting/clam_shield.png"
-      }
-    },
-    "Equipment": {
-      "Ethereal Mage Helmet": {
-        "level": "85",
-        "xp": "5000",
-        "submaterials": {
-          "Soul Dragon's Core": "1",
-          "Pure Soul": "4",
-          "Soul Logs": "12",
-          "Ethereal Orb": "14"
-        },
-        "image": "crafting/ethereal_mage_helmet.png"
-      },
-      "Ethereal Mage Chestplate": {
-        "level": "85",
-        "xp": "5000",
-        "submaterials": {
-          "Soul Dragon's Core": "1",
-          "Pure Soul": "4",
-          "Soul Logs": "12",
-          "Ethereal Orb": "15"
-        },
-        "image": "crafting/ethereal_mage_chestplate.png"
-      },
-      "Ethereal Mage Legplates": {
-        "level": "85",
-        "xp": "5000",
-        "submaterials": {
-          "Soul Dragon's Core": "1",
-          "Pure Soul": "4",
-          "Soul Logs": "12",
-          "Ethereal Orb": "15"
-        },
-        "image": "crafting/ethereal_mage_legplates.png"
-      },
-      "Ethereal Mage Boots": {
-        "level": "85",
-        "xp": "5000",
-        "submaterials": {
-          "Soul Dragon's Core": "1",
-          "Pure Soul": "4",
-          "Soul Logs": "12",
-          "Ethereal Orb": "15"
-        },
-        "image": "crafting/ethereal_mage_boots.png"
       }
     },
     "Arrows": {

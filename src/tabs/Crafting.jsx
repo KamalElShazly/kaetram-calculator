@@ -60,6 +60,26 @@ const Crafting = () => {
         <ToggleButtons data={data.Vials} currentLevel={currentLevel} updateElement={updateElement} />
       </Group>
 
+      <Group title="Boots">
+        <ToggleButtons data={data.Boots} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Hoods">
+        <ToggleButtons data={data.Hoods} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Leggings">
+        <ToggleButtons data={data.Leggings} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Quivers">
+        <ToggleButtons data={data.Quivers} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
+      <Group title="Bodies">
+        <ToggleButtons data={data.Bodies} currentLevel={currentLevel} updateElement={updateElement} />
+      </Group>
+
       <Group title="Staffs">
         <ToggleButtons data={data.Staffs} currentLevel={currentLevel} updateElement={updateElement} />
       </Group>
@@ -90,10 +110,6 @@ const Crafting = () => {
 
       <Group title="Shields">
         <ToggleButtons data={data.Shields} currentLevel={currentLevel} updateElement={updateElement} />
-      </Group>
-
-      <Group title="Equipment">
-        <ToggleButtons data={data.Equipment} currentLevel={currentLevel} updateElement={updateElement} />
       </Group>
 
       <Group title="Arrows">
